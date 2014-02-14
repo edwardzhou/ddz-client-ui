@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<SceneProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <filePath>Z:\cocos_work\DDZ_Res\Scenes\Scene\Scene.xml.scene</filePath>
+  <Version>1.2.0.1</Version>
+  <Name>Scene</Name>
+  <ProjectDir>Z:\cocos_work\DDZ_Res\Scenes\Scene</ProjectDir>
+  <JsonFileName>Scene.json</JsonFileName>
+  <Resources>Z:\cocos_work\DDZ_Res\Scenes\Scene\Resources</Resources>
+  <JsonFolder>Z:\cocos_work\DDZ_Res\Scenes\Scene\Json</JsonFolder>
+  <JsonList />
+  <CanvasSize>
+    <Width>800</Width>
+    <Height>480</Height>
+  </CanvasSize>
+  <JSFileList />
+  <DefaultUI_JSList />
+</SceneProject>
