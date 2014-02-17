@@ -8,13 +8,14 @@
   <Resources>Z:\cocos_work\DDZ_Res\UI\Resources</Resources>
   <JsonFolder>Z:\cocos_work\DDZ_Res\UI\Json</JsonFolder>
   <JsonList>
-    <string>Login.json</string>
-    <string>Landing.json</string>
+    <string>Gaming.json</string>
     <string>Hall.json</string>
+    <string>Landing.json</string>
+    <string>Login.json</string>
   </JsonList>
   <imageFileList />
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>Hall.json</CurrentUIJson>
+  <CurrentUIJson>Gaming.json</CurrentUIJson>
   <CanvasSize>
     <Width>800</Width>
     <Height>480</Height>

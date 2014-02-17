@@ -12,4 +12,8 @@
     <Project>Hall</Project>
     <GuidesList />
   </GuidesProject>
+  <GuidesProject>
+    <Project>Gaming</Project>
+    <GuidesList />
+  </GuidesProject>
 </ArrayOfGuidesProject>
