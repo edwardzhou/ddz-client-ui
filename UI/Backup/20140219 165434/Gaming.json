@@ -1662,13 +1662,13 @@
               "colorR": 255,
               "flipX": false,
               "flipY": false,
-              "height": 33,
+              "height": 80,
               "ignoreSize": true,
               "layoutParameter": null,
               "opacity": 255,
               "positionPercentX": 0,
               "positionPercentY": 0,
-              "positionType": 1,
+              "positionType": 0,
               "rotation": 0,
               "scaleX": 1,
               "scaleY": 1,
@@ -1679,7 +1679,7 @@
               "touchAble": false,
               "useMergedTexture": false,
               "visible": true,
-              "width": 66,
+              "width": 80,
               "x": 0,
               "y": 0,
               "capInsetsHeight": 0,
@@ -1688,13 +1688,13 @@
               "capInsetsY": 0,
               "fileName": null,
               "fileNameData": {
-                "path": "images/game7.png",
+                "path": "D:\\Program Files\\CocoStudio\\EditorDefaultRes\\GUI/image.png",
                 "plistFile": null,
-                "resourceType": 0
+                "resourceType": 2
               },
               "scale9Enable": false,
-              "scale9Height": 33,
-              "scale9Width": 66
+              "scale9Height": 80,
+              "scale9Width": 80
             }
           }
         ],
@@ -1712,7 +1712,7 @@
           "colorR": 255,
           "flipX": false,
           "flipY": false,
-          "height": 50,
+          "height": 40,
           "ignoreSize": false,
           "layoutParameter": null,
           "opacity": 255,
@@ -1723,10 +1723,10 @@
           "scaleX": 1,
           "scaleY": 1,
           "sizePercentX": 0.15,
-          "sizePercentY": 0.104166664,
+          "sizePercentY": 0.0833333358,
           "sizeType": 0,
           "tag": 66,
-          "touchAble": true,
+          "touchAble": false,
           "useMergedTexture": false,
           "visible": true,
           "width": 120,
@@ -1758,7 +1758,7 @@
             "resourceType": 0
           },
           "scale9Enable": true,
-          "scale9Height": 50,
+          "scale9Height": 40,
           "scale9Width": 120,
           "text": "",
           "textColorB": 255,
