@@ -14,6 +14,11 @@
   </GuidesProject>
   <GuidesProject>
     <Project>Gaming</Project>
-    <GuidesList />
+    <GuidesList>
+      <GuidesInfo>
+        <GuidesName>VThumb</GuidesName>
+        <GuidesPosition>-0.44645241328648666</GuidesPosition>
+      </GuidesInfo>
+    </GuidesList>
   </GuidesProject>
 </ArrayOfGuidesProject>
