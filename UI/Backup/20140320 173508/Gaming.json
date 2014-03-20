@@ -80,7 +80,7 @@
             "options": {
               "__type": "ButtonSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "Button",
-              "name": "Back_vButton",
+              "name": "v_ButtonBack",
               "ZOrder": 4,
               "actiontag": 289,
               "anchorPointX": 0.5,
@@ -221,7 +221,7 @@
             "options": {
               "__type": "ImageViewSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "ImageView",
-              "name": "LordCard3_vImage",
+              "name": "v_LordCard3",
               "ZOrder": 4,
               "actiontag": 287,
               "anchorPointX": 0.5,
@@ -275,7 +275,7 @@
             "options": {
               "__type": "ImageViewSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "ImageView",
-              "name": "LordCard2_vImage",
+              "name": "v_LordCard2",
               "ZOrder": 4,
               "actiontag": 286,
               "anchorPointX": 0.5,
@@ -445,7 +445,7 @@
             "options": {
               "__type": "ButtonSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "Button",
-              "name": "Config_vButton",
+              "name": "v_ButtonConfig",
               "ZOrder": 2,
               "actiontag": 284,
               "anchorPointX": 0.5,
@@ -518,7 +518,7 @@
             "options": {
               "__type": "ImageViewSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "ImageView",
-              "name": "LordCard1_vImage",
+              "name": "v_LordCard1",
               "ZOrder": 2,
               "actiontag": 285,
               "anchorPointX": 0.5,
@@ -569,7 +569,7 @@
         "options": {
           "__type": "PanelSurrogate:#EditorCommon.JsonModel.Component.GUI",
           "classname": "Panel",
-          "name": "TopBar_vPanel",
+          "name": "v_TopBar",
           "ZOrder": 1,
           "actiontag": 281,
           "anchorPointX": 0,
@@ -641,7 +641,7 @@
                 "options": {
                   "__type": "ImageViewSurrogate:#EditorCommon.JsonModel.Component.GUI",
                   "classname": "ImageView",
-                  "name": "SelfUserHead_vImage",
+                  "name": "v_SelfUserHead",
                   "ZOrder": 1,
                   "actiontag": 352,
                   "anchorPointX": 0.5,
@@ -760,7 +760,7 @@
             "options": {
               "__type": "LabelSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "Label",
-              "name": "SelfUserName_vLabel",
+              "name": "v_SelfUserName",
               "ZOrder": 2,
               "actiontag": 353,
               "anchorPointX": 0.5,
@@ -810,7 +810,7 @@
             "options": {
               "__type": "ImageViewSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "ImageView",
-              "name": "SelfUserRole_vImage",
+              "name": "v_SelfUserRole",
               "ZOrder": 2,
               "actiontag": 354,
               "anchorPointX": 0.5,
@@ -864,7 +864,7 @@
             "options": {
               "__type": "ImageViewSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "ImageView",
-              "name": "SelfUserStatus_vImage",
+              "name": "v_SelfUserStatus",
               "ZOrder": 2,
               "actiontag": 355,
               "anchorPointX": 0.5,
@@ -918,7 +918,7 @@
             "options": {
               "__type": "LabelSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "Label",
-              "name": "SelfUserPokeCount_vLabel",
+              "name": "v_SelfUserPokeCount",
               "ZOrder": 0,
               "actiontag": 776,
               "anchorPointX": 0,
@@ -1019,7 +1019,7 @@
         "options": {
           "__type": "PanelSurrogate:#EditorCommon.JsonModel.Component.GUI",
           "classname": "Panel",
-          "name": "SelfUser_vPanel",
+          "name": "v_SelfUser",
           "ZOrder": 4,
           "actiontag": 350,
           "anchorPointX": 0,
@@ -1091,7 +1091,7 @@
                 "options": {
                   "__type": "ImageViewSurrogate:#EditorCommon.JsonModel.Component.GUI",
                   "classname": "ImageView",
-                  "name": "PrevUserHead_vImage",
+                  "name": "v_PrevUserHead",
                   "ZOrder": 1,
                   "actiontag": 340,
                   "anchorPointX": 0.5,
@@ -1210,7 +1210,7 @@
             "options": {
               "__type": "LabelSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "Label",
-              "name": "PrevUserName_vLabel",
+              "name": "v_PrevUserName",
               "ZOrder": 2,
               "actiontag": 341,
               "anchorPointX": 0.5,
@@ -1260,7 +1260,7 @@
             "options": {
               "__type": "ImageViewSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "ImageView",
-              "name": "PrevUserRole_vImage",
+              "name": "v_PrevUserRole",
               "ZOrder": 2,
               "actiontag": 342,
               "anchorPointX": 0.5,
@@ -1314,7 +1314,7 @@
             "options": {
               "__type": "ImageViewSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "ImageView",
-              "name": "PrevUserStatus_vImage",
+              "name": "v_PrevUserStatus",
               "ZOrder": 2,
               "actiontag": 343,
               "anchorPointX": 0.5,
@@ -1368,7 +1368,7 @@
             "options": {
               "__type": "LabelSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "Label",
-              "name": "PrevUserPokeCount_vLabel",
+              "name": "v_PrevUserPokeCount",
               "ZOrder": 0,
               "actiontag": 721,
               "anchorPointX": 0,
@@ -1469,7 +1469,7 @@
         "options": {
           "__type": "PanelSurrogate:#EditorCommon.JsonModel.Component.GUI",
           "classname": "Panel",
-          "name": "PrevUser_vPanel",
+          "name": "v_PrevUser",
           "ZOrder": 2,
           "actiontag": 338,
           "anchorPointX": 0,
@@ -1541,7 +1541,7 @@
                 "options": {
                   "__type": "ImageViewSurrogate:#EditorCommon.JsonModel.Component.GUI",
                   "classname": "ImageView",
-                  "name": "NextUserHead_vImage",
+                  "name": "v_NextUserHead",
                   "ZOrder": 1,
                   "actiontag": 346,
                   "anchorPointX": 0.5,
@@ -1660,7 +1660,7 @@
             "options": {
               "__type": "LabelSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "Label",
-              "name": "NextUserName_vLabel",
+              "name": "v_NextUserName",
               "ZOrder": 2,
               "actiontag": 347,
               "anchorPointX": 0.5,
@@ -1710,7 +1710,7 @@
             "options": {
               "__type": "ImageViewSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "ImageView",
-              "name": "NextUserRole_vImage",
+              "name": "v_NextUserRole",
               "ZOrder": 2,
               "actiontag": 348,
               "anchorPointX": 0.5,
@@ -1764,7 +1764,7 @@
             "options": {
               "__type": "ImageViewSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "ImageView",
-              "name": "NextUserStatus_vImage",
+              "name": "v_NextUserStatus",
               "ZOrder": 2,
               "actiontag": 349,
               "anchorPointX": 0.5,
@@ -1872,7 +1872,7 @@
             "options": {
               "__type": "LabelSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "Label",
-              "name": "NextUserPokeCount_vLabel",
+              "name": "v_NextUserPokeCount",
               "ZOrder": 0,
               "actiontag": 724,
               "anchorPointX": 0,
@@ -1919,7 +1919,7 @@
         "options": {
           "__type": "PanelSurrogate:#EditorCommon.JsonModel.Component.GUI",
           "classname": "Panel",
-          "name": "NextUser_vPanel",
+          "name": "v_NextUser",
           "ZOrder": 4,
           "actiontag": 344,
           "anchorPointX": 0,
@@ -1987,7 +1987,7 @@
             "options": {
               "__type": "LabelSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "Label",
-              "name": "SysTime_vLabel",
+              "name": "v_SysTime",
               "ZOrder": 0,
               "actiontag": 674,
               "anchorPointX": 1,
@@ -2153,7 +2153,7 @@
         "options": {
           "__type": "ButtonSurrogate:#EditorCommon.JsonModel.Component.GUI",
           "classname": "Button",
-          "name": "Ready_vButton",
+          "name": "v_Ready",
           "ZOrder": 5,
           "actiontag": 518,
           "anchorPointX": 0.5,
@@ -2226,7 +2226,7 @@
         "options": {
           "__type": "PanelSurrogate:#EditorCommon.JsonModel.Component.GUI",
           "classname": "Panel",
-          "name": "SelfPokeCards_vPanel",
+          "name": "v_SelfPokeCards",
           "ZOrder": 0,
           "actiontag": 520,
           "anchorPointX": 0,
@@ -2298,7 +2298,7 @@
                 "options": {
                   "__type": "ImageViewSurrogate:#EditorCommon.JsonModel.Component.GUI",
                   "classname": "ImageView",
-                  "name": "ImagePass_vImageView",
+                  "name": "v_ImagePass",
                   "ZOrder": 0,
                   "actiontag": 845,
                   "anchorPointX": 0.5,
@@ -2349,7 +2349,7 @@
             "options": {
               "__type": "ButtonSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "Button",
-              "name": "ButtonPass_vButton",
+              "name": "v_ButtonPass",
               "ZOrder": 0,
               "actiontag": 840,
               "anchorPointX": 0.5,
@@ -2426,7 +2426,7 @@
                 "options": {
                   "__type": "ImageViewSurrogate:#EditorCommon.JsonModel.Component.GUI",
                   "classname": "ImageView",
-                  "name": "ImageTip_vImageView",
+                  "name": "v_ImageTip",
                   "ZOrder": 0,
                   "actiontag": 848,
                   "anchorPointX": 0.5,
@@ -2477,7 +2477,7 @@
             "options": {
               "__type": "ButtonSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "Button",
-              "name": "ButtonTip_vButton",
+              "name": "v_ButtonTip",
               "ZOrder": 0,
               "actiontag": 841,
               "anchorPointX": 0.5,
@@ -2554,7 +2554,7 @@
                 "options": {
                   "__type": "ImageViewSurrogate:#EditorCommon.JsonModel.Component.GUI",
                   "classname": "ImageView",
-                  "name": "ImageReset_vImageView",
+                  "name": "v_ImageReset",
                   "ZOrder": 0,
                   "actiontag": 849,
                   "anchorPointX": 0.5,
@@ -2605,7 +2605,7 @@
             "options": {
               "__type": "ButtonSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "Button",
-              "name": "ButtonReset_vButton",
+              "name": "v_ButtonReset",
               "ZOrder": 0,
               "actiontag": 842,
               "anchorPointX": 0.5,
@@ -2682,7 +2682,7 @@
                 "options": {
                   "__type": "ImageViewSurrogate:#EditorCommon.JsonModel.Component.GUI",
                   "classname": "ImageView",
-                  "name": "ImagePlay_vImageView",
+                  "name": "v_ImagePlay",
                   "ZOrder": 0,
                   "actiontag": 850,
                   "anchorPointX": 0.5,
@@ -2733,7 +2733,7 @@
             "options": {
               "__type": "ButtonSurrogate:#EditorCommon.JsonModel.Component.GUI",
               "classname": "Button",
-              "name": "ButtonPlay_vButton",
+              "name": "v_ButtonPlay",
               "ZOrder": 0,
               "actiontag": 843,
               "anchorPointX": 0.5,
@@ -2803,7 +2803,7 @@
         "options": {
           "__type": "PanelSurrogate:#EditorCommon.JsonModel.Component.GUI",
           "classname": "Panel",
-          "name": "ButtonsPanel_vPanel",
+          "name": "v_ButtonsPanel",
           "ZOrder": 3,
           "actiontag": 839,
           "anchorPointX": 0,
@@ -2829,7 +2829,7 @@
           "sizePercentY": 0.279166669,
           "sizeType": 0,
           "tag": 240,
-          "touchAble": true,
+          "touchAble": false,
           "useMergedTexture": false,
           "visible": true,
           "width": 450,
