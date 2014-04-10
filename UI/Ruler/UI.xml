@@ -21,4 +21,8 @@
       </GuidesInfo>
     </GuidesList>
   </GuidesProject>
+  <GuidesProject>
+    <Project>GameResult</Project>
+    <GuidesList />
+  </GuidesProject>
 </ArrayOfGuidesProject>

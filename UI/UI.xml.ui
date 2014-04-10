@@ -11,6 +11,7 @@
     <string>Hall.json</string>
     <string>Landing.json</string>
     <string>Login.json</string>
+    <string>GameResult.json</string>
   </JsonList>
   <CanvasSize>
     <Width>800</Width>
@@ -21,5 +22,5 @@
   <ResRelativePath />
   <imageFileList />
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>Gaming.json</CurrentUIJson>
+  <CurrentUIJson>GameResult.json</CurrentUIJson>
 </UIProject>
