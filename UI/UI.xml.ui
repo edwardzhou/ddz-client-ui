@@ -22,5 +22,5 @@
   <ResRelativePath />
   <imageFileList />
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>GameResult.json</CurrentUIJson>
+  <CurrentUIJson>Gaming.json</CurrentUIJson>
 </UIProject>
