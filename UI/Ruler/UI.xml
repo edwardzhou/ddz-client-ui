@@ -21,4 +21,20 @@
     <Project>GameResult</Project>
     <GuidesList />
   </GuidesProject>
+  <GuidesProject>
+    <Project>UserProfile</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>SysConfig</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Shop</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Login</Project>
+    <GuidesList />
+  </GuidesProject>
 </ArrayOfGuidesProject>
