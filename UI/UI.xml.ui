@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectDir>Z:\cocos_work\DDZ_Res\UI</ProjectDir>
-  <Version>1.5.0.0</Version>
+  <Version>1.5.0.1</Version>
   <Resources>Z:\cocos_work\DDZ_Res\UI\Resources</Resources>
   <Name>UI</Name>
   <JsonFileName>UI.json</JsonFileName>
@@ -11,10 +11,10 @@
     <string>Gaming.json</string>
     <string>Hall.json</string>
     <string>Landing.json</string>
-    <string>UserProfile.json</string>
-    <string>SysConfig.json</string>
-    <string>Shop.json</string>
     <string>Login.json</string>
+    <string>Shop.json</string>
+    <string>SysConfig.json</string>
+    <string>UserProfile.json</string>
   </JsonList>
   <CanvasSize>
     <Width>800</Width>
@@ -61,6 +61,8 @@
     <string>images/robot.png</string>
     <string>images/bg.png</string>
     <string>images/head7.png</string>
+    <string>images/menu_icon_02.png</string>
+    <string>images/head6.png</string>
     <string>images/room1.png</string>
     <string>images/room11.png</string>
     <string>images/npitembg.9.png</string>
@@ -68,14 +70,11 @@
     <string>images/npstarbg.9.png</string>
     <string>images/sound.9.png</string>
     <string>images/logo.png</string>
-    <string>GUI/loadingbar.png</string>
+    <string>C:\Program Files (x86)\CocoStudio\EditorDefaultRes\GUI/loadingbar.png</string>
     <string>images/start.png</string>
-    <string>GUI/button.png</string>
+    <string>C:\Program Files (x86)\CocoStudio\EditorDefaultRes\GUI/button.png</string>
     <string>images/bg.png</string>
-    <string>images/kuang_a.png</string>
-    <string>images/ui17.png</string>
-    <string>images/ui18.png</string>
-    <string>GUI/button.png</string>
+    <string>C:\Program Files (x86)\CocoStudio\EditorDefaultRes\GUI/image.png</string>
     <string>images/game8.png</string>
     <string>images/game76.png</string>
     <string>images/game52.png</string>
@@ -85,8 +84,11 @@
     <string>images/game53.png</string>
     <string>images/game35.png</string>
     <string>images/bg.png</string>
-    <string>GUI/image.png</string>
+    <string>images/kuang_a.png</string>
+    <string>images/ui17.png</string>
+    <string>images/ui18.png</string>
+    <string>C:\Program Files (x86)\CocoStudio\EditorDefaultRes\GUI/button.png</string>
   </imagePngList>
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>UserProfile.json</CurrentUIJson>
+  <CurrentUIJson>Gaming.json</CurrentUIJson>
 </UIProject>
