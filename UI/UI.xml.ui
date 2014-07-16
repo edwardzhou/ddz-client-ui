@@ -15,6 +15,7 @@
     <string>Shop.json</string>
     <string>SysConfig.json</string>
     <string>UserProfile.json</string>
+    <string>MessageBox.json</string>
   </JsonList>
   <CanvasSize>
     <Width>800</Width>
@@ -74,7 +75,13 @@
     <string>images/start.png</string>
     <string>C:\Program Files (x86)\CocoStudio\EditorDefaultRes\GUI/button.png</string>
     <string>images/bg.png</string>
-    <string>C:\Program Files (x86)\CocoStudio\EditorDefaultRes\GUI/image.png</string>
+    <string>images/kuang_a.png</string>
+    <string>images/btn_history.png</string>
+    <string>images/btn_history_a.png</string>
+    <string>GUI/button.png</string>
+    <string>images/btn0.9.png</string>
+    <string>images/bg.png</string>
+    <string>GUI/image.png</string>
     <string>images/game8.png</string>
     <string>images/game76.png</string>
     <string>images/game52.png</string>
@@ -88,7 +95,9 @@
     <string>images/ui17.png</string>
     <string>images/ui18.png</string>
     <string>C:\Program Files (x86)\CocoStudio\EditorDefaultRes\GUI/button.png</string>
+    <string>images/xiaotanchukuang.png</string>
+    <string>GUI/button.png</string>
   </imagePngList>
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>Gaming.json</CurrentUIJson>
+  <CurrentUIJson>UserProfile.json</CurrentUIJson>
 </UIProject>

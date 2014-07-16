@@ -37,4 +37,8 @@
     <Project>Login</Project>
     <GuidesList />
   </GuidesProject>
+  <GuidesProject>
+    <Project>MessageBox</Project>
+    <GuidesList />
+  </GuidesProject>
 </ArrayOfGuidesProject>
