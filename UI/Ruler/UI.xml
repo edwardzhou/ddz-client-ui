@@ -41,4 +41,8 @@
     <Project>MessageBox</Project>
     <GuidesList />
   </GuidesProject>
+  <GuidesProject>
+    <Project>Toast</Project>
+    <GuidesList />
+  </GuidesProject>
 </ArrayOfGuidesProject>
