@@ -100,5 +100,5 @@
     <string>GUI/button.png</string>
   </imagePngList>
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>Toast.json</CurrentUIJson>
+  <CurrentUIJson>MessageBox.json</CurrentUIJson>
 </UIProject>
