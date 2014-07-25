@@ -62,7 +62,6 @@
     <string>images/game22.png</string>
     <string>images/robot.png</string>
     <string>images/bg.png</string>
-    <string>images/head7.png</string>
     <string>images/menu_icon_02.png</string>
     <string>images/head6.png</string>
     <string>images/room1.png</string>
@@ -101,5 +100,5 @@
     <string>GUI/button.png</string>
   </imagePngList>
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>MessageBox.json</CurrentUIJson>
+  <CurrentUIJson>Hall.json</CurrentUIJson>
 </UIProject>
