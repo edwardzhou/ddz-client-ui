@@ -1842,7 +1842,7 @@
         "options": {
           "__type": "ButtonSurrogate:#EditorCommon.JsonModel.Component.GUI",
           "classname": "Button",
-          "name": "v_ButtonPasword",
+          "name": "Button_9",
           "ZOrder": 0,
           "actiontag": 58517660,
           "anchorPointX": 0.5,
@@ -2918,7 +2918,7 @@
         "options": {
           "__type": "ButtonSurrogate:#EditorCommon.JsonModel.Component.GUI",
           "classname": "Button",
-          "name": "v_ButtonBack",
+          "name": "Button_9_0",
           "ZOrder": 0,
           "actiontag": 10477295,
           "anchorPointX": 0.5,
