@@ -45,4 +45,12 @@
     <Project>Toast</Project>
     <GuidesList />
   </GuidesProject>
+  <GuidesProject>
+    <Project>UP_HeadIcon</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>UP_Pasword</Project>
+    <GuidesList />
+  </GuidesProject>
 </ArrayOfGuidesProject>
