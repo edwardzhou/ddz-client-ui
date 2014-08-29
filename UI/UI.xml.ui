@@ -93,7 +93,8 @@
     <string>images/xiaotanchukuang.png</string>
     <string>GUI/button.png</string>
     <string>images/bg.png</string>
-    <string>GUI/image.png</string>
+    <string>images/bag2.png</string>
+    <string>GUI/button.png</string>
     <string>images/game8.png</string>
     <string>images/game76.png</string>
     <string>images/game52.png</string>
@@ -134,5 +135,5 @@
     <string>images/back2_high.9.png</string>
   </imagePngList>
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>Gaming.json</CurrentUIJson>
+  <CurrentUIJson>Shop.json</CurrentUIJson>
 </UIProject>
