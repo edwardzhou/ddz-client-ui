@@ -137,5 +137,5 @@
     <string>images/back2_high.9.png</string>
   </imagePngList>
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>Shop.json</CurrentUIJson>
+  <CurrentUIJson>Toast.json</CurrentUIJson>
 </UIProject>
