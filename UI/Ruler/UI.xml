@@ -53,4 +53,8 @@
     <Project>UP_Pasword</Project>
     <GuidesList />
   </GuidesProject>
+  <GuidesProject>
+    <Project>NetworkConnecting</Project>
+    <GuidesList />
+  </GuidesProject>
 </ArrayOfGuidesProject>

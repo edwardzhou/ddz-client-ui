@@ -19,6 +19,7 @@
     <string>UP_HeadIcon.json</string>
     <string>UP_Pasword.json</string>
     <string>UserProfile.json</string>
+    <string>NetworkConnecting.json</string>
   </JsonList>
   <CanvasSize>
     <Width>800</Width>
@@ -135,7 +136,8 @@
     <string>images/kuang_a.png</string>
     <string>images/back2.9.png</string>
     <string>images/back2_high.9.png</string>
+    <string>GUI/button.png</string>
   </imagePngList>
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>Toast.json</CurrentUIJson>
+  <CurrentUIJson>NetworkConnecting.json</CurrentUIJson>
 </UIProject>
