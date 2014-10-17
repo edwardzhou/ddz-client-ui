@@ -36,4 +36,20 @@
     <Project>Login</Project>
     <GuidesList />
   </GuidesProject>
+  <GuidesProject>
+    <Project>GameResult</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Hall</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Shop</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>SysConfig</Project>
+    <GuidesList />
+  </GuidesProject>
 </ArrayOfGuidesProject>

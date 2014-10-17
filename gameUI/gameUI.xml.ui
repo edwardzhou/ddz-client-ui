@@ -38,7 +38,7 @@
     <string>images/ui6.png</string>
     <string>images/ui7.png</string>
     <string>images/ui8.png</string>
-    <string>images/bg.png</string>
+    <string>images/bg.jpg</string>
     <string>images/lpk_bg.png</string>
     <string>images/back.9.png</string>
     <string>images/back_high.9.png</string>
@@ -67,7 +67,7 @@
     <string>images/feiji.png</string>
     <string>images/back2.9.png</string>
     <string>images/back2_high.9.png</string>
-    <string>images/bg.png</string>
+    <string>images/bg.jpg</string>
     <string>images/menu_bg.9.png</string>
     <string>images/menu_icon_02.png</string>
     <string>images/head6.png</string>
@@ -94,7 +94,7 @@
     <string>images/xiaotanchukuang.png</string>
     <string>GUI/button.png</string>
     <string>GUI/button.png</string>
-    <string>images/bg.png</string>
+    <string>images/bg.jpg</string>
     <string>images/bag2.png</string>
     <string>GUI/button.png</string>
     <string>images/back2.9.png</string>
@@ -109,7 +109,7 @@
     <string>images/game35.png</string>
     <string>images/menu_icon_high.png</string>
     <string>images/head1.png</string>
-    <string>images/bg.png</string>
+    <string>images/bg.jpg</string>
     <string>images/head9.png</string>
     <string>images/nphead.9.png</string>
     <string>images/head7.png</string>
@@ -122,12 +122,12 @@
     <string>images/head0.png</string>
     <string>images/back2.9.png</string>
     <string>images/back2_high.9.png</string>
-    <string>images/bg.png</string>
+    <string>images/bg.jpg</string>
     <string>images/kuang_a.png</string>
     <string>C:\Program Files (x86)\CocoStudio\EditorDefaultRes\GUI/button.png</string>
     <string>images/back2.9.png</string>
     <string>images/back2_high.9.png</string>
-    <string>images/bg.png</string>
+    <string>images/bg.jpg</string>
     <string>images/nphead.9.png</string>
     <string>images/head0.png</string>
     <string>GUI/button.png</string>
@@ -139,5 +139,5 @@
     <string>images/back2_high.9.png</string>
   </imagePngList>
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>Login.json</CurrentUIJson>
+  <CurrentUIJson>Gaming.json</CurrentUIJson>
 </UIProject>

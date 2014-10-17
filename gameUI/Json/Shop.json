@@ -588,7 +588,7 @@
           "layoutParameter": null,
           "opacity": 255,
           "positionPercentX": 0.5,
-          "positionPercentY": 0.941624939,
+          "positionPercentY": 0.939583361,
           "positionType": 1,
           "rotation": 0,
           "scaleX": 1,
@@ -653,7 +653,7 @@
       "adaptScreen": false,
       "backGroundImage": null,
       "backGroundImageData": {
-        "path": "images/bg.png",
+        "path": "images/bg.jpg",
         "plistFile": "",
         "resourceType": 0
       },
