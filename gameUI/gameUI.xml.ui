@@ -65,9 +65,9 @@
     <string>images/robot.png</string>
     <string>images/rocket2.png</string>
     <string>images/feiji.png</string>
-    <string>images/back2.9.png</string>
-    <string>images/back2_high.9.png</string>
     <string>images/bg.jpg</string>
+    <string>images/topbar.png</string>
+    <string>images/back.png</string>
     <string>images/menu_bg.9.png</string>
     <string>images/menu_icon_02.png</string>
     <string>images/head6.png</string>
@@ -84,10 +84,14 @@
     <string>images/sound.9.png</string>
     <string>images/start.png</string>
     <string>C:\Program Files (x86)\CocoStudio\EditorDefaultRes\GUI/button.png</string>
-    <string>images/login.jpg</string>
-    <string>images/kuang_a.png</string>
+    <string>images/bg.jpg</string>
+    <string>images/login_panel.png</string>
+    <string>images/logo_1.png</string>
+    <string>images/input.png</string>
     <string>images/btn_history.png</string>
     <string>images/btn_history_a.png</string>
+    <string>images/yellow_button.png</string>
+    <string>images/red_button.png</string>
     <string>GUI/button.png</string>
     <string>login/kuang_login.png</string>
     <string>images/menu_icon_high.png</string>
@@ -139,5 +143,5 @@
     <string>images/back2_high.9.png</string>
   </imagePngList>
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>Gaming.json</CurrentUIJson>
+  <CurrentUIJson>Hall.json</CurrentUIJson>
 </UIProject>
