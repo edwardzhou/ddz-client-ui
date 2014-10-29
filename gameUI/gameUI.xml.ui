@@ -100,10 +100,10 @@
     <string>GUI/button.png</string>
     <string>GUI/button.png</string>
     <string>images/bg.jpg</string>
+    <string>images/topbar.png</string>
     <string>images/bag2.png</string>
     <string>GUI/button.png</string>
-    <string>images/back2.9.png</string>
-    <string>images/back2_high.9.png</string>
+    <string>images/back.png</string>
     <string>images/game8.png</string>
     <string>images/game76.png</string>
     <string>images/game52.png</string>
@@ -115,6 +115,7 @@
     <string>images/menu_icon_high.png</string>
     <string>images/head1.png</string>
     <string>images/bg.jpg</string>
+    <string>images/topbar.png</string>
     <string>images/head9.png</string>
     <string>images/nphead.9.png</string>
     <string>images/head7.png</string>
@@ -125,14 +126,14 @@
     <string>images/head4.png</string>
     <string>images/head1.png</string>
     <string>images/head0.png</string>
-    <string>images/back2.9.png</string>
-    <string>images/back2_high.9.png</string>
+    <string>images/back.png</string>
     <string>images/bg.jpg</string>
+    <string>images/topbar.png</string>
     <string>images/kuang_a.png</string>
     <string>C:\Program Files (x86)\CocoStudio\EditorDefaultRes\GUI/button.png</string>
-    <string>images/back2.9.png</string>
-    <string>images/back2_high.9.png</string>
+    <string>images/back.png</string>
     <string>images/bg.jpg</string>
+    <string>images/topbar.png</string>
     <string>images/nphead.9.png</string>
     <string>images/head0.png</string>
     <string>GUI/button.png</string>
@@ -140,9 +141,8 @@
     <string>images/ui17.png</string>
     <string>images/ui18.png</string>
     <string>images/kuang_a.png</string>
-    <string>images/back2.9.png</string>
-    <string>images/back2_high.9.png</string>
+    <string>images/back.png</string>
   </imagePngList>
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>Hall.json</CurrentUIJson>
+  <CurrentUIJson>UP_HeadIcon.json</CurrentUIJson>
 </UIProject>
