@@ -105,7 +105,7 @@
     <string>GUI/button.png</string>
     <string>images/back.png</string>
     <string>GUI/slider_bar.png</string>
-    <string>GUI/slider_bar_button.png</string>
+    <string>images/potentiometerButton.png</string>
     <string>GUI/selected01.png</string>
     <string>GUI/selected02.png</string>
     <string>images/bg.jpg</string>
