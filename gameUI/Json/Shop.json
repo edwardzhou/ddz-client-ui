@@ -10,7 +10,13 @@
   "designHeight": 480,
   "designWidth": 800,
   "textures": [],
-  "texturesPng": [],
+  "texturesPng": [
+    "images/bg.jpg",
+    "images/topbar.png",
+    "images/bag2.png",
+    "GUI/button.png",
+    "images/back.png"
+  ],
   "version": "1.6.0.0",
   "widgetTree": {
     "classname": "Panel",

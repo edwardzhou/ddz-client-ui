@@ -138,5 +138,5 @@
     <string>images/back.png</string>
   </imagePngList>
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>SysConfig.json</CurrentUIJson>
+  <CurrentUIJson>Gaming.json</CurrentUIJson>
 </UIProject>
