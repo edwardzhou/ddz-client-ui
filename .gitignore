@@ -1,0 +1,16 @@
+.classpath
+bin/
+gen/
+.project
+tags
+.tag*
+lint.xml
+*~
+.~*
+*.DS*
+*.pyc
+cocos2d.bak
+runtime
+lua.zip
+res.zip
+publish
