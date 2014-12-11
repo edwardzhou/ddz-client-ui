@@ -52,4 +52,8 @@
     <Project>SysConfig</Project>
     <GuidesList />
   </GuidesProject>
+  <GuidesProject>
+    <Project>Task</Project>
+    <GuidesList />
+  </GuidesProject>
 </ArrayOfGuidesProject>
