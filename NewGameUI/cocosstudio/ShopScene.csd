@@ -53,6 +53,19 @@
                 <PrePosition X="0.5000" Y="0.9375" />
                 <PreSize X="0.0000" Y="0.0000" />
               </NodeObjectData>
+              <NodeObjectData Name="v_ShopItemList" ActionTag="235202475" FrameEvent="" Tag="46" ObjectIndex="1" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" IsBounceEnabled="True" ScrollDirectionType="0" DirectionType="Vertical" HorizontalType="Align_HorizontalCenter" ctype="ListViewObjectData">
+                <Position X="0.0000" Y="0.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <AnchorPoint />
+                <CColor A="255" R="255" G="255" B="255" />
+                <Size X="800.0000" Y="412.0000" />
+                <PrePosition X="0.0000" Y="0.0000" />
+                <PreSize X="1.0000" Y="0.8583" />
+                <SingleColor A="255" R="150" G="150" B="255" />
+                <FirstColor A="255" R="150" G="150" B="255" />
+                <EndColor A="255" R="255" G="255" B="255" />
+                <ColorVector ScaleY="1.0000" />
+              </NodeObjectData>
               <NodeObjectData Name="v_ShopItemModel" ActionTag="2057485843" FrameEvent="" Tag="135" ObjectIndex="2" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
                 <Position X="4.0827" Y="156.9939" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />

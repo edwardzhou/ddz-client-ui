@@ -129,7 +129,7 @@
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_LordCard1" ActionTag="-1904726430" FrameEvent="" Tag="17" ObjectIndex="2" Scale9Enable="True" Scale9Width="31" Scale9Height="43" ctype="ImageViewObjectData">
+                  <NodeObjectData Name="v_LordCard1" ActionTag="-1904726430" FrameEvent="" Tag="17" ObjectIndex="2" Scale9Width="31" Scale9Height="43" ctype="ImageViewObjectData">
                     <Position X="226.0515" Y="38.1849" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -139,7 +139,7 @@
                     <PreSize X="0.0000" Y="0.0000" />
                     <FileData Type="Normal" Path="Resources/images/game46.png" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_LordCard2" ActionTag="1327405273" FrameEvent="" Tag="18" ObjectIndex="3" Scale9Enable="True" Scale9Width="31" Scale9Height="43" ctype="ImageViewObjectData">
+                  <NodeObjectData Name="v_LordCard2" ActionTag="1327405273" FrameEvent="" Tag="18" ObjectIndex="3" Scale9Width="31" Scale9Height="43" ctype="ImageViewObjectData">
                     <Position X="260.3048" Y="37.4735" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -149,7 +149,7 @@
                     <PreSize X="0.0000" Y="0.0000" />
                     <FileData Type="Normal" Path="Resources/images/game46.png" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_LordCard3" ActionTag="999508649" FrameEvent="" Tag="19" ObjectIndex="4" Scale9Enable="True" Scale9Width="31" Scale9Height="43" ctype="ImageViewObjectData">
+                  <NodeObjectData Name="v_LordCard3" ActionTag="999508649" FrameEvent="" Tag="19" ObjectIndex="4" Scale9Width="31" Scale9Height="43" ctype="ImageViewObjectData">
                     <Position X="294.5581" Y="38.1849" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -270,21 +270,21 @@
                 <ColorVector ScaleY="1.0000" />
               </NodeObjectData>
               <NodeObjectData Name="v_SelfUser" ActionTag="1142767971" FrameEvent="" Tag="29" ObjectIndex="9" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
-                <Position X="9.6780" Y="172.0796" />
+                <Position X="11.6780" Y="151.0796" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint />
                 <CColor A="255" R="255" G="255" B="255" />
-                <Size X="180.0000" Y="130.0000" />
-                <PrePosition X="0.0121" Y="0.3585" />
-                <PreSize X="0.0000" Y="0.0000" />
+                <Size X="180.0000" Y="150.0000" />
+                <PrePosition X="0.0146" Y="0.3147" />
+                <PreSize X="0.2250" Y="0.3125" />
                 <Children>
                   <NodeObjectData Name="Panel_7_Copy" ActionTag="-518095611" FrameEvent="" Tag="30" ObjectIndex="10" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="33" Scale9Height="33" ctype="PanelObjectData">
-                    <Position X="7.1604" Y="5.4059" />
+                    <Position X="7.1604" Y="19.4059" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint />
                     <CColor A="255" R="255" G="255" B="255" />
                     <Size X="85.0000" Y="85.0000" />
-                    <PrePosition X="0.0000" Y="0.0000" />
+                    <PrePosition X="0.0398" Y="0.1294" />
                     <PreSize X="0.0000" Y="0.0000" />
                     <Children>
                       <NodeObjectData Name="v_SelfUserHead" ActionTag="-282338477" FrameEvent="" Tag="31" ObjectIndex="9" PrePositionEnabled="True" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="130" Scale9Height="130" ctype="ImageViewObjectData">
@@ -305,50 +305,50 @@
                     <ColorVector ScaleY="1.0000" />
                   </NodeObjectData>
                   <NodeObjectData Name="v_SelfUserName" ActionTag="325237519" FrameEvent="" Tag="32" ObjectIndex="5" FontSize="20" LabelText="昵称" ctype="TextObjectData">
-                    <Position X="15.4169" Y="106.5471" />
+                    <Position X="15.4169" Y="125.5471" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleY="0.5000" />
                     <CColor A="255" R="255" G="255" B="255" />
                     <Size X="40.0000" Y="23.0000" />
-                    <PrePosition X="0.0000" Y="0.0000" />
+                    <PrePosition X="0.0856" Y="0.8370" />
                     <PreSize X="0.0000" Y="0.0000" />
                   </NodeObjectData>
                   <NodeObjectData Name="Image_6_Copy" ActionTag="-23683614" FrameEvent="" Tag="33" ObjectIndex="10" Scale9Width="31" Scale9Height="43" ctype="ImageViewObjectData">
-                    <Position X="103.1410" Y="23.0786" />
+                    <Position X="103.1410" Y="42.0786" />
                     <Scale ScaleX="0.7000" ScaleY="0.7000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <CColor A="255" R="255" G="255" B="255" />
                     <Size X="31.0000" Y="43.0000" />
-                    <PrePosition X="0.0000" Y="0.0000" />
+                    <PrePosition X="0.5730" Y="0.2805" />
                     <PreSize X="0.0000" Y="0.0000" />
                     <FileData Type="Normal" Path="Resources/images/game46.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="v_SelfUserPokeCount" ActionTag="-154492078" FrameEvent="" Tag="34" ObjectIndex="6" FontSize="18" LabelText="17" ctype="TextObjectData">
-                    <Position X="117.5899" Y="22.0466" />
+                    <Position X="117.5899" Y="41.0466" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleY="0.5000" />
                     <CColor A="255" R="255" G="255" B="255" />
                     <Size X="20.0000" Y="21.0000" />
-                    <PrePosition X="0.0000" Y="0.0000" />
+                    <PrePosition X="0.6533" Y="0.2736" />
                     <PreSize X="0.0000" Y="0.0000" />
                   </NodeObjectData>
                   <NodeObjectData Name="v_SelfUserRole" ActionTag="1680626109" FrameEvent="" Tag="35" ObjectIndex="11" Scale9Width="57" Scale9Height="54" ctype="ImageViewObjectData">
-                    <Position X="17.4810" Y="76.6203" />
+                    <Position X="17.4810" Y="95.6203" />
                     <Scale ScaleX="0.6000" ScaleY="0.6000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <CColor A="255" R="255" G="255" B="255" />
                     <Size X="57.0000" Y="54.0000" />
-                    <PrePosition X="0.0000" Y="0.0000" />
+                    <PrePosition X="0.0971" Y="0.6375" />
                     <PreSize X="0.0000" Y="0.0000" />
                     <FileData Type="Normal" Path="Resources/images/role_farmer.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="Panel_8_Copy" ActionTag="-390403627" FrameEvent="" Tag="36" ObjectIndex="11" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
-                    <Position X="273.1555" Y="32.1783" />
+                    <Position X="374.1555" Y="79.1783" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint />
                     <CColor A="255" R="255" G="255" B="255" />
                     <Size X="60.0000" Y="50.0000" />
-                    <PrePosition X="1.5175" Y="0.2475" />
+                    <PrePosition X="2.0786" Y="0.5279" />
                     <PreSize X="0.0000" Y="0.0000" />
                     <Children>
                       <NodeObjectData Name="v_SelfUserStatus" ActionTag="-1791876651" FrameEvent="" Tag="37" ObjectIndex="12" Scale9Width="44" Scale9Height="27" ctype="ImageViewObjectData">
@@ -366,6 +366,37 @@
                     <FirstColor A="255" R="150" G="200" B="255" />
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
+                  </NodeObjectData>
+                  <NodeObjectData Name="Text_11" ActionTag="-688416696" FrameEvent="" Tag="88" ObjectIndex="11" FontSize="14" LabelText="金币:" ctype="TextObjectData">
+                    <Position X="24.0000" Y="14.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <Size X="31.0000" Y="20.0000" />
+                    <PrePosition X="0.1333" Y="0.0933" />
+                    <PreSize X="0.0000" Y="0.0000" />
+                  </NodeObjectData>
+                  <NodeObjectData Name="v_SelfCoins" ActionTag="-398833440" FrameEvent="" Tag="89" ObjectIndex="12" FontSize="14" LabelText="30000" ctype="TextObjectData">
+                    <Position X="46.0000" Y="13.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <AnchorPoint ScaleY="0.5000" />
+                    <CColor A="255" R="240" G="217" B="68" />
+                    <Size X="38.0000" Y="20.0000" />
+                    <PrePosition X="0.2556" Y="0.0867" />
+                    <PreSize X="0.0000" Y="0.0000" />
+                  </NodeObjectData>
+                  <NodeObjectData Name="v_ButtonBuy" ActionTag="-574124326" FrameEvent="" Tag="90" ObjectIndex="11" TouchEnable="True" FontSize="14" ButtonText="充值" Scale9Enable="True" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="36" Scale9Height="26" ctype="ButtonObjectData">
+                    <Position X="115.0000" Y="10.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <Size X="46.0000" Y="32.0000" />
+                    <PrePosition X="0.6389" Y="0.0667" />
+                    <PreSize X="0.2556" Y="0.2133" />
+                    <TextColor A="255" R="65" G="65" B="70" />
+                    <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
+                    <PressedFileData Type="Default" Path="Default/Button_Press.png" />
+                    <NormalFileData Type="Default" Path="Default/Button_Normal.png" />
                   </NodeObjectData>
                 </Children>
                 <SingleColor A="255" R="150" G="200" B="255" />

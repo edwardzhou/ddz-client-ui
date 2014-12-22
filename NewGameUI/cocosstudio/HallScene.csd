@@ -134,7 +134,7 @@
                     <PrePosition X="0.5456" Y="0.2596" />
                     <PreSize X="0.0000" Y="0.0000" />
                   </NodeObjectData>
-                  <NodeObjectData Name="Button_4" ActionTag="-610201765" FrameEvent="" Tag="108" ObjectIndex="4" TouchEnable="True" FontSize="14" ButtonText="" Scale9Width="74" Scale9Height="77" ctype="ButtonObjectData">
+                  <NodeObjectData Name="v_ButtonTask" ActionTag="-610201765" FrameEvent="" Tag="108" ObjectIndex="4" TouchEnable="True" FontSize="14" ButtonText="" Scale9Width="74" Scale9Height="77" ctype="ButtonObjectData">
                     <Position X="540.0000" Y="76.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -266,6 +266,19 @@
                 </Children>
                 <SingleColor A="255" R="150" G="200" B="255" />
                 <FirstColor A="255" R="150" G="200" B="255" />
+                <EndColor A="255" R="255" G="255" B="255" />
+                <ColorVector ScaleY="1.0000" />
+              </NodeObjectData>
+              <NodeObjectData Name="v_ListViewRooms" ActionTag="62096067" FrameEvent="" Tag="33" ObjectIndex="1" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ScrollDirectionType="0" ctype="ListViewObjectData">
+                <Position X="0.0000" Y="144.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <AnchorPoint />
+                <CColor A="255" R="255" G="255" B="255" />
+                <Size X="800.0000" Y="236.0000" />
+                <PrePosition X="0.0000" Y="0.3000" />
+                <PreSize X="1.0000" Y="0.4917" />
+                <SingleColor A="255" R="150" G="150" B="255" />
+                <FirstColor A="255" R="150" G="150" B="255" />
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </NodeObjectData>
