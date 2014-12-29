@@ -160,7 +160,7 @@
                     <PressedFileData Type="Default" Path="Default/Button_Press.png" />
                     <NormalFileData Type="Normal" Path="Resources/images/menu_icon_06.png" />
                   </NodeObjectData>
-                  <NodeObjectData Name="Button_7" ActionTag="1259684669" FrameEvent="" Tag="112" ObjectIndex="7" TouchEnable="True" FontSize="14" ButtonText="" Scale9Width="74" Scale9Height="77" ctype="ButtonObjectData">
+                  <NodeObjectData Name="v_ButtonAssets" ActionTag="1259684669" FrameEvent="" Tag="112" ObjectIndex="7" TouchEnable="True" FontSize="14" ButtonText="" Scale9Width="74" Scale9Height="77" ctype="ButtonObjectData">
                     <Position X="640.0000" Y="76.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -269,7 +269,7 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </NodeObjectData>
-              <NodeObjectData Name="v_ListViewRooms" ActionTag="62096067" FrameEvent="" Tag="33" ObjectIndex="1" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ScrollDirectionType="0" ctype="ListViewObjectData">
+              <NodeObjectData Name="v_ListViewRooms" ActionTag="62096067" FrameEvent="" Tag="33" ObjectIndex="1" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ScrollDirectionType="0" VerticalType="0" ctype="ListViewObjectData">
                 <Position X="0.0000" Y="144.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint />

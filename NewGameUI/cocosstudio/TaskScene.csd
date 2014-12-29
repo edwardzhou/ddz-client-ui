@@ -142,7 +142,7 @@
                     <PrePosition X="0.0202" Y="0.2636" />
                     <PreSize X="0.5044" Y="0.4000" />
                   </NodeObjectData>
-                  <NodeObjectData Name="ButtonApply" ActionTag="1210683126" FrameEvent="" Tag="56" ObjectIndex="11" TouchEnable="True" FontSize="20" ButtonText="马上申请" Scale9Enable="True" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="36" Scale9Height="26" ctype="ButtonObjectData">
+                  <NodeObjectData Name="ButtonApply" ActionTag="1210683126" VisibleForFrame="False" FrameEvent="" Tag="56" ObjectIndex="11" TouchEnable="True" FontSize="20" ButtonText="马上申请" Scale9Enable="True" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="36" Scale9Height="26" ctype="ButtonObjectData">
                     <Position X="484.0000" Y="50.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -163,6 +163,19 @@
                     <Size X="72.0000" Y="28.0000" />
                     <PrePosition X="0.9596" Y="0.7000" />
                     <PreSize X="0.0000" Y="0.0000" />
+                  </NodeObjectData>
+                  <NodeObjectData Name="ButtonTakeBonus" ActionTag="-282745683" VisibleForFrame="False" FrameEvent="" Tag="19" ObjectIndex="13" TouchEnable="True" FontSize="20" ButtonText="领取奖励" Scale9Enable="True" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="36" Scale9Height="26" ctype="ButtonObjectData">
+                    <Position X="484.0000" Y="50.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <Size X="100.0000" Y="36.0000" />
+                    <PrePosition X="0.6103" Y="0.4545" />
+                    <PreSize X="0.1261" Y="0.3600" />
+                    <TextColor A="255" R="65" G="65" B="70" />
+                    <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
+                    <PressedFileData Type="Default" Path="Default/Button_Press.png" />
+                    <NormalFileData Type="Default" Path="Default/Button_Normal.png" />
                   </NodeObjectData>
                 </Children>
                 <SingleColor A="255" R="150" G="200" B="255" />

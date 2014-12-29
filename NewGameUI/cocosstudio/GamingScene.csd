@@ -34,6 +34,19 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </NodeObjectData>
+              <NodeObjectData Name="v_JipaiqiPanel" ActionTag="-33564372" FrameEvent="" Tag="281" ObjectIndex="20" PrePositionEnabled="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+                <Position X="364.2909" Y="2.4923" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <AnchorPoint ScaleX="0.5000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <Size X="500.0000" Y="60.0000" />
+                <PrePosition X="0.4554" Y="0.0052" />
+                <PreSize X="0.6250" Y="0.1250" />
+                <SingleColor A="255" R="150" G="200" B="255" />
+                <FirstColor A="255" R="150" G="200" B="255" />
+                <EndColor A="255" R="255" G="255" B="255" />
+                <ColorVector ScaleY="1.0000" />
+              </NodeObjectData>
               <NodeObjectData Name="v_TopBar" ActionTag="-1874003250" FrameEvent="" Tag="5" ObjectIndex="3" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
                 <Position X="400.0000" Y="480.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
@@ -732,7 +745,7 @@
                 <PreSize X="0.0000" Y="0.0000" />
                 <Children>
                   <NodeObjectData Name="v_CountDownLabel" ActionTag="915820901" FrameEvent="" Tag="60" ObjectIndex="10" PrePositionEnabled="True" FontSize="20" LabelText="30" ctype="TextObjectData">
-                    <Position X="28.4999" Y="25.5000" />
+                    <Position X="28.5000" Y="25.4980" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <CColor A="255" R="0" G="0" B="0" />

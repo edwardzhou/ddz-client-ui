@@ -4,6 +4,7 @@
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
         <Project Name="LandingScene.csd" />
+        <Project Name="AssetsScene.csd" />
         <Folder Name="Resources">
           <Folder Name="fonts">
             <File Name="arial.ttf" />
@@ -544,10 +545,11 @@
             <Image Name="yellow_button.png" />
             <Image Name="role_lord.png" />
             <Image Name="role_farmer.png" />
+            <Image Name="jipaiqi_a .png" />
+            <Image Name="jipaiqi.png" />
           </Folder>
           <Folder Name="login">
             <File Name="login.tps" />
-            <Image Name="bg01.png" />
             <Image Name="jiesuankuang.png" />
             <Image Name="jinqi_a.png" />
             <Image Name="jinqi_b.png" />
@@ -561,9 +563,6 @@
           <Image Name="btn_history.png" />
           <Image Name="btn_history_a.png" />
           <Image Name="old_button.png" />
-          <Folder Name="GUI">
-            <Image Name="labelatlasimg.png" />
-          </Folder>
         </Folder>
         <Project Name="LoginScene.csd" />
         <Project Name="MessageBoxLayer.csd" />
@@ -577,6 +576,7 @@
         <Project Name="UP_PasswordScene.csd" />
         <Project Name="UserProfileScene.csd" />
         <Project Name="GamingScene.csd" />
+        <Project Name="JipaiqiLayer.csd" />
       </RootFolder>
     </Group>
   </SolutionFolder>
