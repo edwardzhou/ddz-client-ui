@@ -75,7 +75,7 @@
                 <PrePosition X="0.0051" Y="0.3271" />
                 <PreSize X="0.9912" Y="0.2083" />
                 <Children>
-                  <NodeObjectData Name="ImagePkgIcon" ActionTag="-1807814512" FrameEvent="" Tag="136" ObjectIndex="2" Scale9Width="90" Scale9Height="60" ctype="ImageViewObjectData">
+                  <NodeObjectData Name="ImageGoodsIcon" ActionTag="-1807814512" FrameEvent="" Tag="136" ObjectIndex="2" Scale9Width="90" Scale9Height="60" ctype="ImageViewObjectData">
                     <Position X="57.0000" Y="57.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -85,7 +85,7 @@
                     <PreSize X="0.0000" Y="0.0000" />
                     <FileData Type="Normal" Path="Resources/images/bag2.png" />
                   </NodeObjectData>
-                  <NodeObjectData Name="LabelPkgName" ActionTag="1863647584" FrameEvent="" Tag="137" ObjectIndex="2" FontSize="22" LabelText="黄金宝箱" ctype="TextObjectData">
+                  <NodeObjectData Name="LabelGoodsName" ActionTag="1863647584" FrameEvent="" Tag="137" ObjectIndex="2" FontSize="22" LabelText="黄金宝箱" ctype="TextObjectData">
                     <Position X="116.0000" Y="66.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleY="0.5000" />
@@ -94,7 +94,7 @@
                     <PrePosition X="0.1463" Y="0.6600" />
                     <PreSize X="0.0000" Y="0.0000" />
                   </NodeObjectData>
-                  <NodeObjectData Name="LabelPkgDesc" ActionTag="-1746155405" FrameEvent="" Tag="138" ObjectIndex="3" FontSize="16" LabelText="20,000 金币" ctype="TextObjectData">
+                  <NodeObjectData Name="LabelGoodsDesc" ActionTag="-1746155405" FrameEvent="" Tag="138" ObjectIndex="3" FontSize="16" LabelText="20,000 金币" ctype="TextObjectData">
                     <Position X="116.0000" Y="31.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleY="0.5000" />
@@ -103,13 +103,13 @@
                     <PrePosition X="0.1463" Y="0.3100" />
                     <PreSize X="0.0000" Y="0.0000" />
                   </NodeObjectData>
-                  <NodeObjectData Name="LabelPrice" ActionTag="-801141885" FrameEvent="" Tag="139" ObjectIndex="4" FontSize="14" LabelText="价格 2 元" ctype="TextObjectData">
-                    <Position X="598.0000" Y="39.0000" />
+                  <NodeObjectData Name="LabelRemainingCount" ActionTag="-801141885" FrameEvent="" Tag="139" ObjectIndex="4" FontSize="14" LabelText="剩余数量: 2" ctype="TextObjectData">
+                    <Position X="596.0000" Y="38.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <Size X="57.0000" Y="20.0000" />
-                    <PrePosition X="0.7541" Y="0.3900" />
+                    <Size X="71.0000" Y="20.0000" />
+                    <PrePosition X="0.7516" Y="0.3800" />
                     <PreSize X="0.0000" Y="0.0000" />
                   </NodeObjectData>
                   <NodeObjectData Name="ButtonUse" ActionTag="1746369819" FrameEvent="" Tag="140" ObjectIndex="2" TouchEnable="True" FontSize="20" ButtonText="  使用  " Scale9Enable="True" Scale9Width="46" Scale9Height="36" ctype="ButtonObjectData">
