@@ -112,7 +112,7 @@
                     <PrePosition X="0.7516" Y="0.3800" />
                     <PreSize X="0.0000" Y="0.0000" />
                   </NodeObjectData>
-                  <NodeObjectData Name="ButtonUse" ActionTag="1746369819" FrameEvent="" Tag="140" ObjectIndex="2" TouchEnable="True" FontSize="20" ButtonText="  使用  " Scale9Enable="True" Scale9Width="46" Scale9Height="36" ctype="ButtonObjectData">
+                  <NodeObjectData Name="ButtonUse" ActionTag="1746369819" VisibleForFrame="False" FrameEvent="" Tag="140" ObjectIndex="2" TouchEnable="True" FontSize="20" ButtonText="  使用  " Scale9Enable="True" Scale9Width="46" Scale9Height="36" ctype="ButtonObjectData">
                     <Position X="723.0000" Y="48.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -135,6 +135,39 @@
                     <PreSize X="0.9836" Y="0.0100" />
                     <SingleColor A="255" R="13" G="14" B="20" />
                     <FirstColor A="255" R="13" G="14" B="20" />
+                    <EndColor A="255" R="255" G="255" B="255" />
+                    <ColorVector ScaleY="1.0000" />
+                  </NodeObjectData>
+                  <NodeObjectData Name="InUsePanel" ActionTag="-1852678912" VisibleForFrame="False" FrameEvent="" Tag="34" ObjectIndex="4" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+                    <Position X="652.0000" Y="12.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <AnchorPoint />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <Size X="130.0000" Y="80.0000" />
+                    <PrePosition X="0.8222" Y="0.1200" />
+                    <PreSize X="0.1639" Y="0.8000" />
+                    <Children>
+                      <NodeObjectData Name="Text_5" ActionTag="-72112178" FrameEvent="" Tag="32" ObjectIndex="5" FontSize="20" LabelText="使用中&#xA;剩余时间:" HorizontalAlignmentType="HT_Center" ctype="TextObjectData">
+                        <Position X="63.0000" Y="49.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="85.0000" Y="46.0000" />
+                        <PrePosition X="0.4846" Y="0.6125" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="TimeRemaining" ActionTag="-625966208" FrameEvent="" Tag="33" ObjectIndex="6" FontSize="16" LabelText="1天12:29:33" ctype="TextObjectData">
+                        <Position X="64.0000" Y="14.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="216" G="228" B="20" />
+                        <Size X="87.0000" Y="18.0000" />
+                        <PrePosition X="0.4923" Y="0.1750" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                      </NodeObjectData>
+                    </Children>
+                    <SingleColor A="255" R="150" G="200" B="255" />
+                    <FirstColor A="255" R="150" G="200" B="255" />
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </NodeObjectData>
