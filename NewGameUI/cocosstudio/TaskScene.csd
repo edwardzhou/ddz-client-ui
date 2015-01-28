@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="TaskScene" ID="6dd43f48-27aa-437b-ada5-f2b838183ad3" Version="2.0.5.0" />
+  <PropertyGroup Type="Scene" Name="TaskScene" ID="6dd43f48-27aa-437b-ada5-f2b838183ad3" Version="2.0.8.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -29,7 +29,7 @@
                 <Size X="817.0000" Y="65.0000" />
                 <PrePosition X="0.5000" Y="0.9292" />
                 <PreSize X="1.0213" Y="0.1354" />
-                <FileData Type="Normal" Path="Resources/images/topbar.png" />
+                <FileData Type="Normal" Path="Res/images/topbar.png" />
               </NodeObjectData>
               <NodeObjectData Name="v_ButtonBack" ActionTag="-1315342536" FrameEvent="" Tag="18" ObjectIndex="3" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="39" Scale9Height="37" ctype="ButtonObjectData">
                 <Position X="30.0000" Y="450.0000" />
@@ -41,8 +41,8 @@
                 <PreSize X="0.0562" Y="0.0938" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                <PressedFileData Type="Normal" Path="Resources/images/back.png" />
-                <NormalFileData Type="Normal" Path="Resources/images/back.png" />
+                <PressedFileData Type="Normal" Path="Res/images/back.png" />
+                <NormalFileData Type="Normal" Path="Res/images/back.png" />
               </NodeObjectData>
               <NodeObjectData Name="Text_5" ActionTag="412321888" FrameEvent="" Tag="19" ObjectIndex="5" FontSize="28" LabelText="任务" ctype="TextObjectData">
                 <Position X="400.0000" Y="450.0000" />
@@ -184,7 +184,7 @@
                 <ColorVector ScaleY="1.0000" />
               </NodeObjectData>
             </Children>
-            <FileData Type="Normal" Path="Resources/images/bg.jpg" />
+            <FileData Type="Normal" Path="Res/images/bg.jpg" />
             <SingleColor A="255" R="150" G="200" B="255" />
             <FirstColor A="255" R="150" G="200" B="255" />
             <EndColor A="255" R="255" G="255" B="255" />

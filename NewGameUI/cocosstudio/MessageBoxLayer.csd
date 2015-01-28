@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="MessageBoxLayer" ID="8b0337d9-99c6-4c91-b3e2-5c2833ec9bad" Version="2.0.2.0" />
+  <PropertyGroup Type="Layer" Name="MessageBoxLayer" ID="8b0337d9-99c6-4c91-b3e2-5c2833ec9bad" Version="2.0.8.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -51,7 +51,7 @@
                     <Size X="53.0000" Y="53.0000" />
                     <PrePosition X="0.5000" Y="0.5000" />
                     <PreSize X="0.0000" Y="0.0000" />
-                    <FileData Type="Normal" Path="Resources/images/menu_icon_high.png" />
+                    <FileData Type="Normal" Path="Res/images/menu_icon_high.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="v_MsgPanel" ActionTag="1693464340" FrameEvent="" Tag="24" ObjectIndex="4" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="25" RightEage="25" TopEage="25" BottomEage="25" Scale9OriginX="25" Scale9OriginY="25" Scale9Width="133" Scale9Height="131" ctype="PanelObjectData">
                     <Position X="0.0000" Y="0.0000" />
@@ -91,7 +91,7 @@
                         <TextColor A="255" R="65" G="65" B="70" />
                         <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
                         <PressedFileData Type="Default" Path="Default/Button_Press.png" />
-                        <NormalFileData Type="Normal" Path="Resources/old_button.png" />
+                        <NormalFileData Type="Normal" Path="Res/old_button.png" />
                       </NodeObjectData>
                       <NodeObjectData Name="v_ButtonOk" ActionTag="904979023" FrameEvent="" Tag="28" ObjectIndex="2" TouchEnable="True" FontSize="20" ButtonText="确定" Scale9Width="103" Scale9Height="40" ctype="ButtonObjectData">
                         <Position X="277.6669" Y="59.4188" />
@@ -104,10 +104,10 @@
                         <TextColor A="255" R="65" G="65" B="70" />
                         <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
                         <PressedFileData Type="Default" Path="Default/Button_Press.png" />
-                        <NormalFileData Type="Normal" Path="Resources/old_button.png" />
+                        <NormalFileData Type="Normal" Path="Res/old_button.png" />
                       </NodeObjectData>
                     </Children>
-                    <FileData Type="Normal" Path="Resources/images/xiaotanchukuang.png" />
+                    <FileData Type="Normal" Path="Res/images/xiaotanchukuang.png" />
                     <SingleColor A="255" R="150" G="200" B="255" />
                     <FirstColor A="255" R="150" G="200" B="255" />
                     <EndColor A="255" R="255" G="255" B="255" />
@@ -129,7 +129,7 @@
         <SingleColor A="255" R="0" G="0" B="0" />
         <FirstColor A="255" R="0" G="0" B="0" />
         <EndColor A="255" R="255" G="255" B="255" />
-        <ColorVector ScaleX="1.0000" ScaleY="0.0000" />
+        <ColorVector ScaleX="1.0000" />
       </ObjectData>
     </Content>
   </Content>

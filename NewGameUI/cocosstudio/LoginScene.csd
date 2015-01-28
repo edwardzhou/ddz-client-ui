@@ -1,9 +1,9 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="LoginScene" ID="e755f880-b7e7-4ef1-b1f5-523053a8d9df" Version="2.0.2.0" />
+  <PropertyGroup Type="Scene" Name="LoginScene" ID="e755f880-b7e7-4ef1-b1f5-523053a8d9df" Version="2.0.8.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
-      <ObjectData Name="Scene" CanEdit="False" FrameEvent="" ctype="SingleNodeObjectData">
+      <ObjectData Name="Scene" FrameEvent="" ctype="SingleNodeObjectData">
         <Position X="0.0000" Y="0.0000" />
         <Scale ScaleX="1.0000" ScaleY="1.0000" />
         <AnchorPoint />
@@ -29,7 +29,7 @@
                 <Size X="727.0000" Y="258.0000" />
                 <PrePosition X="0.5000" Y="0.5208" />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="Resources/images/login_panel.png" />
+                <FileData Type="Normal" Path="Res/images/login_panel.png" />
               </NodeObjectData>
               <NodeObjectData Name="Panel_2" ActionTag="-534056440" FrameEvent="" Tag="16" ObjectIndex="2" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
                 <Position X="113.8882" Y="150.5529" />
@@ -77,11 +77,11 @@
                         <PreSize X="0.1408" Y="1.0000" />
                         <TextColor A="255" R="65" G="65" B="70" />
                         <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                        <PressedFileData Type="Normal" Path="Resources/images/btn_history_a.png" />
-                        <NormalFileData Type="Normal" Path="Resources/images/btn_history.png" />
+                        <PressedFileData Type="Normal" Path="Res/images/btn_history_a.png" />
+                        <NormalFileData Type="Normal" Path="Res/images/btn_history.png" />
                       </NodeObjectData>
                     </Children>
-                    <FileData Type="Normal" Path="Resources/images/input.png" />
+                    <FileData Type="Normal" Path="Res/images/input.png" />
                     <SingleColor A="255" R="150" G="200" B="255" />
                     <FirstColor A="255" R="150" G="200" B="255" />
                     <EndColor A="255" R="255" G="255" B="255" />
@@ -115,7 +115,7 @@
                         <PreSize X="0.4225" Y="0.5400" />
                       </NodeObjectData>
                     </Children>
-                    <FileData Type="Normal" Path="Resources/images/input.png" />
+                    <FileData Type="Normal" Path="Res/images/input.png" />
                     <SingleColor A="255" R="150" G="200" B="255" />
                     <FirstColor A="255" R="150" G="200" B="255" />
                     <EndColor A="255" R="255" G="255" B="255" />
@@ -138,7 +138,7 @@
                 <TextColor A="255" R="255" G="255" B="255" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
                 <PressedFileData Type="Default" Path="Default/Button_Press.png" />
-                <NormalFileData Type="Normal" Path="Resources/images/red_button.png" />
+                <NormalFileData Type="Normal" Path="Res/images/red_button.png" />
               </NodeObjectData>
               <NodeObjectData Name="v_ButtonSignIn" ActionTag="306736234" FrameEvent="" Tag="25" ObjectIndex="3" TouchEnable="True" FontSize="24" ButtonText="登录" Scale9Width="202" Scale9Height="60" ctype="ButtonObjectData">
                 <Position X="510.3531" Y="70.0485" />
@@ -151,9 +151,9 @@
                 <TextColor A="255" R="255" G="255" B="255" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
                 <PressedFileData Type="Default" Path="Default/Button_Press.png" />
-                <NormalFileData Type="Normal" Path="Resources/images/yellow_button.png" />
+                <NormalFileData Type="Normal" Path="Res/images/yellow_button.png" />
               </NodeObjectData>
-              <NodeObjectData Name="v_PanelAccounts" ActionTag="868815722" VisibleForFrame="False" FrameEvent="" Tag="26" ObjectIndex="5" PreSizeEnable="True" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+              <NodeObjectData Name="v_PanelAccounts" ActionTag="868815722" FrameEvent="" Tag="26" ObjectIndex="5" PreSizeEnable="True" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
                 <Position X="0.0000" Y="0.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint />
@@ -162,18 +162,18 @@
                 <PrePosition X="0.0000" Y="0.0000" />
                 <PreSize X="1.0000" Y="1.0000" />
                 <Children>
-                  <NodeObjectData Name="v_ButtonModel" ActionTag="-895590317" VisibleForFrame="False" FrameEvent="" Tag="28" ObjectIndex="4" TouchEnable="True" FontSize="22" ButtonText="123456" Scale9Enable="True" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="93" Scale9Height="30" ctype="ButtonObjectData">
+                  <NodeObjectData Name="v_ButtonModel" ActionTag="-895590317" VisibleForFrame="False" FrameEvent="" Tag="28" ObjectIndex="4" TouchEnable="True" FontSize="22" ButtonText="123456" Scale9Enable="True" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="83" Scale9Height="20" ctype="ButtonObjectData">
                     <Position X="127.8674" Y="441.4176" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <Size X="200.0000" Y="35.0000" />
+                    <Size X="180.0000" Y="40.0000" />
                     <PrePosition X="0.1598" Y="0.9196" />
-                    <PreSize X="0.2500" Y="0.0729" />
+                    <PreSize X="0.2250" Y="0.0833" />
                     <TextColor A="255" R="255" G="255" B="255" />
                     <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
                     <PressedFileData Type="Default" Path="Default/Button_Press.png" />
-                    <NormalFileData Type="Normal" Path="Resources/old_button.png" />
+                    <NormalFileData Type="Normal" Path="Res/old_button.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="v_ListViewHolder" ActionTag="1143270394" FrameEvent="" Tag="27" ObjectIndex="6" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="360" Scale9Height="129" ctype="PanelObjectData">
                     <Position X="309.1028" Y="35.5802" />
@@ -183,7 +183,22 @@
                     <Size X="200.0000" Y="215.0000" />
                     <PrePosition X="0.3864" Y="0.0741" />
                     <PreSize X="0.2500" Y="0.4479" />
-                    <FileData Type="Normal" Path="Resources/login/kuang_login.png" />
+                    <Children>
+                      <NodeObjectData Name="v_ListViewAccounts" ActionTag="-526542048" FrameEvent="" Tag="110" ObjectIndex="1" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" IsBounceEnabled="True" ScrollDirectionType="0" DirectionType="Vertical" HorizontalType="Align_HorizontalCenter" VerticalType="0" ctype="ListViewObjectData">
+                        <Position X="5.0000" Y="10.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="190.0000" Y="196.0000" />
+                        <PrePosition X="0.0250" Y="0.0465" />
+                        <PreSize X="0.9500" Y="0.9116" />
+                        <SingleColor A="255" R="150" G="150" B="255" />
+                        <FirstColor A="255" R="150" G="150" B="255" />
+                        <EndColor A="255" R="255" G="255" B="255" />
+                        <ColorVector ScaleY="1.0000" />
+                      </NodeObjectData>
+                    </Children>
+                    <FileData Type="Normal" Path="Res/login/kuang_login.png" />
                     <SingleColor A="255" R="150" G="200" B="255" />
                     <FirstColor A="255" R="150" G="200" B="255" />
                     <EndColor A="255" R="255" G="255" B="255" />
@@ -196,7 +211,7 @@
                 <ColorVector ScaleY="1.0000" />
               </NodeObjectData>
             </Children>
-            <FileData Type="Normal" Path="Resources/images/bg.jpg" />
+            <FileData Type="Normal" Path="Res/images/bg.jpg" />
             <SingleColor A="255" R="150" G="200" B="255" />
             <FirstColor A="255" R="150" G="200" B="255" />
             <EndColor A="255" R="255" G="255" B="255" />
@@ -210,7 +225,7 @@
             <Size X="348.0000" Y="111.0000" />
             <PrePosition X="0.5938" Y="0.7282" />
             <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="Normal" Path="Resources/images/logo_1.png" />
+            <FileData Type="Normal" Path="Res/images/logo_1.png" />
           </NodeObjectData>
         </Children>
       </ObjectData>

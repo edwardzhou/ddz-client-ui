@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="NetworkConnectingLayer" ID="af32a99c-97b1-47de-b51b-d88f332a5f9b" Version="2.0.5.0" />
+  <PropertyGroup Type="Layer" Name="NetworkConnectingLayer" ID="af32a99c-97b1-47de-b51b-d88f332a5f9b" Version="2.0.8.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -82,7 +82,7 @@
                     <SingleColor A="255" R="55" G="62" B="94" />
                     <FirstColor A="255" R="55" G="62" B="94" />
                     <EndColor A="255" R="27" G="41" B="56" />
-                    <ColorVector ScaleX="1.0000" ScaleY="0.0000" />
+                    <ColorVector ScaleX="1.0000" />
                   </NodeObjectData>
                   <NodeObjectData Name="v_LabelMsg" ActionTag="1119625024" FrameEvent="" Tag="43" ObjectIndex="1" FontSize="22" LabelText="第n次尝试连接..." ctype="TextObjectData">
                     <Position X="198.0000" Y="40.0000" />
@@ -110,7 +110,7 @@
                 <SingleColor A="255" R="55" G="62" B="94" />
                 <FirstColor A="255" R="55" G="62" B="94" />
                 <EndColor A="255" R="27" G="41" B="56" />
-                <ColorVector ScaleX="1.0000" ScaleY="0.0000" />
+                <ColorVector ScaleX="1.0000" />
               </NodeObjectData>
             </Children>
             <SingleColor A="255" R="150" G="200" B="255" />

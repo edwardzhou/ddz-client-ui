@@ -1,11 +1,11 @@
 <Solution>
-  <PropertyGroup Name="NewGameUI" Version="2.0.6.0" Type="CocosStudio" />
+  <PropertyGroup Name="NewGameUI" Version="2.0.8.0" Type="CocosStudio" />
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
         <Project Name="LandingScene.csd" />
         <Project Name="AssetsScene.csd" />
-        <Folder Name="Resources">
+        <Folder Name="Res">
           <Folder Name="fonts">
             <File Name="arial.ttf" />
             <Fnt Name="font12.fnt" />

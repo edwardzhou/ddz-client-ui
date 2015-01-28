@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="UP_PasswordScene" ID="4ed9e52c-e526-417e-a05e-8212c7d4a852" Version="2.0.5.0" />
+  <PropertyGroup Type="Scene" Name="UP_PasswordScene" ID="4ed9e52c-e526-417e-a05e-8212c7d4a852" Version="2.0.8.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -29,7 +29,7 @@
                 <Size X="817.0000" Y="65.0000" />
                 <PrePosition X="0.5000" Y="0.9292" />
                 <PreSize X="1.0213" Y="0.1354" />
-                <FileData Type="Normal" Path="Resources/images/topbar.png" />
+                <FileData Type="Normal" Path="Res/images/topbar.png" />
               </NodeObjectData>
               <NodeObjectData Name="v_ButtonTopBack" ActionTag="-502839517" FrameEvent="" Tag="100" ObjectIndex="2" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="39" Scale9Height="37" ctype="ButtonObjectData">
                 <Position X="30.0000" Y="450.0000" />
@@ -41,8 +41,8 @@
                 <PreSize X="0.0562" Y="0.0938" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                <PressedFileData Type="Normal" Path="Resources/images/back.png" />
-                <NormalFileData Type="Normal" Path="Resources/images/back.png" />
+                <PressedFileData Type="Normal" Path="Res/images/back.png" />
+                <NormalFileData Type="Normal" Path="Res/images/back.png" />
               </NodeObjectData>
               <NodeObjectData Name="Text_2" ActionTag="618667557" FrameEvent="" Tag="101" ObjectIndex="2" FontSize="28" LabelText="密码修改" ctype="TextObjectData">
                 <Position X="400.0000" Y="450.0000" />
@@ -72,7 +72,7 @@
                     <PreSize X="0.8000" Y="0.5400" />
                   </NodeObjectData>
                 </Children>
-                <FileData Type="Normal" Path="Resources/images/kuang_a.png" />
+                <FileData Type="Normal" Path="Res/images/kuang_a.png" />
                 <SingleColor A="255" R="150" G="200" B="255" />
                 <FirstColor A="255" R="150" G="200" B="255" />
                 <EndColor A="255" R="255" G="255" B="255" />
@@ -97,7 +97,7 @@
                     <PreSize X="0.0000" Y="0.0000" />
                   </NodeObjectData>
                 </Children>
-                <FileData Type="Normal" Path="Resources/images/kuang_a.png" />
+                <FileData Type="Normal" Path="Res/images/kuang_a.png" />
                 <SingleColor A="255" R="150" G="200" B="255" />
                 <FirstColor A="255" R="150" G="200" B="255" />
                 <EndColor A="255" R="255" G="255" B="255" />
@@ -114,7 +114,7 @@
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
                 <PressedFileData Type="Default" Path="Default/Button_Press.png" />
-                <NormalFileData Type="Normal" Path="Resources/old_button.png" />
+                <NormalFileData Type="Normal" Path="Res/old_button.png" />
               </NodeObjectData>
               <NodeObjectData Name="v_ButtonChangePassword" ActionTag="2138579449" FrameEvent="" Tag="107" ObjectIndex="4" TouchEnable="True" FontSize="20" ButtonText="    确认修改    " Scale9Width="103" Scale9Height="40" ctype="ButtonObjectData">
                 <Position X="500.0001" Y="101.2501" />
@@ -127,10 +127,10 @@
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
                 <PressedFileData Type="Default" Path="Default/Button_Press.png" />
-                <NormalFileData Type="Normal" Path="Resources/old_button.png" />
+                <NormalFileData Type="Normal" Path="Res/old_button.png" />
               </NodeObjectData>
             </Children>
-            <FileData Type="Normal" Path="Resources/images/bg.jpg" />
+            <FileData Type="Normal" Path="Res/images/bg.jpg" />
             <SingleColor A="255" R="150" G="200" B="255" />
             <FirstColor A="255" R="150" G="200" B="255" />
             <EndColor A="255" R="255" G="255" B="255" />

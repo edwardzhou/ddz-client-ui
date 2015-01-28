@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="SysConfigLayer" ID="4f1c83c0-464c-45e1-b60d-e9172b6fc6f7" Version="2.0.5.0" />
+  <PropertyGroup Type="Layer" Name="SysConfigLayer" ID="4f1c83c0-464c-45e1-b60d-e9172b6fc6f7" Version="2.0.8.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />

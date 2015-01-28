@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="UP_HeadIconScene" ID="0cf9b2c3-012d-4285-a3fb-c732b2288e0f" Version="2.0.5.0" />
+  <PropertyGroup Type="Scene" Name="UP_HeadIconScene" ID="0cf9b2c3-012d-4285-a3fb-c732b2288e0f" Version="2.0.8.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -29,7 +29,7 @@
                 <Size X="817.0000" Y="65.0000" />
                 <PrePosition X="0.5000" Y="0.9292" />
                 <PreSize X="1.0213" Y="0.1354" />
-                <FileData Type="Normal" Path="Resources/images/topbar.png" />
+                <FileData Type="Normal" Path="Res/images/topbar.png" />
               </NodeObjectData>
               <NodeObjectData Name="v_ButtonBack" ActionTag="856117210" FrameEvent="" Tag="105" ObjectIndex="1" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="39" Scale9Height="37" ctype="ButtonObjectData">
                 <Position X="30.0000" Y="450.0000" />
@@ -41,8 +41,8 @@
                 <PreSize X="0.0562" Y="0.0938" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                <PressedFileData Type="Normal" Path="Resources/images/back.png" />
-                <NormalFileData Type="Normal" Path="Resources/images/back.png" />
+                <PressedFileData Type="Normal" Path="Res/images/back.png" />
+                <NormalFileData Type="Normal" Path="Res/images/back.png" />
               </NodeObjectData>
               <NodeObjectData Name="Text_2" ActionTag="1401675524" FrameEvent="" Tag="107" ObjectIndex="2" FontSize="28" LabelText="请选择头像" ctype="TextObjectData">
                 <Position X="400.0000" Y="450.0000" />
@@ -79,10 +79,10 @@
                         <Size X="140.0000" Y="140.0000" />
                         <PrePosition X="0.5000" Y="0.5000" />
                         <PreSize X="0.0000" Y="0.0000" />
-                        <FileData Type="Normal" Path="Resources/images/head0.png" />
+                        <FileData Type="Normal" Path="Res/images/head0.png" />
                       </NodeObjectData>
                     </Children>
-                    <FileData Type="Normal" Path="Resources/images/nphead.9.png" />
+                    <FileData Type="Normal" Path="Res/images/nphead.9.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="v_ImageHead2" ActionTag="-1395821831" FrameEvent="" Tag="112" ObjectIndex="4" Scale9Width="158" Scale9Height="158" ctype="ImageViewObjectData">
                     <Position X="280.0000" Y="283.0000" />
@@ -101,10 +101,10 @@
                         <Size X="140.0000" Y="140.0000" />
                         <PrePosition X="0.5000" Y="0.5000" />
                         <PreSize X="0.0000" Y="0.0000" />
-                        <FileData Type="Normal" Path="Resources/images/head2.png" />
+                        <FileData Type="Normal" Path="Res/images/head2.png" />
                       </NodeObjectData>
                     </Children>
-                    <FileData Type="Normal" Path="Resources/images/nphead.9.png" />
+                    <FileData Type="Normal" Path="Res/images/nphead.9.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="v_ImageHead4" ActionTag="-30350350" FrameEvent="" Tag="114" ObjectIndex="6" Scale9Width="158" Scale9Height="158" ctype="ImageViewObjectData">
                     <Position X="453.0000" Y="283.0000" />
@@ -123,10 +123,10 @@
                         <Size X="140.0000" Y="140.0000" />
                         <PrePosition X="0.5000" Y="0.5000" />
                         <PreSize X="0.0000" Y="0.0000" />
-                        <FileData Type="Normal" Path="Resources/images/head4.png" />
+                        <FileData Type="Normal" Path="Res/images/head4.png" />
                       </NodeObjectData>
                     </Children>
-                    <FileData Type="Normal" Path="Resources/images/nphead.9.png" />
+                    <FileData Type="Normal" Path="Res/images/nphead.9.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="v_ImageHead6" ActionTag="-766691730" FrameEvent="" Tag="116" ObjectIndex="8" Scale9Width="158" Scale9Height="158" ctype="ImageViewObjectData">
                     <Position X="620.5787" Y="283.0000" />
@@ -145,10 +145,10 @@
                         <Size X="140.0000" Y="140.0000" />
                         <PrePosition X="0.5000" Y="0.5000" />
                         <PreSize X="0.0000" Y="0.0000" />
-                        <FileData Type="Normal" Path="Resources/images/head6.png" />
+                        <FileData Type="Normal" Path="Res/images/head6.png" />
                       </NodeObjectData>
                     </Children>
-                    <FileData Type="Normal" Path="Resources/images/nphead.9.png" />
+                    <FileData Type="Normal" Path="Res/images/nphead.9.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="v_ImageHead1" ActionTag="-306220425" FrameEvent="" Tag="118" ObjectIndex="10" Scale9Width="158" Scale9Height="158" ctype="ImageViewObjectData">
                     <Position X="105.0899" Y="105.0040" />
@@ -167,10 +167,10 @@
                         <Size X="140.0000" Y="140.0000" />
                         <PrePosition X="0.5000" Y="0.5000" />
                         <PreSize X="0.0000" Y="0.0000" />
-                        <FileData Type="Normal" Path="Resources/images/head1.png" />
+                        <FileData Type="Normal" Path="Res/images/head1.png" />
                       </NodeObjectData>
                     </Children>
-                    <FileData Type="Normal" Path="Resources/images/nphead.9.png" />
+                    <FileData Type="Normal" Path="Res/images/nphead.9.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="v_ImageHead3" ActionTag="587072176" FrameEvent="" Tag="120" ObjectIndex="12" Scale9Width="158" Scale9Height="158" ctype="ImageViewObjectData">
                     <Position X="278.0890" Y="105.0040" />
@@ -189,10 +189,10 @@
                         <Size X="140.0000" Y="140.0000" />
                         <PrePosition X="0.5000" Y="0.5000" />
                         <PreSize X="0.0000" Y="0.0000" />
-                        <FileData Type="Normal" Path="Resources/images/head3.png" />
+                        <FileData Type="Normal" Path="Res/images/head3.png" />
                       </NodeObjectData>
                     </Children>
-                    <FileData Type="Normal" Path="Resources/images/nphead.9.png" />
+                    <FileData Type="Normal" Path="Res/images/nphead.9.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="v_ImageHead5" ActionTag="-141274888" FrameEvent="" Tag="122" ObjectIndex="14" Scale9Width="158" Scale9Height="158" ctype="ImageViewObjectData">
                     <Position X="451.0835" Y="105.0040" />
@@ -211,10 +211,10 @@
                         <Size X="140.0000" Y="140.0000" />
                         <PrePosition X="0.5000" Y="0.5000" />
                         <PreSize X="0.0000" Y="0.0000" />
-                        <FileData Type="Normal" Path="Resources/images/head5.png" />
+                        <FileData Type="Normal" Path="Res/images/head5.png" />
                       </NodeObjectData>
                     </Children>
-                    <FileData Type="Normal" Path="Resources/images/nphead.9.png" />
+                    <FileData Type="Normal" Path="Res/images/nphead.9.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="v_ImageHead7" ActionTag="1807145651" FrameEvent="" Tag="124" ObjectIndex="16" Scale9Width="158" Scale9Height="158" ctype="ImageViewObjectData">
                     <Position X="619.7423" Y="105.0040" />
@@ -233,10 +233,10 @@
                         <Size X="140.0000" Y="140.0000" />
                         <PrePosition X="0.5000" Y="0.5000" />
                         <PreSize X="0.0000" Y="0.0000" />
-                        <FileData Type="Normal" Path="Resources/images/head7.png" />
+                        <FileData Type="Normal" Path="Res/images/head7.png" />
                       </NodeObjectData>
                     </Children>
-                    <FileData Type="Normal" Path="Resources/images/nphead.9.png" />
+                    <FileData Type="Normal" Path="Res/images/nphead.9.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="v_ImageCheck" ActionTag="460138373" FrameEvent="" Tag="126" ObjectIndex="18" Scale9Width="48" Scale9Height="48" ctype="ImageViewObjectData">
                     <Position X="158.0771" Y="223.0396" />
@@ -246,7 +246,7 @@
                     <Size X="48.0000" Y="48.0000" />
                     <PrePosition X="0.2196" Y="0.6301" />
                     <PreSize X="0.0000" Y="0.0000" />
-                    <FileData Type="Normal" Path="Resources/images/head9.png" />
+                    <FileData Type="Normal" Path="Res/images/head9.png" />
                   </NodeObjectData>
                 </Children>
                 <SingleColor A="255" R="150" G="200" B="255" />
@@ -255,7 +255,7 @@
                 <ColorVector ScaleY="1.0000" />
               </NodeObjectData>
             </Children>
-            <FileData Type="Normal" Path="Resources/images/bg.jpg" />
+            <FileData Type="Normal" Path="Res/images/bg.jpg" />
             <SingleColor A="255" R="150" G="200" B="255" />
             <FirstColor A="255" R="150" G="200" B="255" />
             <EndColor A="255" R="255" G="255" B="255" />

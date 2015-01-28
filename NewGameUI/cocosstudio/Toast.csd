@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="Toast" ID="1cd88cd6-8eb0-489f-8d9e-c8cc20d0cef4" Version="2.0.2.0" />
+  <PropertyGroup Type="Layer" Name="Toast" ID="1cd88cd6-8eb0-489f-8d9e-c8cc20d0cef4" Version="2.0.8.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -68,7 +68,7 @@
         <SingleColor A="255" R="0" G="0" B="0" />
         <FirstColor A="255" R="0" G="0" B="0" />
         <EndColor A="255" R="255" G="255" B="255" />
-        <ColorVector ScaleX="1.0000" ScaleY="0.0000" />
+        <ColorVector ScaleX="1.0000" />
       </ObjectData>
     </Content>
   </Content>

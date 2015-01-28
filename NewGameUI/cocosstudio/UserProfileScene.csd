@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="UserProfileScene" ID="d4842171-feed-4f1f-8bf6-e39e6e85d19f" Version="2.0.5.0" />
+  <PropertyGroup Type="Scene" Name="UserProfileScene" ID="d4842171-feed-4f1f-8bf6-e39e6e85d19f" Version="2.0.8.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -29,7 +29,7 @@
                 <Size X="817.0000" Y="65.0000" />
                 <PrePosition X="0.5000" Y="0.9292" />
                 <PreSize X="1.0213" Y="0.1354" />
-                <FileData Type="Normal" Path="Resources/images/topbar.png" />
+                <FileData Type="Normal" Path="Res/images/topbar.png" />
               </NodeObjectData>
               <NodeObjectData Name="v_ButtonTopBack" ActionTag="-1184602229" FrameEvent="" Tag="146" ObjectIndex="1" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="39" Scale9Height="37" ctype="ButtonObjectData">
                 <Position X="30.0000" Y="450.0000" />
@@ -41,8 +41,8 @@
                 <PreSize X="0.0562" Y="0.0938" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                <PressedFileData Type="Normal" Path="Resources/images/back.png" />
-                <NormalFileData Type="Normal" Path="Resources/images/back.png" />
+                <PressedFileData Type="Normal" Path="Res/images/back.png" />
+                <NormalFileData Type="Normal" Path="Res/images/back.png" />
               </NodeObjectData>
               <NodeObjectData Name="Text_1" ActionTag="-599015911" FrameEvent="" Tag="147" ObjectIndex="1" TouchEnable="True" FontSize="28" LabelText="资料修改" ctype="TextObjectData">
                 <Position X="395.8300" Y="450.0000" />
@@ -61,7 +61,7 @@
                 <Size X="158.0000" Y="158.0000" />
                 <PrePosition X="0.1312" Y="0.6500" />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="Resources/images/nphead.9.png" />
+                <FileData Type="Normal" Path="Res/images/nphead.9.png" />
               </NodeObjectData>
               <NodeObjectData Name="v_ButtonPassword" ActionTag="-202443920" FrameEvent="" Tag="79" ObjectIndex="2" TouchEnable="True" FontSize="20" ButtonText="        修改密码        " Scale9Width="103" Scale9Height="40" ctype="ButtonObjectData">
                 <Position X="105.0000" Y="163.7502" />
@@ -74,7 +74,7 @@
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
                 <PressedFileData Type="Default" Path="Default/Button_Press.png" />
-                <NormalFileData Type="Normal" Path="Resources/old_button.png" />
+                <NormalFileData Type="Normal" Path="Res/old_button.png" />
               </NodeObjectData>
               <NodeObjectData Name="v_ButtonBack" ActionTag="242751528" FrameEvent="" Tag="80" ObjectIndex="3" TouchEnable="True" FontSize="20" ButtonText="            返回            " Scale9Width="103" Scale9Height="40" ctype="ButtonObjectData">
                 <Position X="105.0000" Y="85.0000" />
@@ -87,7 +87,7 @@
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
                 <PressedFileData Type="Default" Path="Default/Button_Press.png" />
-                <NormalFileData Type="Normal" Path="Resources/old_button.png" />
+                <NormalFileData Type="Normal" Path="Res/old_button.png" />
               </NodeObjectData>
               <NodeObjectData Name="Panel_2" ActionTag="939642571" FrameEvent="" Tag="81" ObjectIndex="2" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
                 <Position X="260.0000" Y="10.0000" />
@@ -180,7 +180,7 @@
                         <PreSize X="0.8333" Y="0.5400" />
                       </NodeObjectData>
                     </Children>
-                    <FileData Type="Normal" Path="Resources/images/kuang_a.png" />
+                    <FileData Type="Normal" Path="Res/images/kuang_a.png" />
                     <SingleColor A="255" R="150" G="200" B="255" />
                     <FirstColor A="255" R="150" G="200" B="255" />
                     <EndColor A="255" R="255" G="255" B="255" />
@@ -270,7 +270,7 @@
                 <ColorVector ScaleY="1.0000" />
               </NodeObjectData>
             </Children>
-            <FileData Type="Normal" Path="Resources/images/bg.jpg" />
+            <FileData Type="Normal" Path="Res/images/bg.jpg" />
             <SingleColor A="255" R="150" G="200" B="255" />
             <FirstColor A="255" R="150" G="200" B="255" />
             <EndColor A="255" R="255" G="255" B="255" />

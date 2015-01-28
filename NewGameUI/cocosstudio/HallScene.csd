@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="HallScene" ID="6087248b-3cfe-47e0-86d7-a5bb34f88edd" Version="2.0.2.0" />
+  <PropertyGroup Type="Scene" Name="HallScene" ID="6087248b-3cfe-47e0-86d7-a5bb34f88edd" Version="2.0.8.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -12,7 +12,7 @@
         <PrePosition X="0.0000" Y="0.0000" />
         <PreSize X="0.0000" Y="0.0000" />
         <Children>
-          <NodeObjectData Name="Panel_1" ActionTag="-612850381" FrameEvent="" Tag="95" ObjectIndex="1" PreSizeEnable="True" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="800" Scale9Height="480" ctype="PanelObjectData">
+          <NodeObjectData Name="Panel_1" ActionTag="-612850381" FrameEvent="" Tag="95" ObjectIndex="1" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="800" Scale9Height="480" ctype="PanelObjectData">
             <Position X="0.0000" Y="0.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <AnchorPoint />
@@ -29,7 +29,7 @@
                 <Size X="817.0000" Y="65.0000" />
                 <PrePosition X="0.5000" Y="0.9272" />
                 <PreSize X="1.0213" Y="0.1354" />
-                <FileData Type="Normal" Path="Resources/images/topbar.png" />
+                <FileData Type="Normal" Path="Res/images/topbar.png" />
               </NodeObjectData>
               <NodeObjectData Name="v_ButtonBack" ActionTag="339946924" FrameEvent="" Tag="98" ObjectIndex="1" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="39" Scale9Height="37" ctype="ButtonObjectData">
                 <Position X="30.0000" Y="450.0000" />
@@ -41,8 +41,8 @@
                 <PreSize X="0.0562" Y="0.0938" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                <PressedFileData Type="Normal" Path="Resources/images/back.png" />
-                <NormalFileData Type="Normal" Path="Resources/images/back.png" />
+                <PressedFileData Type="Normal" Path="Res/images/back.png" />
+                <NormalFileData Type="Normal" Path="Res/images/back.png" />
               </NodeObjectData>
               <NodeObjectData Name="Panel_2" ActionTag="-1138721569" FrameEvent="" Tag="99" ObjectIndex="2" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" Scale9Width="158" Scale9Height="58" ctype="PanelObjectData">
                 <Position X="0.0000" Y="0.0000" />
@@ -61,7 +61,7 @@
                     <Size X="102.0000" Y="92.0000" />
                     <PrePosition X="0.0650" Y="0.5349" />
                     <PreSize X="0.0000" Y="0.0000" />
-                    <FileData Type="Normal" Path="Resources/images/head_bg.png" />
+                    <FileData Type="Normal" Path="Res/images/head_bg.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="v_ButtonHead" ActionTag="1882037245" FrameEvent="" Tag="101" ObjectIndex="2" TouchEnable="True" FontSize="14" ButtonText="" Scale9Width="140" Scale9Height="140" ctype="ButtonObjectData">
                     <Position X="48.4199" Y="45.7065" />
@@ -73,8 +73,8 @@
                     <PreSize X="0.1000" Y="0.9302" />
                     <TextColor A="255" R="65" G="65" B="70" />
                     <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                    <PressedFileData Type="Normal" Path="Resources/images/head5.png" />
-                    <NormalFileData Type="Normal" Path="Resources/images/head5.png" />
+                    <PressedFileData Type="Normal" Path="Res/images/head5.png" />
+                    <NormalFileData Type="Normal" Path="Res/images/head5.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="Text_1" ActionTag="1014210196" FrameEvent="" Tag="102" ObjectIndex="1" FontSize="20" LabelText="用户:" ctype="TextObjectData">
                     <Position X="131.4063" Y="54.8476" />
@@ -123,7 +123,7 @@
                     <TextColor A="255" R="65" G="65" B="70" />
                     <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
                     <PressedFileData Type="Default" Path="Default/Button_Press.png" />
-                    <NormalFileData Type="Normal" Path="Resources/images/menu_icon_02.png" />
+                    <NormalFileData Type="Normal" Path="Res/images/menu_icon_02.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="Text_5" ActionTag="-1546637770" FrameEvent="" Tag="107" ObjectIndex="5" FontSize="20" LabelText="商店" ctype="TextObjectData">
                     <Position X="436.4966" Y="22.3244" />
@@ -145,7 +145,7 @@
                     <TextColor A="255" R="65" G="65" B="70" />
                     <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
                     <PressedFileData Type="Default" Path="Default/Button_Press.png" />
-                    <NormalFileData Type="Normal" Path="Resources/images/menu_icon_03.png" />
+                    <NormalFileData Type="Normal" Path="Res/images/menu_icon_03.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="Button_6" ActionTag="-730106488" FrameEvent="" Tag="110" ObjectIndex="6" TouchEnable="True" FontSize="14" ButtonText="" Scale9Width="74" Scale9Height="77" ctype="ButtonObjectData">
                     <Position X="740.0000" Y="76.0000" />
@@ -158,7 +158,7 @@
                     <TextColor A="255" R="65" G="65" B="70" />
                     <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
                     <PressedFileData Type="Default" Path="Default/Button_Press.png" />
-                    <NormalFileData Type="Normal" Path="Resources/images/menu_icon_06.png" />
+                    <NormalFileData Type="Normal" Path="Res/images/menu_icon_06.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="v_ButtonAssets" ActionTag="1259684669" FrameEvent="" Tag="112" ObjectIndex="7" TouchEnable="True" FontSize="14" ButtonText="" Scale9Width="74" Scale9Height="77" ctype="ButtonObjectData">
                     <Position X="640.0000" Y="76.0000" />
@@ -171,7 +171,7 @@
                     <TextColor A="255" R="65" G="65" B="70" />
                     <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
                     <PressedFileData Type="Default" Path="Default/Button_Press.png" />
-                    <NormalFileData Type="Normal" Path="Resources/images/menu_icon_05.png" />
+                    <NormalFileData Type="Normal" Path="Res/images/menu_icon_05.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="Text_6" ActionTag="636627270" FrameEvent="" Tag="114" ObjectIndex="6" FontSize="20" LabelText="任务" ctype="TextObjectData">
                     <Position X="530.8342" Y="22.3244" />
@@ -201,7 +201,7 @@
                     <PreSize X="0.0000" Y="0.0000" />
                   </NodeObjectData>
                 </Children>
-                <FileData Type="Normal" Path="Resources/images/menu_bg.9.png" />
+                <FileData Type="Normal" Path="Res/images/menu_bg.9.png" />
                 <SingleColor A="255" R="150" G="200" B="255" />
                 <FirstColor A="255" R="150" G="200" B="255" />
                 <EndColor A="255" R="255" G="255" B="255" />
@@ -224,7 +224,7 @@
                     <Size X="250.0000" Y="235.0000" />
                     <PrePosition X="0.5000" Y="0.0000" />
                     <PreSize X="0.9259" Y="1.0217" />
-                    <FileData Type="Normal" Path="Resources/images/nproombg.9.png" />
+                    <FileData Type="Normal" Path="Res/images/nproombg.9.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="Image_4" ActionTag="-290335337" FrameEvent="" Tag="119" ObjectIndex="4" Scale9Enable="True" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="54" Scale9Height="24" ctype="ImageViewObjectData">
                     <Position X="135.0000" Y="10.0000" />
@@ -234,9 +234,9 @@
                     <Size X="227.0000" Y="215.0000" />
                     <PrePosition X="0.5000" Y="0.0435" />
                     <PreSize X="0.8407" Y="0.9348" />
-                    <FileData Type="Normal" Path="Resources/images/npitembg.9.png" />
+                    <FileData Type="Normal" Path="Res/images/npitembg.9.png" />
                   </NodeObjectData>
-                  <NodeObjectData Name="Label_RoomName" ActionTag="-772133332" FrameEvent="" Tag="120" ObjectIndex="9" PrePositionEnabled="True" FontSize="32" LabelText="新手场" ctype="TextObjectData">
+                  <NodeObjectData Name="Label_RoomName" ActionTag="-772133332" FrameEvent="" Tag="120" ObjectIndex="9" FontSize="32" LabelText="新手场" ctype="TextObjectData">
                     <Position X="135.0000" Y="195.5000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -250,7 +250,7 @@
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <Size X="200.0000" Y="120.0000" />
+                    <Size X="80.0000" Y="46.0000" />
                     <PrePosition X="0.5000" Y="0.4696" />
                     <PreSize X="0.7407" Y="0.5217" />
                   </NodeObjectData>
@@ -283,11 +283,24 @@
                 <ColorVector ScaleY="1.0000" />
               </NodeObjectData>
             </Children>
-            <FileData Type="Normal" Path="Resources/images/bg.jpg" />
+            <FileData Type="Normal" Path="Res/images/bg.jpg" />
             <SingleColor A="255" R="150" G="200" B="255" />
             <FirstColor A="255" R="150" G="200" B="255" />
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
+          </NodeObjectData>
+          <NodeObjectData Name="Button_8" ActionTag="162381885" FrameEvent="" Tag="50" ObjectIndex="8" LeftMargin="621.5000" RightMargin="132.5000" TopMargin="16.5000" BottomMargin="427.5000" TouchEnable="True" FontSize="14" ButtonText="Button" Scale9Enable="True" Scale9Width="46" Scale9Height="36" ctype="ButtonObjectData">
+            <Position X="644.5000" Y="445.5000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <Size X="46.0000" Y="36.0000" />
+            <PrePosition X="0.8056" Y="0.9281" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
+            <PressedFileData Type="Default" Path="Default/Button_Press.png" />
+            <NormalFileData Type="Default" Path="Default/Button_Normal.png" />
           </NodeObjectData>
         </Children>
       </ObjectData>

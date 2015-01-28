@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="JipaiqiLayer" ID="4e081b1c-ed6b-476a-93cc-028e4d5c45f3" Version="2.0.6.0" />
+  <PropertyGroup Type="Layer" Name="JipaiqiLayer" ID="4e081b1c-ed6b-476a-93cc-028e4d5c45f3" Version="2.0.8.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -20,7 +20,7 @@
             <Size X="588.0000" Y="65.0000" />
             <PrePosition X="0.5000" Y="0.5208" />
             <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="Normal" Path="Resources/images/jipaiqi.png" />
+            <FileData Type="Normal" Path="Res/images/jipaiqi.png" />
           </NodeObjectData>
           <NodeObjectData Name="v_Poke_3" ActionTag="1538218340" FrameEvent="" Tag="98" ObjectIndex="1" FontSize="18" LabelText="4" ctype="TextObjectData">
             <Position X="540.5000" Y="19.5000" />
