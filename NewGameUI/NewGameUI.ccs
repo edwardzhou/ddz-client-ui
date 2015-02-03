@@ -1,5 +1,5 @@
 <Solution>
-  <PropertyGroup Name="NewGameUI" Version="2.0.8.0" Type="CocosStudio" />
+  <PropertyGroup Name="NewGameUI" Version="2.1.0.0" Type="CocosStudio" />
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
@@ -18,6 +18,7 @@
             <Fnt Name="winNum.fnt" />
             <File Name="winNum.GlyphProject" />
             <Fnt Name="num1.fnt" />
+            <Fnt Name="everydaylogin.fnt" />
           </Folder>
           <Folder Name="images">
             <Image Name="bg.jpg" />
@@ -563,6 +564,26 @@
           <Image Name="btn_history.png" />
           <Image Name="btn_history_a.png" />
           <Image Name="old_button.png" />
+          <Folder Name="everydaylogin">
+            <Image Name="everydayloginbg.png" />
+            <Image Name="everydaylogin_title.png" />
+            <Image Name="button.png" />
+            <Image Name="button_down.png" />
+            <Image Name="btn_getbonus.png" />
+            <Image Name="login_man.png" />
+            <Image Name="item_bg.png" />
+            <Image Name="star_bg.png" />
+            <Image Name="three_hundred.png" />
+            <Image Name="cover.png" />
+            <Image Name="has_get_flag.png" />
+            <Image Name="coin_03.png" />
+            <Image Name="coin_02.png" />
+            <Image Name="coin_01.png" />
+            <Image Name="coin_07.png" />
+            <Image Name="one_thousand.png" />
+            <Image Name="six_hundred.png" />
+            <Image Name="ten_thousand.png" />
+          </Folder>
         </Folder>
         <Project Name="LoginScene.csd" />
         <Project Name="MessageBoxLayer.csd" />
@@ -577,6 +598,8 @@
         <Project Name="UserProfileScene.csd" />
         <Project Name="GamingScene.csd" />
         <Project Name="JipaiqiLayer.csd" />
+        <Project Name="EveryDayLoginLayer.csd" />
+        <Project Name="EveryDayLoginItemLayer.csd" />
       </RootFolder>
     </Group>
   </SolutionFolder>

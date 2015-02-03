@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="NetworkConnectingLayer" ID="af32a99c-97b1-47de-b51b-d88f332a5f9b" Version="2.0.8.0" />
+  <PropertyGroup Type="Layer" Name="NetworkConnectingLayer" ID="af32a99c-97b1-47de-b51b-d88f332a5f9b" Version="2.1.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />

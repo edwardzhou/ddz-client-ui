@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="ShopScene" ID="5b43e584-9d95-4ac8-8714-06652be8adcc" Version="2.0.8.0" />
+  <PropertyGroup Type="Scene" Name="ShopScene" ID="5b43e584-9d95-4ac8-8714-06652be8adcc" Version="2.1.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -12,7 +12,7 @@
         <PrePosition X="0.0000" Y="0.0000" />
         <PreSize X="0.0000" Y="0.0000" />
         <Children>
-          <NodeObjectData Name="v_PanelRoot" ActionTag="188218777" FrameEvent="" Tag="131" ObjectIndex="1" PreSizeEnable="True" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="800" Scale9Height="480" ctype="PanelObjectData">
+          <NodeObjectData Name="v_PanelRoot" ActionTag="188218777" FrameEvent="" Tag="131" ObjectIndex="1" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="800" Scale9Height="480" ctype="PanelObjectData">
             <Position X="0.0000" Y="0.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <AnchorPoint />
