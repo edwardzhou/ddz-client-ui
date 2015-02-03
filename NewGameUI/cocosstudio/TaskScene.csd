@@ -12,7 +12,7 @@
         <PrePosition X="0.0000" Y="0.0000" />
         <PreSize X="0.0000" Y="0.0000" />
         <Children>
-          <NodeObjectData Name="Panel_1" ActionTag="1791856713" FrameEvent="" Tag="3" ObjectIndex="1" PreSizeEnable="True" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="800" Scale9Height="480" ctype="PanelObjectData">
+          <NodeObjectData Name="Panel_1" ActionTag="1791856713" FrameEvent="" Tag="3" ObjectIndex="1" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="800" Scale9Height="480" ctype="PanelObjectData">
             <Position X="0.0000" Y="0.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <AnchorPoint />
@@ -66,7 +66,7 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </NodeObjectData>
-              <NodeObjectData Name="v_TaskItemModel" ActionTag="-2111093630" FrameEvent="" Tag="48" ObjectIndex="5" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+              <NodeObjectData Name="v_TaskItemModel" ActionTag="-489607564" FrameEvent="" Tag="55" ObjectIndex="7" LeftMargin="3.0000" RightMargin="4.0000" TopMargin="189.0000" BottomMargin="181.0000" TouchEnable="True" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
                 <Position X="3.0000" Y="181.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint />
@@ -75,107 +75,107 @@
                 <PrePosition X="0.0037" Y="0.3771" />
                 <PreSize X="0.9912" Y="0.2292" />
                 <Children>
-                  <NodeObjectData Name="Panel_6" ActionTag="987402858" FrameEvent="" Tag="49" ObjectIndex="6" PrePositionEnabled="True" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
-                    <Position X="396.5000" Y="2.2000" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <AnchorPoint ScaleX="0.5000" />
+                  <NodeObjectData Name="v_ImageIcon" ActionTag="271150575" FrameEvent="" Tag="56" ObjectIndex="4" PositionPercentYEnabled="True" LeftMargin="57.4999" RightMargin="648.5001" TopMargin="17.5000" BottomMargin="17.5000" Scale9Width="87" Scale9Height="75" ctype="ImageViewObjectData">
+                    <Position X="100.9999" Y="55.0000" />
+                    <Scale ScaleX="0.9000" ScaleY="0.9000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <Size X="780.0000" Y="2.0000" />
-                    <PrePosition X="0.5000" Y="0.0200" />
-                    <PreSize X="0.9836" Y="0.0200" />
-                    <SingleColor A="255" R="0" G="0" B="0" />
-                    <FirstColor A="255" R="0" G="0" B="0" />
-                    <EndColor A="255" R="255" G="255" B="255" />
-                    <ColorVector ScaleY="1.0000" />
+                    <Size X="87.0000" Y="75.0000" />
+                    <PrePosition X="0.1274" Y="0.5000" />
+                    <PreSize X="0.1097" Y="0.6818" />
+                    <FileData Type="Normal" Path="Res/task/sys_vs.png" />
                   </NodeObjectData>
-                  <NodeObjectData Name="TaskName" ActionTag="786089154" FrameEvent="" Tag="50" ObjectIndex="17" FontSize="24" LabelText="新手房游戏对局20局" ctype="TextObjectData">
-                    <Position X="17.0000" Y="87.0000" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <AnchorPoint ScaleY="0.5000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <Size X="218.0000" Y="28.0000" />
-                    <PrePosition X="0.0214" Y="0.7909" />
-                    <PreSize X="0.0000" Y="0.0000" />
-                  </NodeObjectData>
-                  <NodeObjectData Name="Text_18" ActionTag="-756716865" FrameEvent="" Tag="51" ObjectIndex="18" FontSize="16" LabelText="进度:" ctype="TextObjectData">
-                    <Position X="38.0000" Y="63.0000" />
+                  <NodeObjectData Name="Image_4" ActionTag="-203326572" FrameEvent="" Tag="57" ObjectIndex="5" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="46.5000" RightMargin="46.5000" TopMargin="5.0000" BottomMargin="5.0000" Scale9Enable="True" LeftEage="130" RightEage="65" Scale9OriginX="130" Scale9Width="1" Scale9Height="100" ctype="ImageViewObjectData">
+                    <Position X="396.5000" Y="55.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <Size X="36.0000" Y="18.0000" />
-                    <PrePosition X="0.0479" Y="0.5727" />
-                    <PreSize X="0.0000" Y="0.0000" />
-                  </NodeObjectData>
-                  <NodeObjectData Name="TaskProgress" ActionTag="327301295" FrameEvent="" Tag="52" ObjectIndex="19" FontSize="16" LabelText="0 / 20" ctype="TextObjectData">
-                    <Position X="69.0000" Y="62.0000" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <AnchorPoint ScaleY="0.5000" />
-                    <CColor A="255" R="253" G="243" B="0" />
-                    <Size X="40.0000" Y="18.0000" />
-                    <PrePosition X="0.0870" Y="0.5636" />
-                    <PreSize X="0.0000" Y="0.0000" />
-                  </NodeObjectData>
-                  <NodeObjectData Name="Text_18_Copy_0" ActionTag="647107967" FrameEvent="" Tag="53" ObjectIndex="20" FontSize="16" LabelText="奖励:" ctype="TextObjectData">
-                    <Position X="171.5000" Y="62.0000" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <Size X="36.0000" Y="18.0000" />
-                    <PrePosition X="0.2163" Y="0.5636" />
-                    <PreSize X="0.0000" Y="0.0000" />
-                  </NodeObjectData>
-                  <NodeObjectData Name="TaskBonus" ActionTag="-642650098" FrameEvent="" Tag="54" ObjectIndex="21" FontSize="16" LabelText="宝箱1个" ctype="TextObjectData">
-                    <Position X="194.5000" Y="61.0000" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <AnchorPoint ScaleY="0.5000" />
-                    <CColor A="255" R="253" G="243" B="0" />
-                    <Size X="56.0000" Y="18.0000" />
-                    <PrePosition X="0.2453" Y="0.5545" />
-                    <PreSize X="0.0000" Y="0.0000" />
-                  </NodeObjectData>
-                  <NodeObjectData Name="TaskDesc" ActionTag="-348936737" FrameEvent="" Tag="55" ObjectIndex="22" FontSize="16" LabelText="每打20局, 赠宝箱1个, 最高爆10万金币大奖!" IsCustomSize="True" VerticalAlignmentType="VT_Center" ctype="TextObjectData">
-                    <Position X="16.0000" Y="29.0000" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <AnchorPoint ScaleY="0.5000" />
-                    <CColor A="255" R="48" G="58" B="73" />
-                    <Size X="400.0000" Y="40.0000" />
-                    <PrePosition X="0.0202" Y="0.2636" />
-                    <PreSize X="0.5044" Y="0.4000" />
-                  </NodeObjectData>
-                  <NodeObjectData Name="ButtonApply" ActionTag="1210683126" VisibleForFrame="False" FrameEvent="" Tag="56" ObjectIndex="11" TouchEnable="True" FontSize="20" ButtonText="马上申请" Scale9Enable="True" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="36" Scale9Height="26" ctype="ButtonObjectData">
-                    <Position X="484.0000" Y="50.0000" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <Size X="100.0000" Y="36.0000" />
-                    <PrePosition X="0.6103" Y="0.4545" />
-                    <PreSize X="0.1261" Y="0.3600" />
-                    <TextColor A="255" R="65" G="65" B="70" />
-                    <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                    <PressedFileData Type="Default" Path="Default/Button_Press.png" />
-                    <NormalFileData Type="Default" Path="Default/Button_Normal.png" />
-                  </NodeObjectData>
-                  <NodeObjectData Name="TaskStatus" ActionTag="-977780860" FrameEvent="" Tag="57" ObjectIndex="23" FontSize="24" LabelText="未开始" ctype="TextObjectData">
-                    <Position X="761.0000" Y="77.0000" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <AnchorPoint ScaleX="1.0000" ScaleY="0.5000" />
-                    <CColor A="255" R="48" G="58" B="73" />
-                    <Size X="72.0000" Y="28.0000" />
-                    <PrePosition X="0.9596" Y="0.7000" />
-                    <PreSize X="0.0000" Y="0.0000" />
-                  </NodeObjectData>
-                  <NodeObjectData Name="ButtonTakeBonus" ActionTag="-282745683" VisibleForFrame="False" FrameEvent="" Tag="19" ObjectIndex="13" TouchEnable="True" FontSize="20" ButtonText="领取奖励" Scale9Enable="True" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="36" Scale9Height="26" ctype="ButtonObjectData">
-                    <Position X="484.0000" Y="50.0000" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <Size X="100.0000" Y="36.0000" />
-                    <PrePosition X="0.6103" Y="0.4545" />
-                    <PreSize X="0.1261" Y="0.3600" />
-                    <TextColor A="255" R="65" G="65" B="70" />
-                    <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                    <PressedFileData Type="Default" Path="Default/Button_Press.png" />
-                    <NormalFileData Type="Default" Path="Default/Button_Normal.png" />
+                    <Size X="700.0000" Y="100.0000" />
+                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PreSize X="0.8827" Y="0.9091" />
+                    <Children>
+                      <NodeObjectData Name="TaskName" ActionTag="-1594242490" FrameEvent="" Tag="58" ObjectIndex="24" LeftMargin="113.0000" RightMargin="432.0000" TopMargin="28.5000" BottomMargin="48.5000" FontSize="20" LabelText="100地主对战20局" ctype="TextObjectData">
+                        <Position X="113.0000" Y="60.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleY="0.5000" />
+                        <CColor A="255" R="246" G="220" B="105" />
+                        <Size X="155.0000" Y="23.0000" />
+                        <PrePosition X="0.1614" Y="0.6000" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="Image_7" ActionTag="1394081464" FrameEvent="" Tag="59" ObjectIndex="6" LeftMargin="117.0000" RightMargin="553.0000" TopMargin="54.5000" BottomMargin="28.5000" Scale9Width="30" Scale9Height="17" ctype="ImageViewObjectData">
+                        <Position X="132.0000" Y="37.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="30.0000" Y="17.0000" />
+                        <PrePosition X="0.1886" Y="0.3700" />
+                        <PreSize X="0.0429" Y="0.1700" />
+                        <FileData Type="Normal" Path="Res/task/progress_tx.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="Image_9" ActionTag="781001644" FrameEvent="" Tag="60" ObjectIndex="7" LeftMargin="155.0000" RightMargin="425.0000" TopMargin="55.0000" BottomMargin="29.0000" Scale9Enable="True" LeftEage="11" RightEage="11" Scale9OriginX="11" Scale9Width="11" Scale9Height="16" ctype="ImageViewObjectData">
+                        <Position X="215.0000" Y="37.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="120.0000" Y="16.0000" />
+                        <PrePosition X="0.3071" Y="0.3700" />
+                        <PreSize X="0.1500" Y="0.0333" />
+                        <FileData Type="Normal" Path="Res/task/progress_bg.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="ProgressBar" ActionTag="1539322105" FrameEvent="" Tag="61" ObjectIndex="1" LeftMargin="155.0000" RightMargin="425.0000" TopMargin="55.0000" BottomMargin="29.0000" ProgressInfo="8" ctype="LoadingBarObjectData">
+                        <Position X="215.0000" Y="37.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="120.0000" Y="16.0000" />
+                        <PrePosition X="0.3071" Y="0.3700" />
+                        <PreSize X="0.1500" Y="0.0333" />
+                        <ImageFileData Type="Normal" Path="Res/task/progress.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="TaskProgress" ActionTag="-365651756" FrameEvent="" Tag="62" ObjectIndex="25" LeftMargin="200.0000" RightMargin="477.0000" TopMargin="54.0000" BottomMargin="28.0000" FontSize="12" LabelText="1/20" ctype="TextObjectData">
+                        <Position X="211.5000" Y="37.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="23.0000" Y="18.0000" />
+                        <PrePosition X="0.3021" Y="0.3700" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="Image_10" ActionTag="1818122693" FrameEvent="" Tag="63" ObjectIndex="8" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="362.0000" RightMargin="292.0000" TopMargin="27.0000" BottomMargin="27.0000" Scale9Width="50" Scale9Height="50" ctype="ImageViewObjectData">
+                        <Position X="385.0000" Y="50.0000" />
+                        <Scale ScaleX="0.5000" ScaleY="0.5000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="46.0000" Y="46.0000" />
+                        <PrePosition X="0.5500" Y="0.5000" />
+                        <PreSize X="0.0657" Y="0.4600" />
+                        <FileData Type="Normal" Path="Res/task/goldIcon.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="TaskBonus" ActionTag="-1834208969" FrameEvent="" Tag="64" ObjectIndex="26" PositionPercentYEnabled="True" LeftMargin="406.0000" RightMargin="199.0000" TopMargin="38.5000" BottomMargin="38.5000" FontSize="20" LabelText="10000金币" ctype="TextObjectData">
+                        <Position X="453.5000" Y="50.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="242" G="211" B="137" />
+                        <Size X="95.0000" Y="23.0000" />
+                        <PrePosition X="0.6479" Y="0.5000" />
+                        <PreSize X="0.1357" Y="0.2300" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="ButtonTakeBonus" ActionTag="349055181" FrameEvent="" Tag="65" ObjectIndex="14" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="513.0200" RightMargin="66.9800" TopMargin="26.5000" BottomMargin="28.5000" TouchEnable="True" FontSize="18" ButtonText="去做任务" Scale9Enable="True" LeftEage="36" RightEage="35" Scale9OriginX="36" Scale9Width="1" Scale9Height="45" ctype="ButtonObjectData">
+                        <Position X="573.0200" Y="51.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="120.0000" Y="45.0000" />
+                        <PrePosition X="0.8186" Y="0.5100" />
+                        <PreSize X="0.2000" Y="0.4500" />
+                        <TextColor A="255" R="239" G="227" B="112" />
+                        <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
+                        <PressedFileData Type="Normal" Path="Res/task/bg_button.png" />
+                        <NormalFileData Type="Normal" Path="Res/task/bg_button.png" />
+                      </NodeObjectData>
+                    </Children>
+                    <FileData Type="Normal" Path="Res/task/task_item_bg.png" />
                   </NodeObjectData>
                 </Children>
                 <SingleColor A="255" R="150" G="200" B="255" />
