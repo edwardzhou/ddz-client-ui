@@ -586,6 +586,13 @@
           </Folder>
           <Folder Name="task">
             <Image Name="task_item_bg.png" />
+            <Image Name="bg_button.png" />
+            <Image Name="goldIcon.png" />
+            <Image Name="progress.png" />
+            <Image Name="progress_bg.png" />
+            <Image Name="progress_tx.png" />
+            <Image Name="sys_vs.png" />
+            <Image Name="sys_win.png" />
           </Folder>
         </Folder>
         <Project Name="LoginScene.csd" />

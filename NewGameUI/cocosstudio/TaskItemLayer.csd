@@ -99,7 +99,7 @@
                 <PreSize X="0.1357" Y="0.2300" />
               </NodeObjectData>
               <NodeObjectData Name="v_ButtonGet" ActionTag="517330046" FrameEvent="" Tag="26" ObjectIndex="2" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="513.0000" RightMargin="67.0000" TopMargin="27.5000" BottomMargin="27.5000" TouchEnable="True" FontSize="18" ButtonText="去做任务" Scale9Enable="True" LeftEage="36" RightEage="35" Scale9OriginX="36" Scale9Width="1" Scale9Height="45" ctype="ButtonObjectData">
-                <Position X="573.0000" Y="50.0000" />
+                <Position X="573.0200" Y="50.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <CColor A="255" R="255" G="255" B="255" />
