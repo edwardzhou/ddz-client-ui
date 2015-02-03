@@ -584,6 +584,9 @@
             <Image Name="six_hundred.png" />
             <Image Name="ten_thousand.png" />
           </Folder>
+          <Folder Name="task">
+            <Image Name="task_item_bg.png" />
+          </Folder>
         </Folder>
         <Project Name="LoginScene.csd" />
         <Project Name="MessageBoxLayer.csd" />
@@ -600,6 +603,7 @@
         <Project Name="JipaiqiLayer.csd" />
         <Project Name="EveryDayLoginLayer.csd" />
         <Project Name="EveryDayLoginItemLayer.csd" />
+        <Project Name="TaskItemLayer.csd" />
       </RootFolder>
     </Group>
   </SolutionFolder>
