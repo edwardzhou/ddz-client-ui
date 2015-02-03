@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="JipaiqiLayer" ID="4e081b1c-ed6b-476a-93cc-028e4d5c45f3" Version="2.0.8.0" />
+  <PropertyGroup Type="Layer" Name="JipaiqiLayer" ID="4e081b1c-ed6b-476a-93cc-028e4d5c45f3" Version="2.1.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />

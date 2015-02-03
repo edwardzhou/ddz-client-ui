@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="Toast" ID="1cd88cd6-8eb0-489f-8d9e-c8cc20d0cef4" Version="2.0.8.0" />
+  <PropertyGroup Type="Layer" Name="Toast" ID="1cd88cd6-8eb0-489f-8d9e-c8cc20d0cef4" Version="2.1.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
