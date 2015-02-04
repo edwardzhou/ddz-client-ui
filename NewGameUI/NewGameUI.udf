@@ -3,6 +3,7 @@
     <FilePathData Path="TaskScene.csd" />
     <FilePathData Path="LandingScene.csd" />
     <FilePathData Path="ChatPanelLayer.csd" />
+    <FilePathData Path="SysConfigLayer.csd" />
   </OpenedDocuments>
   <ActiveDocument Path="ChatPanelLayer.csd" />
 </UserData>

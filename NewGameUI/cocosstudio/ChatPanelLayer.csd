@@ -31,7 +31,7 @@
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <CColor A="255" R="255" G="255" B="255" />
             <Size X="978.0000" Y="357.0000" />
-            <PrePosition X="0.5006" Y="0.4937" />
+            <PrePosition X="0.5006" Y="0.4938" />
             <PreSize X="1.2225" Y="0.7437" />
             <FileData Type="Normal" Path="Res/chat/chat_bg.png" />
           </NodeObjectData>
