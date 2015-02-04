@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="HallScene" ID="6087248b-3cfe-47e0-86d7-a5bb34f88edd" Version="2.0.8.0" />
+  <PropertyGroup Type="Scene" Name="HallScene" ID="6087248b-3cfe-47e0-86d7-a5bb34f88edd" Version="2.1.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
