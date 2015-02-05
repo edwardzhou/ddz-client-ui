@@ -59,7 +59,7 @@
                 <Size X="73.0000" Y="27.0000" />
                 <PrePosition X="0.5000" Y="0.1000" />
                 <PreSize X="0.0913" Y="0.0562" />
-                <FileData Type="Normal" Path="Res/everydaylogin/three_hundred.png" />
+                <FileData Type="Normal" Path="Res/everydaylogin/six_hundred.png" />
               </NodeObjectData>
               <NodeObjectData Name="v_ImageCover" ActionTag="-1587868759" FrameEvent="" Tag="211" ObjectIndex="4" PositionPercentXEnabled="True" PositionPercentYEnabled="True" Scale9Width="130" Scale9Height="137" ctype="ImageViewObjectData">
                 <Position X="65.0000" Y="68.5000" />
