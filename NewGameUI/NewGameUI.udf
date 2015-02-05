@@ -1,9 +1,24 @@
 <UserData>
   <OpenedDocuments>
-    <FilePathData Path="TaskScene.csd" />
-    <FilePathData Path="LandingScene.csd" />
     <FilePathData Path="ChatPanelLayer.csd" />
+    <FilePathData Path="EveryDayLoginItemLayer.csd" />
+    <FilePathData Path="EveryDayLoginLayer.csd" />
+    <FilePathData Path="AssetsScene.csd" />
+    <FilePathData Path="GamingScene.csd" />
+    <FilePathData Path="HallScene.csd" />
+    <FilePathData Path="JipaiqiLayer.csd" />
+    <FilePathData Path="MessageBoxLayer.csd" />
     <FilePathData Path="SysConfigLayer.csd" />
+    <FilePathData Path="Toast.csd" />
+    <FilePathData Path="LandingScene.csd" />
+    <FilePathData Path="LoginScene.csd" />
+    <FilePathData Path="NetworkConnectingLayer.csd" />
+    <FilePathData Path="ShopScene.csd" />
+    <FilePathData Path="TaskScene.csd" />
+    <FilePathData Path="UP_HeadIconScene.csd" />
+    <FilePathData Path="UP_PasswordScene.csd" />
+    <FilePathData Path="UserProfileScene.csd" />
+    <FilePathData Path="TaskItemLayer.csd" />
   </OpenedDocuments>
-  <ActiveDocument Path="ChatPanelLayer.csd" />
+  <ActiveDocument Path="TaskScene.csd" />
 </UserData>
