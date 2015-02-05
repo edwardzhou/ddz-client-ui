@@ -3279,6 +3279,8 @@
           </Folder>
         </Folder>
         <Project Name="LoginScene.csd" />
+        <Project Name="EveryDayLoginLayer.csd" />
+    		<Project Name="EveryDayLoginItemLayer.csd" />
         <Project Name="MessageBoxLayer.csd" />
         <Project Name="Toast.csd" />
         <Project Name="HallScene.csd" />
