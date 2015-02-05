@@ -83,7 +83,7 @@
                     <Size X="87.0000" Y="75.0000" />
                     <PrePosition X="0.1274" Y="0.5000" />
                     <PreSize X="0.1097" Y="0.6818" />
-                    <FileData Type="Normal" Path="Res/task/sys_vs.png" />
+                    <FileData Type="Normal" Path="Res/task/sys_win.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="Image_4" ActionTag="-203326572" FrameEvent="" Tag="57" ObjectIndex="5" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="46.5000" RightMargin="46.5000" TopMargin="5.0000" BottomMargin="5.0000" Scale9Enable="True" LeftEage="130" RightEage="65" Scale9OriginX="130" Scale9Width="1" Scale9Height="100" ctype="ImageViewObjectData">
                     <Position X="396.5000" Y="55.0000" />
@@ -171,7 +171,7 @@
                         <PreSize X="0.2000" Y="0.4500" />
                         <TextColor A="255" R="239" G="227" B="112" />
                         <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                        <PressedFileData Type="Normal" Path="Res/task/bg_button.png" />
+                        <PressedFileData Type="Default" Path="Default/Button_Press.png" />
                         <NormalFileData Type="Normal" Path="Res/task/bg_button.png" />
                       </NodeObjectData>
                     </Children>
