@@ -631,6 +631,9 @@
             <Image Name="goldIcon.png" />
             <Image Name="bg_button.png" />
           </Folder>
+          <Folder Name="vip">
+            <Image Name="vip_icon.png" />
+          </Folder>
         </Folder>
         <Project Name="LoginScene.csd" />
         <Project Name="EveryDayLoginLayer.csd" />

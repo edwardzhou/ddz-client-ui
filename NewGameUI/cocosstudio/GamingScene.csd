@@ -196,15 +196,18 @@
                     <PrePosition X="0.0389" Y="0.0385" />
                     <PreSize X="0.4250" Y="0.4250" />
                     <Children>
-                      <NodeObjectData Name="v_PrevUserHead" ActionTag="1230357341" FrameEvent="" Tag="21" ObjectIndex="5" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="130" Scale9Height="130" ctype="ImageViewObjectData">
+                      <NodeObjectData Name="v_PrevUserHead" ActionTag="1497895894" FrameEvent="" Tag="128" ObjectIndex="12" LeftMargin="-27.5000" RightMargin="-27.5000" TopMargin="-27.5000" BottomMargin="-27.5000" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="140" Scale9Height="140" ctype="ButtonObjectData">
                         <Position X="42.5000" Y="42.5000" />
                         <Scale ScaleX="0.4800" ScaleY="0.4800" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <CColor A="255" R="255" G="255" B="255" />
                         <Size X="140.0000" Y="140.0000" />
                         <PrePosition X="0.5000" Y="0.5000" />
-                        <PreSize X="0.4000" Y="0.4000" />
-                        <FileData Type="Normal" Path="Res/images/head2.png" />
+                        <PreSize X="1.6471" Y="1.6471" />
+                        <TextColor A="255" R="65" G="65" B="70" />
+                        <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
+                        <PressedFileData Type="Default" Path="Default/Button_Press.png" />
+                        <NormalFileData Type="Normal" Path="Res/images/head2.png" />
                       </NodeObjectData>
                     </Children>
                     <FileData Type="Normal" Path="Res/images/menu_icon_high.png" />
@@ -300,15 +303,18 @@
                     <PrePosition X="0.0398" Y="0.1294" />
                     <PreSize X="0.0000" Y="0.0000" />
                     <Children>
-                      <NodeObjectData Name="v_SelfUserHead" ActionTag="-282338477" FrameEvent="" Tag="31" ObjectIndex="9" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="130" Scale9Height="130" ctype="ImageViewObjectData">
+                      <NodeObjectData Name="v_SelfUserHead" ActionTag="1025614710" FrameEvent="" Tag="130" ObjectIndex="14" LeftMargin="-27.5000" RightMargin="-27.5000" TopMargin="-27.5000" BottomMargin="-27.5000" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="140" Scale9Height="140" ctype="ButtonObjectData">
                         <Position X="42.5000" Y="42.5000" />
                         <Scale ScaleX="0.4800" ScaleY="0.4800" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <CColor A="255" R="255" G="255" B="255" />
                         <Size X="140.0000" Y="140.0000" />
                         <PrePosition X="0.5000" Y="0.5000" />
-                        <PreSize X="0.0000" Y="0.0000" />
-                        <FileData Type="Normal" Path="Res/images/head2.png" />
+                        <PreSize X="1.6471" Y="1.6471" />
+                        <TextColor A="255" R="65" G="65" B="70" />
+                        <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
+                        <PressedFileData Type="Default" Path="Default/Button_Press.png" />
+                        <NormalFileData Type="Normal" Path="Res/images/head2.png" />
                       </NodeObjectData>
                     </Children>
                     <FileData Type="Normal" Path="Res/images/menu_icon_high.png" />
@@ -435,15 +441,18 @@
                     <PrePosition X="0.4833" Y="0.0385" />
                     <PreSize X="0.0000" Y="0.0000" />
                     <Children>
-                      <NodeObjectData Name="v_NextUserHead" ActionTag="139355329" FrameEvent="" Tag="40" ObjectIndex="13" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="130" Scale9Height="130" ctype="ImageViewObjectData">
+                      <NodeObjectData Name="v_NextUserHead" ActionTag="1740141279" FrameEvent="" Tag="129" ObjectIndex="13" LeftMargin="-27.5000" RightMargin="-27.5000" TopMargin="-27.5000" BottomMargin="-27.5000" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="140" Scale9Height="140" ctype="ButtonObjectData">
                         <Position X="42.5000" Y="42.5000" />
                         <Scale ScaleX="0.4800" ScaleY="0.4800" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <CColor A="255" R="255" G="255" B="255" />
                         <Size X="140.0000" Y="140.0000" />
                         <PrePosition X="0.5000" Y="0.5000" />
-                        <PreSize X="0.0000" Y="0.0000" />
-                        <FileData Type="Normal" Path="Res/images/head2.png" />
+                        <PreSize X="1.6471" Y="1.6471" />
+                        <TextColor A="255" R="65" G="65" B="70" />
+                        <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
+                        <PressedFileData Type="Default" Path="Default/Button_Press.png" />
+                        <NormalFileData Type="Normal" Path="Res/images/head2.png" />
                       </NodeObjectData>
                     </Children>
                     <FileData Type="Normal" Path="Res/images/menu_icon_high.png" />
