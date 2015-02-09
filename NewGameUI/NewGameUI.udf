@@ -1,13 +1,11 @@
 <UserData>
   <OpenedDocuments>
-    <FilePathData Path="TaskScene.csd" />
-    <FilePathData Path="LandingScene.csd" />
+    <FilePathData Path="HallScene.csd" />
+    <FilePathData Path="UP_HeadIconScene.csd" />
+    <FilePathData Path="UP_PasswordScene.csd" />
+    <FilePathData Path="UserProfileScene.csd" />
+    <FilePathData Path="GamingScene.csd" />
     <FilePathData Path="ChatPanelLayer.csd" />
-    <FilePathData Path="SysConfigLayer.csd" />
-    <FilePathData Path="AssetsScene.csd" />
-    <FilePathData Path="Toast.csd" />
-    <FilePathData Path="EveryDayLoginLayer.csd" />
-    <FilePathData Path="EveryDayLoginItemLayer.csd" />
   </OpenedDocuments>
-  <ActiveDocument Path="Toast.csd" />
+  <ActiveDocument Path="GamingScene.csd" />
 </UserData>
