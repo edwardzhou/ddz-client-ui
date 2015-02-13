@@ -245,14 +245,14 @@
                     <PrePosition X="0.5000" Y="0.8500" />
                     <PreSize X="0.0000" Y="0.0000" />
                   </NodeObjectData>
-                  <NodeObjectData Name="Label_RoomDesc" ActionTag="-161011051" FrameEvent="" Tag="121" ObjectIndex="10" FontSize="20" LabelText="房间描述&#xA;" IsCustomSize="True" ctype="TextObjectData">
+                  <NodeObjectData Name="Label_RoomDesc" ActionTag="-161011051" FrameEvent="" Tag="121" ObjectIndex="10" LeftMargin="35.0000" RightMargin="35.0000" TopMargin="72.0000" BottomMargin="58.0000" FontSize="20" LabelText="房间描述&#xA;" IsCustomSize="True" ctype="TextObjectData">
                     <Position X="135.0000" Y="108.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <Size X="80.0000" Y="46.0000" />
+                    <Size X="200.0000" Y="100.0000" />
                     <PrePosition X="0.5000" Y="0.4696" />
-                    <PreSize X="0.7407" Y="0.5217" />
+                    <PreSize X="0.7407" Y="0.4348" />
                   </NodeObjectData>
                   <NodeObjectData Name="Label_RoomOnline" ActionTag="1151219376" FrameEvent="" Tag="122" ObjectIndex="11" FontSize="14" LabelText="当前有 20000 人" ctype="TextObjectData">
                     <Position X="237.6729" Y="29.7087" />
@@ -288,19 +288,6 @@
             <FirstColor A="255" R="150" G="200" B="255" />
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
-          </NodeObjectData>
-          <NodeObjectData Name="Button_8" ActionTag="162381885" FrameEvent="" Tag="50" ObjectIndex="8" LeftMargin="621.5000" RightMargin="132.5000" TopMargin="16.5000" BottomMargin="427.5000" TouchEnable="True" FontSize="14" ButtonText="Button" Scale9Enable="True" Scale9Width="46" Scale9Height="36" ctype="ButtonObjectData">
-            <Position X="644.5000" Y="445.5000" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <Size X="46.0000" Y="36.0000" />
-            <PrePosition X="0.8056" Y="0.9281" />
-            <PreSize X="0.0000" Y="0.0000" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" />
-            <NormalFileData Type="Default" Path="Default/Button_Normal.png" />
           </NodeObjectData>
         </Children>
       </ObjectData>
