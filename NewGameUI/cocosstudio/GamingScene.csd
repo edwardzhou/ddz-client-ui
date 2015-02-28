@@ -21,13 +21,13 @@
             <PrePosition X="0.0000" Y="0.0000" />
             <PreSize X="1.0000" Y="1.0000" />
             <Children>
-              <NodeObjectData Name="v_SelfPokeCards" ActionTag="1548784586" FrameEvent="" Tag="4" ObjectIndex="2" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
-                <Position X="0.0000" Y="0.0000" />
+              <NodeObjectData Name="v_SelfPokeCards" ActionTag="1548784586" FrameEvent="" Tag="4" ObjectIndex="2" TopMargin="350.0000" BottomMargin="30.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+                <Position X="0.0000" Y="30.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint />
                 <CColor A="255" R="255" G="255" B="255" />
                 <Size X="800.0000" Y="100.0000" />
-                <PrePosition X="0.0000" Y="0.0000" />
+                <PrePosition X="0.0000" Y="0.0625" />
                 <PreSize X="1.0000" Y="0.2083" />
                 <SingleColor A="255" R="150" G="200" B="255" />
                 <FirstColor A="255" R="150" G="200" B="255" />
@@ -386,31 +386,13 @@
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </NodeObjectData>
-                  <NodeObjectData Name="Text_11" ActionTag="-688416696" FrameEvent="" Tag="88" ObjectIndex="11" FontSize="14" LabelText="金币:" ctype="TextObjectData">
-                    <Position X="24.0000" Y="14.0000" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <Size X="31.0000" Y="20.0000" />
-                    <PrePosition X="0.1333" Y="0.0933" />
-                    <PreSize X="0.0000" Y="0.0000" />
-                  </NodeObjectData>
-                  <NodeObjectData Name="v_SelfCoins" ActionTag="-398833440" FrameEvent="" Tag="89" ObjectIndex="12" FontSize="14" LabelText="30000" ctype="TextObjectData">
-                    <Position X="46.0000" Y="13.0000" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <AnchorPoint ScaleY="0.5000" />
-                    <CColor A="255" R="240" G="217" B="68" />
-                    <Size X="38.0000" Y="20.0000" />
-                    <PrePosition X="0.2556" Y="0.0867" />
-                    <PreSize X="0.0000" Y="0.0000" />
-                  </NodeObjectData>
-                  <NodeObjectData Name="v_ButtonBuy" ActionTag="-574124326" FrameEvent="" Tag="90" ObjectIndex="11" TouchEnable="True" FontSize="14" ButtonText="充值" Scale9Enable="True" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="36" Scale9Height="26" ctype="ButtonObjectData">
-                    <Position X="115.0000" Y="10.0000" />
+                  <NodeObjectData Name="v_ButtonBuy" ActionTag="-574124326" FrameEvent="" Tag="90" ObjectIndex="11" LeftMargin="92.0000" RightMargin="42.0000" TopMargin="54.0000" BottomMargin="64.0000" TouchEnable="True" FontSize="14" ButtonText="充值" Scale9Enable="True" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="36" Scale9Height="26" ctype="ButtonObjectData">
+                    <Position X="115.0000" Y="80.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <CColor A="255" R="255" G="255" B="255" />
                     <Size X="46.0000" Y="32.0000" />
-                    <PrePosition X="0.6389" Y="0.0667" />
+                    <PrePosition X="0.6389" Y="0.5333" />
                     <PreSize X="0.2556" Y="0.2133" />
                     <TextColor A="255" R="65" G="65" B="70" />
                     <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
@@ -870,6 +852,57 @@
               </NodeObjectData>
             </Children>
             <FileData Type="Normal" Path="Res/images/bg.jpg" />
+            <SingleColor A="255" R="150" G="200" B="255" />
+            <FirstColor A="255" R="150" G="200" B="255" />
+            <EndColor A="255" R="255" G="255" B="255" />
+            <ColorVector ScaleY="1.0000" />
+          </NodeObjectData>
+          <NodeObjectData Name="bottomPanel" ActionTag="24194117" FrameEvent="" Tag="102" ObjectIndex="21" TopMargin="450.0000" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+            <Position X="0.0000" Y="0.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <AnchorPoint />
+            <CColor A="255" R="255" G="255" B="255" />
+            <Size X="800.0000" Y="30.0000" />
+            <PrePosition X="0.0000" Y="0.0000" />
+            <PreSize X="1.0000" Y="0.0625" />
+            <Children>
+              <NodeObjectData Name="Text_11" ActionTag="-688416696" FrameEvent="" Tag="88" ObjectIndex="11" PositionPercentYEnabled="True" LeftMargin="6.0000" RightMargin="758.0000" TopMargin="6.0000" BottomMargin="6.0000" FontSize="16" LabelText="金币:" ctype="TextObjectData">
+                <Position X="24.0000" Y="15.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <Size X="36.0000" Y="18.0000" />
+                <PrePosition X="0.0300" Y="0.5000" />
+                <PreSize X="0.0450" Y="0.6000" />
+              </NodeObjectData>
+              <NodeObjectData Name="v_SelfCoins" ActionTag="-398833440" FrameEvent="" Tag="89" ObjectIndex="12" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="46.0000" RightMargin="710.0000" TopMargin="6.0000" BottomMargin="6.0000" FontSize="16" LabelText="30000" ctype="TextObjectData">
+                <Position X="46.0000" Y="15.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <AnchorPoint ScaleY="0.5000" />
+                <CColor A="255" R="240" G="217" B="68" />
+                <Size X="44.0000" Y="18.0000" />
+                <PrePosition X="0.0575" Y="0.5000" />
+                <PreSize X="0.0550" Y="0.6000" />
+              </NodeObjectData>
+              <NodeObjectData Name="v_TaskProgress" ActionTag="-173964482" FrameEvent="" Tag="103" ObjectIndex="13" PositionPercentYEnabled="True" LeftMargin="754.0000" RightMargin="15.0000" TopMargin="6.0000" BottomMargin="6.0000" FontSize="16" LabelText="0/20" ctype="TextObjectData">
+                <Position X="769.5000" Y="15.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <CColor A="255" R="240" G="217" B="148" />
+                <Size X="31.0000" Y="18.0000" />
+                <PrePosition X="0.9619" Y="0.5000" />
+                <PreSize X="0.0388" Y="0.6000" />
+              </NodeObjectData>
+              <NodeObjectData Name="Text_14" ActionTag="1647723952" FrameEvent="" Tag="104" ObjectIndex="14" PositionPercentYEnabled="True" LeftMargin="670.0000" RightMargin="50.0000" TopMargin="6.0000" BottomMargin="6.0000" FontSize="16" LabelText="对局任务：" ctype="TextObjectData">
+                <Position X="710.0000" Y="15.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <Size X="80.0000" Y="18.0000" />
+                <PrePosition X="0.8875" Y="0.5000" />
+                <PreSize X="0.1000" Y="0.6000" />
+              </NodeObjectData>
+            </Children>
             <SingleColor A="255" R="150" G="200" B="255" />
             <FirstColor A="255" R="150" G="200" B="255" />
             <EndColor A="255" R="255" G="255" B="255" />
