@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="LoginScene" ID="e755f880-b7e7-4ef1-b1f5-523053a8d9df" Version="2.1.0.0" />
+  <PropertyGroup Type="Scene" Name="LoginScene" ID="e755f880-b7e7-4ef1-b1f5-523053a8d9df" Version="2.1.5.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -12,7 +12,7 @@
         <PrePosition X="0.0000" Y="0.0000" />
         <PreSize X="0.0000" Y="0.0000" />
         <Children>
-          <NodeObjectData Name="Panel_1" ActionTag="-1546463912" FrameEvent="" Tag="13" ObjectIndex="1" PrePositionEnabled="True" PreSizeEnable="True" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="800" Scale9Height="480" ctype="PanelObjectData">
+          <NodeObjectData Name="Panel_1" ActionTag="-1546463912" FrameEvent="" Tag="13" PrePositionEnabled="True" PreSizeEnable="True" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="800" Scale9Height="480" ObjectIndex="1" ctype="PanelObjectData">
             <Position X="0.0000" Y="0.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <AnchorPoint />
@@ -31,7 +31,7 @@
                 <PreSize X="0.0000" Y="0.0000" />
                 <FileData Type="Normal" Path="Res/images/login_panel.png" />
               </NodeObjectData>
-              <NodeObjectData Name="Panel_2" ActionTag="-534056440" FrameEvent="" Tag="16" ObjectIndex="2" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+              <NodeObjectData Name="Panel_2" ActionTag="-534056440" FrameEvent="" Tag="16" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ObjectIndex="2" ctype="PanelObjectData">
                 <Position X="113.8882" Y="150.5529" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint />
@@ -40,7 +40,7 @@
                 <PrePosition X="0.1424" Y="0.3137" />
                 <PreSize X="0.7500" Y="0.4167" />
                 <Children>
-                  <NodeObjectData Name="v_PanelUserId" ActionTag="-1857298972" FrameEvent="" Tag="17" ObjectIndex="3" TouchEnable="True" BackColorAlpha="178" ColorAngle="90.0000" Scale9Width="355" Scale9Height="53" ctype="PanelObjectData">
+                  <NodeObjectData Name="v_PanelUserId" ActionTag="-1857298972" FrameEvent="" Tag="17" TouchEnable="True" BackColorAlpha="178" ColorAngle="90.0000" Scale9Width="355" Scale9Height="53" ObjectIndex="3" ctype="PanelObjectData">
                     <Position X="105.0000" Y="102.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint />
@@ -49,7 +49,7 @@
                     <PrePosition X="0.1750" Y="0.5100" />
                     <PreSize X="0.5917" Y="0.2500" />
                     <Children>
-                      <NodeObjectData Name="Text_1" ActionTag="-497502168" FrameEvent="" Tag="18" ObjectIndex="1" FontSize="22" LabelText="账号:" ctype="TextObjectData">
+                      <NodeObjectData Name="Text_1" ActionTag="-497502168" FrameEvent="" Tag="18" FontSize="22" LabelText="账号:" ObjectIndex="1" ctype="TextObjectData">
                         <Position X="50.0002" Y="28.0001" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -58,7 +58,7 @@
                         <PrePosition X="0.1408" Y="0.5600" />
                         <PreSize X="0.0000" Y="0.0000" />
                       </NodeObjectData>
-                      <NodeObjectData Name="v_InputUserId" ActionTag="1672990100" FrameEvent="" Tag="19" ObjectIndex="1" TouchEnable="True" FontSize="22" IsCustomSize="True" LabelText="" PlaceHolderText="请输入账号ID" MaxLengthEnable="True" MaxLengthText="8" ctype="TextFieldObjectData">
+                      <NodeObjectData Name="v_InputUserId" ActionTag="1672990100" FrameEvent="" Tag="19" TouchEnable="True" FontSize="22" IsCustomSize="True" LabelText="" PlaceHolderText="请输入账号ID" MaxLengthEnable="True" MaxLengthText="8" ObjectIndex="1" ctype="TextFieldObjectData">
                         <Position X="90.0000" Y="27.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleY="0.5000" />
@@ -67,7 +67,7 @@
                         <PrePosition X="0.2535" Y="0.5400" />
                         <PreSize X="0.4225" Y="0.5400" />
                       </NodeObjectData>
-                      <NodeObjectData Name="v_ButtonSwitchAccount" ActionTag="239641969" FrameEvent="" Tag="20" ObjectIndex="1" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="37" Scale9Height="38" ctype="ButtonObjectData">
+                      <NodeObjectData Name="v_ButtonSwitchAccount" ActionTag="239641969" FrameEvent="" Tag="20" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="37" Scale9Height="38" ObjectIndex="1" ctype="ButtonObjectData">
                         <Position X="307.9914" Y="23.3500" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -87,7 +87,7 @@
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_PanelPassword" ActionTag="-2083001094" FrameEvent="" Tag="21" ObjectIndex="4" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="355" Scale9Height="53" ctype="PanelObjectData">
+                  <NodeObjectData Name="v_PanelPassword" ActionTag="-2083001094" FrameEvent="" Tag="21" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="355" Scale9Height="53" ObjectIndex="4" ctype="PanelObjectData">
                     <Position X="105.6291" Y="27.7972" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint />
@@ -96,7 +96,7 @@
                     <PrePosition X="0.1760" Y="0.1390" />
                     <PreSize X="0.5917" Y="0.2500" />
                     <Children>
-                      <NodeObjectData Name="Text_2" ActionTag="-1250830583" FrameEvent="" Tag="22" ObjectIndex="2" FontSize="22" LabelText="密码:" ctype="TextObjectData">
+                      <NodeObjectData Name="Text_2" ActionTag="-1250830583" FrameEvent="" Tag="22" FontSize="22" LabelText="密码:" ObjectIndex="2" ctype="TextObjectData">
                         <Position X="48.9233" Y="24.4615" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -105,7 +105,7 @@
                         <PrePosition X="0.1378" Y="0.4892" />
                         <PreSize X="0.0000" Y="0.0000" />
                       </NodeObjectData>
-                      <NodeObjectData Name="v_InputPassword" ActionTag="-577200219" FrameEvent="" Tag="23" ObjectIndex="2" TouchEnable="True" FontSize="22" IsCustomSize="True" LabelText="" PlaceHolderText="请输入密码" MaxLengthEnable="True" MaxLengthText="10" PasswordEnable="True" ctype="TextFieldObjectData">
+                      <NodeObjectData Name="v_InputPassword" ActionTag="-577200219" FrameEvent="" Tag="23" TouchEnable="True" FontSize="22" IsCustomSize="True" LabelText="" PlaceHolderText="请输入密码" MaxLengthEnable="True" MaxLengthText="10" PasswordEnable="True" ObjectIndex="2" ctype="TextFieldObjectData">
                         <Position X="90.0000" Y="23.3501" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleY="0.5000" />
@@ -127,7 +127,7 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </NodeObjectData>
-              <NodeObjectData Name="v_ButtonQuickSignUp" ActionTag="1675728589" FrameEvent="" Tag="24" ObjectIndex="2" TouchEnable="True" FontSize="24" ButtonText="快速注册" Scale9Width="202" Scale9Height="60" ctype="ButtonObjectData">
+              <NodeObjectData Name="v_ButtonQuickSignUp" ActionTag="1675728589" FrameEvent="" Tag="24" TouchEnable="True" FontSize="24" ButtonText="快速注册" Scale9Width="202" Scale9Height="60" ObjectIndex="2" ctype="ButtonObjectData">
                 <Position X="285.7532" Y="68.9366" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -140,7 +140,7 @@
                 <PressedFileData Type="Default" Path="Default/Button_Press.png" />
                 <NormalFileData Type="Normal" Path="Res/images/red_button.png" />
               </NodeObjectData>
-              <NodeObjectData Name="v_ButtonSignIn" ActionTag="306736234" FrameEvent="" Tag="25" ObjectIndex="3" TouchEnable="True" FontSize="24" ButtonText="登录" Scale9Width="202" Scale9Height="60" ctype="ButtonObjectData">
+              <NodeObjectData Name="v_ButtonSignIn" ActionTag="306736234" FrameEvent="" Tag="25" TouchEnable="True" FontSize="24" ButtonText="登录" Scale9Width="202" Scale9Height="60" ObjectIndex="3" ctype="ButtonObjectData">
                 <Position X="510.3531" Y="70.0485" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -153,7 +153,7 @@
                 <PressedFileData Type="Default" Path="Default/Button_Press.png" />
                 <NormalFileData Type="Normal" Path="Res/images/yellow_button.png" />
               </NodeObjectData>
-              <NodeObjectData Name="v_PanelAccounts" ActionTag="868815722" FrameEvent="" Tag="26" ObjectIndex="5" PreSizeEnable="True" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+              <NodeObjectData Name="v_PanelAccounts" ActionTag="868815722" FrameEvent="" Tag="26" PreSizeEnable="True" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ObjectIndex="5" ctype="PanelObjectData">
                 <Position X="0.0000" Y="0.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint />
@@ -162,7 +162,7 @@
                 <PrePosition X="0.0000" Y="0.0000" />
                 <PreSize X="1.0000" Y="1.0000" />
                 <Children>
-                  <NodeObjectData Name="v_ButtonModel" ActionTag="-895590317" VisibleForFrame="False" FrameEvent="" Tag="28" ObjectIndex="4" TouchEnable="True" FontSize="22" ButtonText="123456" Scale9Enable="True" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="83" Scale9Height="20" ctype="ButtonObjectData">
+                  <NodeObjectData Name="v_ButtonModel" ActionTag="-895590317" VisibleForFrame="False" FrameEvent="" Tag="28" TouchEnable="True" FontSize="22" ButtonText="123456" Scale9Enable="True" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="83" Scale9Height="20" ObjectIndex="4" ctype="ButtonObjectData">
                     <Position X="127.8674" Y="441.4176" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -175,7 +175,7 @@
                     <PressedFileData Type="Default" Path="Default/Button_Press.png" />
                     <NormalFileData Type="Normal" Path="Res/old_button.png" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_ListViewHolder" ActionTag="1143270394" FrameEvent="" Tag="27" ObjectIndex="6" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="360" Scale9Height="129" ctype="PanelObjectData">
+                  <NodeObjectData Name="v_ListViewHolder" ActionTag="1143270394" FrameEvent="" Tag="27" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="360" Scale9Height="129" ObjectIndex="6" ctype="PanelObjectData">
                     <Position X="309.1028" Y="35.5802" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint />
@@ -184,7 +184,7 @@
                     <PrePosition X="0.3864" Y="0.0741" />
                     <PreSize X="0.2500" Y="0.4479" />
                     <Children>
-                      <NodeObjectData Name="v_ListViewAccounts" ActionTag="-526542048" FrameEvent="" Tag="110" ObjectIndex="1" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" IsBounceEnabled="True" ScrollDirectionType="0" DirectionType="Vertical" HorizontalType="Align_HorizontalCenter" VerticalType="0" ctype="ListViewObjectData">
+                      <NodeObjectData Name="v_ListViewAccounts" ActionTag="-526542048" FrameEvent="" Tag="110" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" IsBounceEnabled="True" ScrollDirectionType="0" DirectionType="Vertical" HorizontalType="Align_HorizontalCenter" VerticalType="0" ObjectIndex="1" ctype="ListViewObjectData">
                         <Position X="5.0000" Y="10.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint />

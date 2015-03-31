@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="Toast" ID="1cd88cd6-8eb0-489f-8d9e-c8cc20d0cef4" Version="2.1.0.0" />
+  <PropertyGroup Type="Layer" Name="Toast" ID="1cd88cd6-8eb0-489f-8d9e-c8cc20d0cef4" Version="2.1.5.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -12,7 +12,7 @@
         <PrePosition X="0.0000" Y="0.0000" />
         <PreSize X="0.0000" Y="0.0000" />
         <Children>
-          <NodeObjectData Name="v_PanelRoot" ActionTag="-153659802" FrameEvent="" Tag="90" ObjectIndex="1" PreSizeEnable="True" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+          <NodeObjectData Name="v_PanelRoot" ActionTag="-153659802" FrameEvent="" Tag="90" PreSizeEnable="True" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ObjectIndex="1" ctype="PanelObjectData">
             <Position X="0.0000" Y="0.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <AnchorPoint />
@@ -21,7 +21,7 @@
             <PrePosition X="0.0000" Y="0.0000" />
             <PreSize X="1.0000" Y="1.0000" />
             <Children>
-              <NodeObjectData Name="v_PanelBg" ActionTag="2074825425" FrameEvent="" Tag="91" ObjectIndex="2" PreSizeEnable="True" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+              <NodeObjectData Name="v_PanelBg" ActionTag="2074825425" FrameEvent="" Tag="91" PreSizeEnable="True" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ObjectIndex="2" ctype="PanelObjectData">
                 <Position X="0.0000" Y="0.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint />
@@ -34,7 +34,7 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </NodeObjectData>
-              <NodeObjectData Name="v_PanelBox" ActionTag="1354036267" FrameEvent="" Tag="92" ObjectIndex="3" PrePositionEnabled="True" PreSizeEnable="True" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+              <NodeObjectData Name="v_PanelBox" ActionTag="1354036267" FrameEvent="" Tag="92" PrePositionEnabled="True" PreSizeEnable="True" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ObjectIndex="3" ctype="PanelObjectData">
                 <Position X="0.0000" Y="240.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint ScaleY="0.5000" />
@@ -43,7 +43,7 @@
                 <PrePosition X="0.0000" Y="0.5000" />
                 <PreSize X="1.0000" Y="0.1700" />
                 <Children>
-                  <NodeObjectData Name="v_LabelMsg" ActionTag="-2076091873" FrameEvent="" Tag="93" ObjectIndex="1" PrePositionEnabled="True" FontSize="22" LabelText="v_LabelMsg" ctype="TextObjectData">
+                  <NodeObjectData Name="v_LabelMsg" ActionTag="-2076091873" FrameEvent="" Tag="93" PrePositionEnabled="True" FontSize="22" LabelText="v_LabelMsg" ObjectIndex="1" ctype="TextObjectData">
                     <Position X="400.0000" Y="40.8000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />

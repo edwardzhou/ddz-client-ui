@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="UP_HeadIconScene" ID="0cf9b2c3-012d-4285-a3fb-c732b2288e0f" Version="2.1.0.0" />
+  <PropertyGroup Type="Scene" Name="UP_HeadIconScene" ID="0cf9b2c3-012d-4285-a3fb-c732b2288e0f" Version="2.1.5.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -12,7 +12,7 @@
         <PrePosition X="0.0000" Y="0.0000" />
         <PreSize X="0.0000" Y="0.0000" />
         <Children>
-          <NodeObjectData Name="Panel_1" ActionTag="603827099" FrameEvent="" Tag="103" ObjectIndex="1" PreSizeEnable="True" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="800" Scale9Height="480" ctype="PanelObjectData">
+          <NodeObjectData Name="Panel_1" ActionTag="603827099" FrameEvent="" Tag="103" PreSizeEnable="True" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="800" Scale9Height="480" ObjectIndex="1" ctype="PanelObjectData">
             <Position X="0.0000" Y="0.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <AnchorPoint />
@@ -21,7 +21,7 @@
             <PrePosition X="0.0000" Y="0.0000" />
             <PreSize X="1.0000" Y="1.0000" />
             <Children>
-              <NodeObjectData Name="Image_1" ActionTag="-1927023844" FrameEvent="" Tag="104" ObjectIndex="1" Scale9Enable="True" Scale9Width="817" Scale9Height="47" ctype="ImageViewObjectData">
+              <NodeObjectData Name="Image_1" ActionTag="-1927023844" FrameEvent="" Tag="104" Scale9Enable="True" Scale9Width="817" Scale9Height="47" ObjectIndex="1" ctype="ImageViewObjectData">
                 <Position X="400.0000" Y="446.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -31,7 +31,7 @@
                 <PreSize X="1.0213" Y="0.1354" />
                 <FileData Type="Normal" Path="Res/images/topbar.png" />
               </NodeObjectData>
-              <NodeObjectData Name="v_ButtonBack" ActionTag="856117210" FrameEvent="" Tag="105" ObjectIndex="1" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="39" Scale9Height="37" ctype="ButtonObjectData">
+              <NodeObjectData Name="v_ButtonBack" ActionTag="856117210" FrameEvent="" Tag="105" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="39" Scale9Height="37" ObjectIndex="1" ctype="ButtonObjectData">
                 <Position X="30.0000" Y="450.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -44,7 +44,7 @@
                 <PressedFileData Type="Normal" Path="Res/images/back.png" />
                 <NormalFileData Type="Normal" Path="Res/images/back.png" />
               </NodeObjectData>
-              <NodeObjectData Name="Text_2" ActionTag="1401675524" FrameEvent="" Tag="107" ObjectIndex="2" FontSize="28" LabelText="请选择头像" ctype="TextObjectData">
+              <NodeObjectData Name="Text_2" ActionTag="1401675524" FrameEvent="" Tag="107" FontSize="28" LabelText="请选择头像" ObjectIndex="2" ctype="TextObjectData">
                 <Position X="400.0000" Y="450.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -53,7 +53,7 @@
                 <PrePosition X="0.5000" Y="0.9375" />
                 <PreSize X="0.0000" Y="0.0000" />
               </NodeObjectData>
-              <NodeObjectData Name="Panel_2" ActionTag="-316398018" FrameEvent="" Tag="108" ObjectIndex="2" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+              <NodeObjectData Name="Panel_2" ActionTag="-316398018" FrameEvent="" Tag="108" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ObjectIndex="2" ctype="PanelObjectData">
                 <Position X="41.0827" Y="29.1728" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint />
@@ -62,7 +62,7 @@
                 <PrePosition X="0.0514" Y="0.0608" />
                 <PreSize X="0.9000" Y="0.7375" />
                 <Children>
-                  <NodeObjectData Name="v_ImageHead0" ActionTag="2053753883" FrameEvent="" Tag="109" ObjectIndex="2" Scale9Width="158" Scale9Height="158" ctype="ImageViewObjectData">
+                  <NodeObjectData Name="v_ImageHead0" ActionTag="2053753883" FrameEvent="" Tag="109" Scale9Width="158" Scale9Height="158" ObjectIndex="2" ctype="ImageViewObjectData">
                     <Position X="107.0000" Y="283.0000" />
                     <Scale ScaleX="0.8000" ScaleY="0.8000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -71,7 +71,7 @@
                     <PrePosition X="0.1486" Y="0.7994" />
                     <PreSize X="0.0000" Y="0.0000" />
                     <Children>
-                      <NodeObjectData Name="v_HeadIcon_0" ActionTag="1354119813" FrameEvent="" Tag="111" ObjectIndex="3" PrePositionEnabled="True" TouchEnable="True" Scale9Width="140" Scale9Height="140" ctype="ImageViewObjectData">
+                      <NodeObjectData Name="v_HeadIcon_0" ActionTag="1354119813" FrameEvent="" Tag="111" PrePositionEnabled="True" TouchEnable="True" Scale9Width="140" Scale9Height="140" ObjectIndex="3" ctype="ImageViewObjectData">
                         <Position X="79.0000" Y="79.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -84,7 +84,7 @@
                     </Children>
                     <FileData Type="Normal" Path="Res/images/nphead.9.png" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_ImageHead2" ActionTag="-1395821831" FrameEvent="" Tag="112" ObjectIndex="4" Scale9Width="158" Scale9Height="158" ctype="ImageViewObjectData">
+                  <NodeObjectData Name="v_ImageHead2" ActionTag="-1395821831" FrameEvent="" Tag="112" Scale9Width="158" Scale9Height="158" ObjectIndex="4" ctype="ImageViewObjectData">
                     <Position X="280.0000" Y="283.0000" />
                     <Scale ScaleX="0.8000" ScaleY="0.8000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -93,7 +93,7 @@
                     <PrePosition X="0.3889" Y="0.7994" />
                     <PreSize X="0.0000" Y="0.0000" />
                     <Children>
-                      <NodeObjectData Name="v_HeadIcon_2" ActionTag="884793826" FrameEvent="" Tag="113" ObjectIndex="5" PrePositionEnabled="True" TouchEnable="True" Scale9Width="140" Scale9Height="140" ctype="ImageViewObjectData">
+                      <NodeObjectData Name="v_HeadIcon_2" ActionTag="884793826" FrameEvent="" Tag="113" PrePositionEnabled="True" TouchEnable="True" Scale9Width="140" Scale9Height="140" ObjectIndex="5" ctype="ImageViewObjectData">
                         <Position X="79.0000" Y="79.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -106,7 +106,7 @@
                     </Children>
                     <FileData Type="Normal" Path="Res/images/nphead.9.png" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_ImageHead4" ActionTag="-30350350" FrameEvent="" Tag="114" ObjectIndex="6" Scale9Width="158" Scale9Height="158" ctype="ImageViewObjectData">
+                  <NodeObjectData Name="v_ImageHead4" ActionTag="-30350350" FrameEvent="" Tag="114" Scale9Width="158" Scale9Height="158" ObjectIndex="6" ctype="ImageViewObjectData">
                     <Position X="453.0000" Y="283.0000" />
                     <Scale ScaleX="0.8000" ScaleY="0.8000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -115,7 +115,7 @@
                     <PrePosition X="0.6292" Y="0.7994" />
                     <PreSize X="0.0000" Y="0.0000" />
                     <Children>
-                      <NodeObjectData Name="v_HeadIcon_4" ActionTag="1241916504" FrameEvent="" Tag="115" ObjectIndex="7" PrePositionEnabled="True" TouchEnable="True" Scale9Width="140" Scale9Height="140" ctype="ImageViewObjectData">
+                      <NodeObjectData Name="v_HeadIcon_4" ActionTag="1241916504" FrameEvent="" Tag="115" PrePositionEnabled="True" TouchEnable="True" Scale9Width="140" Scale9Height="140" ObjectIndex="7" ctype="ImageViewObjectData">
                         <Position X="79.0000" Y="79.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -128,7 +128,7 @@
                     </Children>
                     <FileData Type="Normal" Path="Res/images/nphead.9.png" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_ImageHead6" ActionTag="-766691730" FrameEvent="" Tag="116" ObjectIndex="8" Scale9Width="158" Scale9Height="158" ctype="ImageViewObjectData">
+                  <NodeObjectData Name="v_ImageHead6" ActionTag="-766691730" FrameEvent="" Tag="116" Scale9Width="158" Scale9Height="158" ObjectIndex="8" ctype="ImageViewObjectData">
                     <Position X="620.5787" Y="283.0000" />
                     <Scale ScaleX="0.8000" ScaleY="0.8000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -137,7 +137,7 @@
                     <PrePosition X="0.8619" Y="0.7994" />
                     <PreSize X="0.0000" Y="0.0000" />
                     <Children>
-                      <NodeObjectData Name="v_HeadIcon_6" ActionTag="1705687923" FrameEvent="" Tag="117" ObjectIndex="9" PrePositionEnabled="True" TouchEnable="True" Scale9Width="140" Scale9Height="140" ctype="ImageViewObjectData">
+                      <NodeObjectData Name="v_HeadIcon_6" ActionTag="1705687923" FrameEvent="" Tag="117" PrePositionEnabled="True" TouchEnable="True" Scale9Width="140" Scale9Height="140" ObjectIndex="9" ctype="ImageViewObjectData">
                         <Position X="79.0000" Y="79.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -150,7 +150,7 @@
                     </Children>
                     <FileData Type="Normal" Path="Res/images/nphead.9.png" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_ImageHead1" ActionTag="-306220425" FrameEvent="" Tag="118" ObjectIndex="10" Scale9Width="158" Scale9Height="158" ctype="ImageViewObjectData">
+                  <NodeObjectData Name="v_ImageHead1" ActionTag="-306220425" FrameEvent="" Tag="118" Scale9Width="158" Scale9Height="158" ObjectIndex="10" ctype="ImageViewObjectData">
                     <Position X="105.0899" Y="105.0040" />
                     <Scale ScaleX="0.8000" ScaleY="0.8000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -159,7 +159,7 @@
                     <PrePosition X="0.1460" Y="0.2966" />
                     <PreSize X="0.0000" Y="0.0000" />
                     <Children>
-                      <NodeObjectData Name="v_HeadIcon_1" ActionTag="113424581" FrameEvent="" Tag="119" ObjectIndex="11" PrePositionEnabled="True" TouchEnable="True" Scale9Width="140" Scale9Height="140" ctype="ImageViewObjectData">
+                      <NodeObjectData Name="v_HeadIcon_1" ActionTag="113424581" FrameEvent="" Tag="119" PrePositionEnabled="True" TouchEnable="True" Scale9Width="140" Scale9Height="140" ObjectIndex="11" ctype="ImageViewObjectData">
                         <Position X="79.0000" Y="79.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -172,7 +172,7 @@
                     </Children>
                     <FileData Type="Normal" Path="Res/images/nphead.9.png" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_ImageHead3" ActionTag="587072176" FrameEvent="" Tag="120" ObjectIndex="12" Scale9Width="158" Scale9Height="158" ctype="ImageViewObjectData">
+                  <NodeObjectData Name="v_ImageHead3" ActionTag="587072176" FrameEvent="" Tag="120" Scale9Width="158" Scale9Height="158" ObjectIndex="12" ctype="ImageViewObjectData">
                     <Position X="278.0890" Y="105.0040" />
                     <Scale ScaleX="0.8000" ScaleY="0.8000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -181,7 +181,7 @@
                     <PrePosition X="0.3862" Y="0.2966" />
                     <PreSize X="0.0000" Y="0.0000" />
                     <Children>
-                      <NodeObjectData Name="v_HeadIcon_3" ActionTag="255704050" FrameEvent="" Tag="121" ObjectIndex="13" PrePositionEnabled="True" TouchEnable="True" Scale9Width="140" Scale9Height="140" ctype="ImageViewObjectData">
+                      <NodeObjectData Name="v_HeadIcon_3" ActionTag="255704050" FrameEvent="" Tag="121" PrePositionEnabled="True" TouchEnable="True" Scale9Width="140" Scale9Height="140" ObjectIndex="13" ctype="ImageViewObjectData">
                         <Position X="79.0000" Y="79.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -194,7 +194,7 @@
                     </Children>
                     <FileData Type="Normal" Path="Res/images/nphead.9.png" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_ImageHead5" ActionTag="-141274888" FrameEvent="" Tag="122" ObjectIndex="14" Scale9Width="158" Scale9Height="158" ctype="ImageViewObjectData">
+                  <NodeObjectData Name="v_ImageHead5" ActionTag="-141274888" FrameEvent="" Tag="122" Scale9Width="158" Scale9Height="158" ObjectIndex="14" ctype="ImageViewObjectData">
                     <Position X="451.0835" Y="105.0040" />
                     <Scale ScaleX="0.8000" ScaleY="0.8000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -203,7 +203,7 @@
                     <PrePosition X="0.6265" Y="0.2966" />
                     <PreSize X="0.0000" Y="0.0000" />
                     <Children>
-                      <NodeObjectData Name="v_HeadIcon_5" ActionTag="-1425435438" FrameEvent="" Tag="123" ObjectIndex="15" PrePositionEnabled="True" TouchEnable="True" Scale9Width="140" Scale9Height="140" ctype="ImageViewObjectData">
+                      <NodeObjectData Name="v_HeadIcon_5" ActionTag="-1425435438" FrameEvent="" Tag="123" PrePositionEnabled="True" TouchEnable="True" Scale9Width="140" Scale9Height="140" ObjectIndex="15" ctype="ImageViewObjectData">
                         <Position X="79.0000" Y="79.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -216,7 +216,7 @@
                     </Children>
                     <FileData Type="Normal" Path="Res/images/nphead.9.png" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_ImageHead7" ActionTag="1807145651" FrameEvent="" Tag="124" ObjectIndex="16" Scale9Width="158" Scale9Height="158" ctype="ImageViewObjectData">
+                  <NodeObjectData Name="v_ImageHead7" ActionTag="1807145651" FrameEvent="" Tag="124" Scale9Width="158" Scale9Height="158" ObjectIndex="16" ctype="ImageViewObjectData">
                     <Position X="619.7423" Y="105.0040" />
                     <Scale ScaleX="0.8000" ScaleY="0.8000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -225,7 +225,7 @@
                     <PrePosition X="0.8608" Y="0.2966" />
                     <PreSize X="0.0000" Y="0.0000" />
                     <Children>
-                      <NodeObjectData Name="v_HeadIcon_7" ActionTag="1934236875" FrameEvent="" Tag="125" ObjectIndex="17" PrePositionEnabled="True" TouchEnable="True" Scale9Width="140" Scale9Height="140" ctype="ImageViewObjectData">
+                      <NodeObjectData Name="v_HeadIcon_7" ActionTag="1934236875" FrameEvent="" Tag="125" PrePositionEnabled="True" TouchEnable="True" Scale9Width="140" Scale9Height="140" ObjectIndex="17" ctype="ImageViewObjectData">
                         <Position X="79.0000" Y="79.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -238,7 +238,7 @@
                     </Children>
                     <FileData Type="Normal" Path="Res/images/nphead.9.png" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_ImageCheck" ActionTag="460138373" FrameEvent="" Tag="126" ObjectIndex="18" Scale9Width="48" Scale9Height="48" ctype="ImageViewObjectData">
+                  <NodeObjectData Name="v_ImageCheck" ActionTag="460138373" FrameEvent="" Tag="126" Scale9Width="48" Scale9Height="48" ObjectIndex="18" ctype="ImageViewObjectData">
                     <Position X="158.0771" Y="223.0396" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />

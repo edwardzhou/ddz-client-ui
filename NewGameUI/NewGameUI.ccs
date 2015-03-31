@@ -1,10 +1,10 @@
 <Solution>
-  <PropertyGroup Name="NewGameUI" Version="2.1.0.0" Type="CocosStudio" />
+  <PropertyGroup Name="NewGameUI" Version="2.1.5.0" Type="CocosStudio" />
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
-        <Project Name="LandingScene.csd" />
-        <Project Name="AssetsScene.csd" />
+        <Project Name="LandingScene.csd" Type="Scene" />
+        <Project Name="AssetsScene.csd" Type="Scene" />
         <Folder Name="Res">
           <Folder Name="fonts">
             <File Name="arial.ttf" />
@@ -607,6 +607,7 @@
             </Folder>
             <Image Name="btn_chat_send.png" />
             <Image Name="btn_chat_send_down.png" />
+            <Image Name="chat2.png" />
           </Folder>
           <Folder Name="everydaylogin">
             <Image Name="item_bg.png" />
@@ -631,26 +632,424 @@
             <Image Name="goldIcon.png" />
             <Image Name="bg_button.png" />
           </Folder>
-          <Folder Name="vip">
-            <Image Name="vip_icon.png" />
+          <Folder Name="NewFolder" />
+        </Folder>
+        <Project Name="LoginScene.csd" Type="Scene" />
+        <Project Name="EveryDayLoginLayer.csd" Type="Scene" />
+        <Project Name="EveryDayLoginItemLayer.csd" Type="Layer" />
+        <Project Name="MessageBoxLayer.csd" Type="Layer" />
+        <Project Name="Toast.csd" Type="Layer" />
+        <Project Name="HallScene.csd" Type="Scene" />
+        <Project Name="NetworkConnectingLayer.csd" Type="Layer" />
+        <Project Name="SysConfigLayer.csd" Type="Layer" />
+        <Project Name="UP_HeadIconScene.csd" Type="Scene" />
+        <Project Name="ShopScene.csd" Type="Scene" />
+        <Project Name="TaskScene.csd" Type="Scene" />
+        <Project Name="UP_PasswordScene.csd" Type="Scene" />
+        <Project Name="UserProfileScene.csd" Type="Scene" />
+        <Project Name="GamingScene.csd" Type="Scene" />
+        <Project Name="JipaiqiLayer.csd" Type="Layer" />
+        <Project Name="ChatLayer.csd" Type="Layer" />
+        <Folder Name="NewRes">
+          <Image Name="login_bg.jpg" />
+          <Image Name="bg_mailUI.jpg" />
+          <Folder Name="bg">
+            <Image Name="bg_cardRec.png" />
+            <Image Name="bg_changeRoom.png" />
+            <Image Name="bg_changeRoom_line.png" />
+            <Image Name="bg_gold.png" />
+            <Image Name="bg_hall_friendList.png" />
+            <Image Name="bg_hall_friendList_line.png" />
+            <Image Name="bg_hall_input.png" />
+            <Image Name="bg_hall_inputArea.png" />
+            <Image Name="bg_hall_room.png" />
+            <Image Name="bg_hall_top.png" />
+            <Image Name="bg_idImg.png" />
+            <Image Name="bg_item_01.png" />
+            <Image Name="bg_panel.png" />
+            <Image Name="bg_panel_tb.png" />
+            <Image Name="bg_subUI.png" />
+            <Image Name="bg_table.png" />
+            <Image Name="bg_table_topLeft.png" />
+            <Image Name="bg_table_vnf_f.png" />
+            <Image Name="bg_table_vnf_line_f.png" />
+            <Image Name="bg_table_vnf_line_v.png" />
+            <Image Name="bg_table_vnf_v.png" />
+            <Image Name="bg_tab_blur_activity.png" />
+            <Image Name="bg_tab_blur_hall.png" />
+            <Image Name="bg_tab_focus_activity.png" />
+            <Image Name="bg_tab_focus_changeRoom.png" />
+            <Image Name="bg_tab_focus_hall.png" />
+            <Image Name="bg_uiTop_02.png" />
+            <Image Name="bg_uiTop_03.png" />
+            <Image Name="bg_hall_top_reward.png" />
+            <Image Name="bg_mailUI.jpg" />
+            <Image Name="bg_setting_ctrlLine.png" />
+            <Image Name="obj_setting_ctrlLine.png" />
+            <Image Name="bg_table_top.jpg" />
+          </Folder>
+          <Folder Name="btn">
+            <Image Name="btn_back_default.png" />
+            <Image Name="btn_back_pr.png" />
+            <Image Name="btn_blue_l_default.png" />
+            <Image Name="btn_blue_l_pr.png" />
+            <Image Name="btn_blue_m_default.png" />
+            <Image Name="btn_blue_m_pr.png" />
+            <Image Name="btn_blue_s_default.png" />
+            <Image Name="btn_blue_s_pr.png" />
+            <Image Name="btn_blue_xl_default.png" />
+            <Image Name="btn_blue_xl_pr.png" />
+            <Image Name="btn_blue_xxl_default.png" />
+            <Image Name="btn_blue_xxl_pr.png" />
+            <Image Name="btn_close_default.png" />
+            <Image Name="btn_close_pr.png" />
+            <Image Name="btn_green_l_default.png" />
+            <Image Name="btn_green_l_pr.png" />
+            <Image Name="btn_green_s_default.png" />
+            <Image Name="btn_green_s_pr.png" />
+            <Image Name="btn_info_femaleOff.png" />
+            <Image Name="btn_info_femaleOn.png" />
+            <Image Name="btn_info_maleOff.png" />
+            <Image Name="btn_info_maleOn.png" />
+            <Image Name="btn_recharge_default.png" />
+            <Image Name="btn_recharge_pr.png" />
+            <Image Name="btn_red_l_default.png" />
+            <Image Name="btn_red_l_pr.png" />
+            <Image Name="btn_red_m_default.png" />
+            <Image Name="btn_red_m_pr.png" />
+            <Image Name="btn_red_s_default.png" />
+            <Image Name="btn_red_s_pr.png" />
+            <Image Name="btn_table_headDown.png" />
+            <Image Name="btn_table_headUp.png" />
+            <Image Name="btn_table_top_roomlist.png" />
+            <Image Name="btn_no_l.png" />
+            <Image Name="btn_no_m.png" />
+            <Image Name="btn_no_s.png" />
+            <Image Name="btn_no_xl.png" />
+            <Image Name="btn_no_xxl.png" />
+          </Folder>
+          <Folder Name="fvx">
+            <Folder Name="bomb">
+              <Image Name="animate_bomb_01.png" />
+              <Image Name="animate_bomb_02.png" />
+              <Image Name="animate_bomb_03.png" />
+              <Image Name="animate_bomb_04.png" />
+              <Image Name="animate_bomb_05.png" />
+              <Image Name="animate_bomb_06.png" />
+              <Image Name="animate_bomb_07.png" />
+              <Image Name="animate_bomb_08.png" />
+              <Image Name="animate_bomb_09.png" />
+            </Folder>
+            <Folder Name="double">
+              <Image Name="animate_double_01.png" />
+              <Image Name="animate_double_02.png" />
+              <Image Name="animate_double_03.png" />
+              <Image Name="animate_double_04.png" />
+              <Image Name="animate_double_05.png" />
+              <Image Name="animate_double_06.png" />
+              <Image Name="animate_double_07.png" />
+              <Image Name="animate_double_08.png" />
+              <Image Name="animate_double_09.png" />
+              <Image Name="animate_double_10.png" />
+              <Image Name="animate_double_11.png" />
+              <Image Name="animate_double_12.png" />
+            </Folder>
+            <Folder Name="order">
+              <Image Name="animate_order_01.png" />
+              <Image Name="animate_order_02.png" />
+              <Image Name="animate_order_03.png" />
+              <Image Name="animate_order_04.png" />
+              <Image Name="animate_order_05.png" />
+              <Image Name="animate_order_06.png" />
+              <Image Name="animate_order_07.png" />
+              <Image Name="animate_order_08.png" />
+              <Image Name="animate_order_09.png" />
+              <Image Name="animate_order_10.png" />
+              <Image Name="animate_order_11.png" />
+              <Image Name="animate_order_12.png" />
+              <Image Name="animate_order_13.png" />
+              <Image Name="animate_order_14.png" />
+            </Folder>
+            <Folder Name="plane">
+              <Image Name="animate_plane_fire_01.png" />
+              <Image Name="animate_plane_fire_02.png" />
+              <Image Name="plane.png" />
+            </Folder>
+            <Folder Name="rocket">
+              <Image Name="animate_rocket_fire_01.png" />
+              <Image Name="animate_rocket_fire_02.png" />
+              <Image Name="animate_rocket_fire_03.png" />
+              <Image Name="rocket .png" />
+            </Folder>
+            <Folder Name="vnf">
+              <Image Name="table_vnf_title_f.png" />
+              <Image Name="table_vnf_title_f_light.png" />
+              <Image Name="table_vnf_title_v.png" />
+              <Image Name="table_vnf_title_v_light.png" />
+            </Folder>
+            <File Name="vnf_demo_f.gif" />
+            <File Name="vnf_demo_v.gif" />
+          </Folder>
+          <Folder Name="icon">
+            <Image Name="icon_activity_01.png" />
+            <Image Name="icon_activity_02.png" />
+            <Image Name="icon_firstRecharge_recommend.png" />
+            <Image Name="icon_firstRecharge_reward.png" />
+            <Image Name="icon_firstRecharge_st.png" />
+            <Image Name="icon_gold.png" />
+            <Image Name="icon_hall_left_addFriend.png" />
+            <Image Name="icon_hall_left_chat.png" />
+            <Image Name="icon_hall_left_gold.png" />
+            <Image Name="icon_hall_left_inviteBattle.png" />
+            <Image Name="icon_hall_right_activity.png" />
+            <Image Name="icon_hall_right_bag.png" />
+            <Image Name="icon_hall_right_msg.png" />
+            <Image Name="icon_hall_right_store.png" />
+            <Image Name="icon_hall_roomTwo_clock.png" />
+            <Image Name="icon_hall_top_help.png" />
+            <Image Name="icon_hall_top_reward.png" />
+            <Image Name="icon_hall_top_setting.png" />
+            <Image Name="icon_hall_top_vip.png" />
+            <Image Name="icon_idImg_default.png" />
+            <Image Name="icon_info_female.png" />
+            <Image Name="icon_info_male.png" />
+            <Image Name="icon_launcher_hdpi.png" />
+            <Image Name="icon_launcher_mdpi.png" />
+            <Image Name="icon_launcher_xhdpi.png" />
+            <Image Name="icon_launcher_xxhdpi.png" />
+            <Image Name="icon_msg_01.png" />
+            <Image Name="icon_msg_02.png" />
+            <Image Name="icon_msg_03.png" />
+            <Image Name="icon_reward_check.png" />
+            <Image Name="icon_reward_checked.png" />
+            <Image Name="icon_setting_bgm.png" />
+            <Image Name="icon_setting_ctrlBgm.png" />
+            <Image Name="icon_setting_ctrlVoiceEffect.png" />
+            <Image Name="icon_setting_off.png" />
+            <Image Name="icon_setting_on.png" />
+            <Image Name="icon_setting_voiceEffect.png" />
+            <Image Name="icon_store_01.png" />
+            <Image Name="icon_store_02.png" />
+            <Image Name="icon_store_03.png" />
+            <Image Name="icon_store_04.png" />
+            <Image Name="icon_store_05.png" />
+            <Image Name="icon_store_06.png" />
+            <Image Name="icon_table_bottom_bei.png" />
+            <Image Name="icon_table_bottom_di.png" />
+            <Image Name="icon_table_bottom_ju.png" />
+            <Image Name="icon_table_bottom_ju_giftOff.png" />
+            <Image Name="icon_table_bottom_ju_giftOn.png" />
+            <Image Name="icon_table_bottom_pokeRec.png" />
+            <Image Name="icon_table_mid_clock.png" />
+            <Image Name="icon_table_mid_ready_left.png" />
+            <Image Name="icon_table_mid_ready_right.png" />
+            <Image Name="icon_table_right_expression.png" />
+            <Image Name="icon_table_top_chat.png" />
+            <Image Name="icon_table_top_deposit.png" />
+            <Image Name="icon_table_top_quit.png" />
+            <Image Name="icon_table_top_roomList_di.png" />
+            <Image Name="icon_table_top_roomList_gold.png" />
+            <Image Name="icon_table_top_roomList_ju.png" />
+            <Image Name="icon_table_top_setting.png" />
+            <Image Name="icon_vip.png" />
+            <Image Name="icon_vip_01.png" />
+            <Image Name="icon_vip_02.png" />
+            <Image Name="icon_vip_03.png" />
+            <Image Name="icon_vip_04.png" />
+            <Image Name="icon_vip_05.png" />
+            <Image Name="icon_vip_06.png" />
+            <Image Name="icon_launcher_l.png" />
+          </Folder>
+          <Folder Name="loading">
+            <File Name="login_light_demo.gif" />
+            <Image Name="loading_animate_01.png" />
+            <Image Name="loading_animate_02.png" />
+            <Image Name="loading_animate_03.png" />
+            <Image Name="loading_animate_04.png" />
+            <Image Name="loading_animate_05.png" />
+            <Image Name="loading_animate_06.png" />
+            <Image Name="loading_animate_07.png" />
+            <Image Name="loading_animate_08.png" />
+            <Image Name="loading_obj_bg.png" />
+            <Image Name="loading_obj_cover.png" />
+            <Image Name="loading_obj_light.png" />
+            <Image Name="loading_text.png" />
+            <Image Name="loading_text_animate_01.png" />
+            <Image Name="loading_text_animate_02.png" />
+            <Image Name="loading_text_animate_03.png" />
+            <Image Name="loading_title.png" />
+          </Folder>
+          <Folder Name="login">
+            <Image Name="login_blank_bg.png" />
+            <Image Name="login_btn_logBg.png" />
+            <Image Name="login_btn_logBg_pr.png" />
+            <Image Name="login_btn_no.png" />
+            <Image Name="login_btn_regBg.png" />
+            <Image Name="login_btn_regBg_pr.png" />
+            <Image Name="login_check.png" />
+            <Image Name="login_check_no.png" />
+            <Image Name="login_icon_account.png" />
+            <Image Name="login_icon_change.png" />
+            <Image Name="login_icon_history.png" />
+            <Image Name="login_icon_more.png" />
+            <Image Name="login_icon_password.png" />
+            <Image Name="login_input_bg.png" />
+            <Image Name="login_input_line.png" />
+            <Image Name="login_logo.png" />
+            <Image Name="login_passwordDot.png" />
+            <Image Name="login_scrollLine.png" />
+            <Image Name="login_bg.jpg" />
+          </Folder>
+          <Folder Name="num">
+            <Image Name="num_card.png" />
+            <Image Name="num_failed.png" />
+            <Image Name="num_victory.png" />
+          </Folder>
+          <Folder Name="paint">
+            <Image Name="paint_farmeress_f.png" />
+            <Image Name="paint_farmeress_v.png" />
+            <Image Name="paint_farmer_f.png" />
+            <Image Name="paint_farmer_v.png" />
+            <Image Name="paint_farmeress_default_left.png" />
+            <Image Name="paint_farmeress_default_right.png" />
+            <Image Name="paint_farmer_default_left.png" />
+            <Image Name="paint_farmer_default_right.png" />
+            <Image Name="paint_help.png" />
+            <Image Name="paint_lordress_default_left.png" />
+            <Image Name="paint_lordress_default_right.png" />
+            <Image Name="paint_lordress_f.png" />
+            <Image Name="paint_lordress_v.png" />
+            <Image Name="paint_lord_default_left.png" />
+            <Image Name="paint_lord_default_right.png" />
+            <Image Name="paint_lord_f.png" />
+            <Image Name="paint_lord_v.png" />
+          </Folder>
+          <Folder Name="poke">
+            <Image Name="poke_cover.png" />
+            <Image Name="poke_l_bg.png" />
+            <Image Name="poke_l_cover_01.png" />
+            <Image Name="poke_l_cover_02.png" />
+            <Image Name="poke_l_cover_03.png" />
+            <Image Name="poke_l_cover_04.png" />
+            <Image Name="poke_l_cover_05.png" />
+            <Image Name="poke_l_cover_06.png" />
+            <Image Name="poke_l_num_b.png" />
+            <Image Name="poke_l_num_r.png" />
+            <Image Name="poke_ms_num_b.png" />
+            <Image Name="poke_ms_num_r.png" />
+            <Image Name="poke_m_bg.png" />
+            <Image Name="poke_m_cover_01.png" />
+            <Image Name="poke_m_cover_02.png" />
+            <Image Name="poke_m_cover_03.png" />
+            <Image Name="poke_m_cover_04.png" />
+            <Image Name="poke_m_cover_05.png" />
+            <Image Name="poke_m_cover_06.png" />
+            <Image Name="poke_s_bg.png" />
+            <Image Name="poke_s_cover.png" />
+            <Image Name="poke_s_cover_01.png" />
+            <Image Name="poke_s_cover_02.png" />
+            <Image Name="poke_s_cover_03.png" />
+            <Image Name="poke_s_cover_04.png" />
+            <Image Name="poke_s_cover_05.png" />
+            <Image Name="poke_s_cover_06.png" />
+            <Image Name="poke_l_cover.png" />
+            <Image Name="poke_m_cover.png" />
+          </Folder>
+          <Folder Name="text">
+            <Image Name="text_blue_xxl.png" />
+            <Image Name="text_btn_blue_l_01.png" />
+            <Image Name="text_btn_blue_l_02.png" />
+            <Image Name="text_btn_blue_l_03.png" />
+            <Image Name="text_btn_blue_l_04.png" />
+            <Image Name="text_btn_blue_l_05.png" />
+            <Image Name="text_btn_blue_m_01.png" />
+            <Image Name="text_btn_blue_m_02.png" />
+            <Image Name="text_btn_blue_m_03.png" />
+            <Image Name="text_btn_blue_m_04.png" />
+            <Image Name="text_btn_blue_s_01.png" />
+            <Image Name="text_btn_blue_xl_01.png" />
+            <Image Name="text_btn_blue_xl_02.png" />
+            <Image Name="text_btn_green_l_01.png" />
+            <Image Name="text_btn_green_l_02.png" />
+            <Image Name="text_btn_green_l_03.png" />
+            <Image Name="text_btn_green_s_01.png" />
+            <Image Name="text_btn_green_s_02.png" />
+            <Image Name="text_btn_green_s_03.png" />
+            <Image Name="text_btn_red_l_01.png" />
+            <Image Name="text_btn_red_l_02.png" />
+            <Image Name="text_btn_red_l_03.png" />
+            <Image Name="text_btn_red_l_04.png" />
+            <Image Name="text_btn_red_m_01.png" />
+            <Image Name="text_btn_red_m_02.png" />
+            <Image Name="text_btn_red_s_01.png" />
+            <Image Name="text_btn_red_s_02.png" />
+            <Image Name="text_btn_red_s_03.png" />
+            <Image Name="text_btn_red_s_04.png" />
+            <Image Name="text_btn_red_s_05.png" />
+            <Image Name="text_btn_red_s_06.png" />
+            <Image Name="text_btn_red_s_07.png" />
+            <Image Name="text_btn_red_s_08.png" />
+            <Image Name="text_hall_room_01.png" />
+            <Image Name="text_hall_room_02.png" />
+            <Image Name="text_panel_title_01.png" />
+            <Image Name="text_panel_title_02.png" />
+            <Image Name="text_panel_title_03.png" />
+            <Image Name="text_panel_title_04.png" />
+            <Image Name="text_panel_title_05.png" />
+            <Image Name="text_panel_title_06.png" />
+            <Image Name="text_panel_title_07.png" />
+            <Image Name="text_table_mid_01.png" />
+            <Image Name="text_table_mid_02.png" />
+            <Image Name="text_table_mid_03.png" />
+            <Image Name="text_table_mid_04.png" />
+            <Image Name="text_table_mid_05.png" />
+            <Image Name="text_table_top_btn_roomList_01.png" />
+            <Image Name="text_table_top_btn_roomList_02.png" />
+            <Image Name="text_table_top_btn_roomList_03.png" />
+            <Image Name="text_table_top_btn_roomList_04.png" />
+            <Image Name="text_table_top_btn_roomList_05.png" />
+            <Image Name="text_table_top_roomList_01.png" />
+            <Image Name="text_table_top_roomList_02.png" />
+            <Image Name="text_table_top_roomList_03.png" />
+            <Image Name="text_table_top_roomList_04.png" />
+            <Image Name="text_table_top_roomList_05.png" />
+            <Image Name="text_tab_activity_01.png" />
+            <Image Name="text_tab_activity_02.png" />
+            <Image Name="text_tab_firstReward.png" />
+            <Image Name="text_tab_hall_01.png" />
+            <Image Name="text_tab_hall_02.png" />
+            <Image Name="text_tab_help_01.png" />
+            <Image Name="text_tab_help_02.png" />
+            <Image Name="text_tab_help_03.png" />
+            <Image Name="text_tab_vip.png" />
+            <Image Name="text_tittle_activity.png" />
+            <Image Name="text_tittle_bag.png" />
+            <Image Name="text_tittle_msg.png" />
+            <Image Name="text_tittle_store.png" />
+            <Image Name="text__panel_selfInfo_title.png" />
+            <Image Name="text_setting_bgm.png" />
+            <Image Name="text_setting_voiceEffect.png" />
+          </Folder>
+          <Folder Name="fonts">
+            <Fnt Name="poke_num_big.fnt" />
+            <Fnt Name="poke_num_big_Heiti.fnt" />
+            <Fnt Name="poke_num_big_LiHeiPro.fnt" />
+            <Fnt Name="poke_num_big_MSGothic.fnt" />
+            <Fnt Name="btn_text_red_26.fnt" />
+            <Fnt Name="btn_text_red_36.fnt" />
+            <Fnt Name="btn_text_gold_36.fnt" />
+            <Fnt Name="lose_num_28.fnt" />
+            <Fnt Name="win_num_28.fnt" />
           </Folder>
         </Folder>
-        <Project Name="LoginScene.csd" />
-        <Project Name="EveryDayLoginLayer.csd" />
-        <Project Name="EveryDayLoginItemLayer.csd" />
-        <Project Name="MessageBoxLayer.csd" />
-        <Project Name="Toast.csd" />
-        <Project Name="HallScene.csd" />
-        <Project Name="NetworkConnectingLayer.csd" />
-        <Project Name="SysConfigLayer.csd" />
-        <Project Name="UP_HeadIconScene.csd" />
-        <Project Name="ShopScene.csd" />
-        <Project Name="TaskScene.csd" />
-        <Project Name="UP_PasswordScene.csd" />
-        <Project Name="UserProfileScene.csd" />
-        <Project Name="GamingScene.csd" />
-        <Project Name="JipaiqiLayer.csd" />
-        <Project Name="ChatPanelLayer.csd" />
+        <Project Name="LandingScene2.csd" Type="Scene" />
+        <Project Name="LoginScene2.csd" Type="Scene" />
+        <Project Name="MsgBoxLayer.csd" Type="Layer" />
+        <Project Name="HallScene2.csd" Type="Scene" />
+        <Project Name="ShopScene2.csd" Type="Scene" />
+        <Project Name="SysConfigLayer2.csd" Type="Layer" />
+        <Project Name="GamingScene2.csd" Type="Scene" />
+        <Project Name="GameOverLayer.csd" Type="Layer" />
       </RootFolder>
     </Group>
   </SolutionFolder>
