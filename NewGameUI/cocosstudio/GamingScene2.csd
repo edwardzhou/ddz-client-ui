@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="GamingScene2" ID="23dfd604-05b4-40da-ab8b-0133b9af1eae" Version="2.1.5.0" />
+  <PropertyGroup Type="Scene" Name="GamingScene2" ID="23dfd604-05b4-40da-ab8b-0133b9af1eae" Version="2.2.1.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -81,8 +81,6 @@
                       </NodeObjectData>
                     </Children>
                     <TextColor A="255" R="65" G="65" B="70" />
-                    <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                    <PressedFileData Type="Default" Path="Default/Button_Press.png" />
                     <NormalFileData Type="Normal" Path="NewRes/bg/bg_idImg.png" />
                   </NodeObjectData>
                   <NodeObjectData Name="PanelCoins" ActionTag="-1443920008" FrameEvent="" Tag="124" LeftMargin="133.5175" RightMargin="442.4825" TopMargin="33.4277" BottomMargin="11.5723" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="15" BottomEage="15" Scale9OriginX="15" Scale9OriginY="15" Scale9Width="6" Scale9Height="4" ctype="PanelObjectData">
@@ -94,23 +92,23 @@
                     <PrePosition X="0.1669" Y="0.1447" />
                     <PreSize X="0.2800" Y="0.5385" />
                     <Children>
-                      <NodeObjectData Name="icon_gold_2" ActionTag="1391190875" FrameEvent="" Tag="125" LeftMargin="-5.1227" RightMargin="149.1227" TopMargin="-12.0000" BottomMargin="-9.0000" ctype="SpriteObjectData">
+                      <NodeObjectData Name="icon_gold_2" ActionTag="1391190875" FrameEvent="" Tag="125" LeftMargin="-5.1227" RightMargin="173.1227" TopMargin="-12.0000" BottomMargin="-9.0000" ctype="SpriteObjectData">
                         <Position X="22.8773" Y="19.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <CColor A="255" R="255" G="255" B="255" />
                         <Size X="56.0000" Y="56.0000" />
-                        <PrePosition X="0.1144" Y="0.5429" />
+                        <PrePosition X="0.1021" Y="0.5429" />
                         <PreSize X="0.0000" Y="0.0000" />
                         <FileData Type="Normal" Path="NewRes/icon/icon_gold.png" />
                       </NodeObjectData>
-                      <NodeObjectData Name="v_SelfCoins" ActionTag="1861228614" FrameEvent="" Tag="126" PositionPercentYEnabled="True" LeftMargin="45.0000" RightMargin="44.0000" TopMargin="5.9997" BottomMargin="6.0003" FontSize="20" LabelText="1234567890" ctype="TextObjectData">
+                      <NodeObjectData Name="v_SelfCoins" ActionTag="1861228614" FrameEvent="" Tag="126" PositionPercentYEnabled="True" LeftMargin="45.0000" RightMargin="68.0000" TopMargin="6.0000" BottomMargin="6.0000" FontSize="20" LabelText="1234567890" ctype="TextObjectData">
                         <Position X="45.0000" Y="17.5000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleY="0.5000" />
                         <CColor A="255" R="255" G="255" B="255" />
                         <Size X="111.0000" Y="23.0000" />
-                        <PrePosition X="0.2250" Y="0.5000" />
+                        <PrePosition X="0.2009" Y="0.5000" />
                         <PreSize X="0.4550" Y="0.6571" />
                       </NodeObjectData>
                       <NodeObjectData Name="v_ButtonRecharge" ActionTag="695929501" FrameEvent="" Tag="127" HorizontalEdge="RightEdge" LeftMargin="179.4586" RightMargin="-11.4586" TopMargin="-11.9999" BottomMargin="-9.0001" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="56" Scale9Height="56" ctype="ButtonObjectData">
@@ -142,13 +140,13 @@
                     <PrePosition X="0.4667" Y="0.1447" />
                     <PreSize X="0.1375" Y="0.4375" />
                     <Children>
-                      <NodeObjectData Name="icon_gold_3" ActionTag="-1943712472" FrameEvent="" Tag="129" LeftMargin="-5.1227" RightMargin="149.1227" TopMargin="-12.0000" BottomMargin="-9.0000" ctype="SpriteObjectData">
+                      <NodeObjectData Name="icon_gold_3" ActionTag="-1943712472" FrameEvent="" Tag="129" LeftMargin="-5.1227" RightMargin="59.1227" TopMargin="-12.0000" BottomMargin="-9.0000" ctype="SpriteObjectData">
                         <Position X="22.8773" Y="19.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <CColor A="255" R="255" G="255" B="255" />
                         <Size X="56.0000" Y="56.0000" />
-                        <PrePosition X="0.1144" Y="0.5429" />
+                        <PrePosition X="0.2080" Y="0.5429" />
                         <PreSize X="0.0000" Y="0.0000" />
                         <FileData Type="Normal" Path="NewRes/icon/icon_table_bottom_bei.png" />
                       </NodeObjectData>
@@ -177,13 +175,13 @@
                     <PrePosition X="0.6210" Y="0.1447" />
                     <PreSize X="0.1375" Y="0.4375" />
                     <Children>
-                      <NodeObjectData Name="icon_gold_4" ActionTag="-1004987870" FrameEvent="" Tag="133" LeftMargin="-5.1227" RightMargin="149.1227" TopMargin="-12.0000" BottomMargin="-9.0000" ctype="SpriteObjectData">
+                      <NodeObjectData Name="icon_gold_4" ActionTag="-1004987870" FrameEvent="" Tag="133" LeftMargin="-5.1227" RightMargin="59.1227" TopMargin="-12.0000" BottomMargin="-9.0000" ctype="SpriteObjectData">
                         <Position X="22.8773" Y="19.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <CColor A="255" R="255" G="255" B="255" />
                         <Size X="56.0000" Y="56.0000" />
-                        <PrePosition X="0.1144" Y="0.5429" />
+                        <PrePosition X="0.2080" Y="0.5429" />
                         <PreSize X="0.0000" Y="0.0000" />
                         <FileData Type="Normal" Path="NewRes/icon/icon_table_bottom_di.png" />
                       </NodeObjectData>
@@ -212,13 +210,13 @@
                     <PrePosition X="0.7766" Y="0.1447" />
                     <PreSize X="0.1375" Y="0.4375" />
                     <Children>
-                      <NodeObjectData Name="icon_gold_5" ActionTag="-37775156" FrameEvent="" Tag="136" LeftMargin="-5.1227" RightMargin="149.1227" TopMargin="-12.0000" BottomMargin="-9.0000" ctype="SpriteObjectData">
+                      <NodeObjectData Name="icon_gold_5" ActionTag="-37775156" FrameEvent="" Tag="136" LeftMargin="-5.1227" RightMargin="59.1227" TopMargin="-12.0000" BottomMargin="-9.0000" ctype="SpriteObjectData">
                         <Position X="22.8773" Y="19.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <CColor A="255" R="255" G="255" B="255" />
                         <Size X="56.0000" Y="56.0000" />
-                        <PrePosition X="0.1144" Y="0.5429" />
+                        <PrePosition X="0.2080" Y="0.5429" />
                         <PreSize X="0.0000" Y="0.0000" />
                         <FileData Type="Normal" Path="NewRes/icon/icon_table_bottom_ju.png" />
                       </NodeObjectData>
@@ -540,7 +538,7 @@
                         <PrePosition X="0.2778" Y="0.6111" />
                         <PreSize X="0.3889" Y="0.5385" />
                         <Children>
-                          <NodeObjectData Name="v_PrevUserHead" ActionTag="-102890708" FrameEvent="" Tag="142" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="15.5000" RightMargin="15.5000" TopMargin="15.5000" BottomMargin="15.5000" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="14" Scale9Height="14" ctype="ButtonObjectData">
+                          <NodeObjectData Name="v_PrevUserHead" ActionTag="-102890708" FrameEvent="" Tag="142" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="8.0000" RightMargin="8.0000" TopMargin="8.0000" BottomMargin="8.0000" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="14" Scale9Height="14" ctype="ButtonObjectData">
                             <Position X="35.0000" Y="35.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -549,11 +547,9 @@
                             <PrePosition X="0.5000" Y="0.5000" />
                             <PreSize X="0.6353" Y="0.6353" />
                             <TextColor A="255" R="65" G="65" B="70" />
-                            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                            <PressedFileData Type="Default" Path="Default/Button_Press.png" />
                             <NormalFileData Type="Normal" Path="NewRes/bg/bg_idImg.png" />
                           </NodeObjectData>
-                          <NodeObjectData Name="v_PrevUserHeadIcon" ActionTag="-1580438835" FrameEvent="" Tag="73" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="15.5000" RightMargin="15.5000" TopMargin="15.5000" BottomMargin="15.5000" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
+                          <NodeObjectData Name="v_PrevUserHeadIcon" ActionTag="-1580438835" FrameEvent="" Tag="73" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="8.0000" RightMargin="8.0000" TopMargin="8.0000" BottomMargin="8.0000" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
                             <Position X="35.0000" Y="35.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -597,7 +593,7 @@
                         <PrePosition X="1.0222" Y="0.6111" />
                         <PreSize X="0.7222" Y="0.3889" />
                         <Children>
-                          <NodeObjectData Name="v_PrevUserStatus" ActionTag="1071240772" FrameEvent="" Tag="62" PositionPercentXEnabled="True" PositionPercentYEnabled="True" TopMargin="21.0000" BottomMargin="21.0000" LabelText="叫地主" ctype="TextBMFontObjectData">
+                          <NodeObjectData Name="v_PrevUserStatus" ActionTag="1071240772" FrameEvent="" Tag="62" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="5.0000" RightMargin="5.0000" TopMargin="16.0000" BottomMargin="16.0000" LabelText="叫地主" ctype="TextBMFontObjectData">
                             <Position X="65.0000" Y="35.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -665,7 +661,7 @@
                         <PrePosition X="-0.0055" Y="0.6111" />
                         <PreSize X="0.5556" Y="0.3889" />
                         <Children>
-                          <NodeObjectData Name="v_NextUserStatus" ActionTag="933700716" FrameEvent="" Tag="61" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="10.0000" RightMargin="10.0000" TopMargin="21.0000" BottomMargin="21.0000" LabelText="不抢" ctype="TextBMFontObjectData">
+                          <NodeObjectData Name="v_NextUserStatus" ActionTag="933700716" FrameEvent="" Tag="61" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="10.0000" RightMargin="10.0000" TopMargin="16.0000" BottomMargin="16.0000" LabelText="不抢" ctype="TextBMFontObjectData">
                             <Position X="50.0000" Y="35.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -690,7 +686,7 @@
                         <PrePosition X="0.7222" Y="0.6111" />
                         <PreSize X="0.3889" Y="0.5385" />
                         <Children>
-                          <NodeObjectData Name="v_NextUserHead" ActionTag="-1269732394" FrameEvent="" Tag="153" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="15.5000" RightMargin="15.5000" TopMargin="15.5000" BottomMargin="15.5000" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="14" Scale9Height="14" ctype="ButtonObjectData">
+                          <NodeObjectData Name="v_NextUserHead" ActionTag="-1269732394" FrameEvent="" Tag="153" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="8.0000" RightMargin="8.0000" TopMargin="8.0000" BottomMargin="8.0000" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="14" Scale9Height="14" ctype="ButtonObjectData">
                             <Position X="35.0000" Y="35.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -699,8 +695,6 @@
                             <PrePosition X="0.5000" Y="0.5000" />
                             <PreSize X="0.6353" Y="0.6353" />
                             <TextColor A="255" R="65" G="65" B="70" />
-                            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                            <PressedFileData Type="Default" Path="Default/Button_Press.png" />
                             <NormalFileData Type="Normal" Path="NewRes/bg/bg_idImg.png" />
                           </NodeObjectData>
                           <NodeObjectData Name="v_NextUserHeadIcon" ActionTag="-753716616" FrameEvent="" Tag="154" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="8.0000" RightMargin="8.0000" TopMargin="8.0000" BottomMargin="8.0000" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
@@ -744,7 +738,7 @@
                         <PrePosition X="0.2769" Y="0.5201" />
                         <PreSize X="0.4067" Y="0.6750" />
                         <Children>
-                          <NodeObjectData Name="v_LabelNoGrab" ActionTag="924239354" FrameEvent="" Tag="281" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="14.0000" RightMargin="14.0000" TopMargin="4.0000" BottomMargin="4.0000" LabelText="不叫" ctype="TextBMFontObjectData">
+                          <NodeObjectData Name="v_LabelNoGrab" ActionTag="924239354" FrameEvent="" Tag="281" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="25.0000" RightMargin="25.0000" TopMargin="8.0000" BottomMargin="8.0000" LabelText="不叫" ctype="TextBMFontObjectData">
                             <Position X="61.0000" Y="27.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -940,7 +934,7 @@
                     <PrePosition X="0.3887" Y="0.5400" />
                     <PreSize X="0.2500" Y="0.1750" />
                     <Children>
-                      <NodeObjectData Name="v_SelfUserStatus" ActionTag="-1967907942" FrameEvent="" Tag="154" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="338.0000" RightMargin="342.0000" TopMargin="170.0000" BottomMargin="272.0000" LabelText="叫地主" ctype="TextBMFontObjectData">
+                      <NodeObjectData Name="v_SelfUserStatus" ActionTag="-1967907942" FrameEvent="" Tag="154" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="39.5000" RightMargin="40.5000" TopMargin="8.5660" BottomMargin="23.4340" LabelText="叫地主" ctype="TextBMFontObjectData">
                         <Position X="99.5000" Y="42.4340" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -965,8 +959,6 @@
                     <PrePosition X="0.9262" Y="0.4175" />
                     <PreSize X="0.0900" Y="0.1800" />
                     <TextColor A="255" R="65" G="65" B="70" />
-                    <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                    <PressedFileData Type="Default" Path="Default/Button_Press.png" />
                     <NormalFileData Type="Normal" Path="NewRes/icon/icon_table_right_expression.png" />
                   </NodeObjectData>
                 </Children>
@@ -1058,7 +1050,7 @@
                     <PrePosition X="0.0037" Y="0.2651" />
                     <PreSize X="0.1563" Y="0.6988" />
                     <Children>
-                      <NodeObjectData Name="Image_3" ActionTag="-1073769861" Alpha="204" FrameEvent="" Tag="225" PercentWidthEnable="True" PercentHeightEnable="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="4.1250" RightMargin="4.1250" Scale9Enable="True" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="26" Scale9Height="24" ctype="ImageViewObjectData">
+                      <NodeObjectData Name="Image_3" ActionTag="-1073769861" Alpha="204" FrameEvent="" Tag="225" PercentWidthEnable="True" PercentHeightEnable="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="3.1250" RightMargin="3.1250" Scale9Enable="True" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="26" Scale9Height="24" ctype="ImageViewObjectData">
                         <Position X="62.5000" Y="29.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -1104,13 +1096,13 @@
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_PanelTopControl" ActionTag="134272340" FrameEvent="" Tag="19" PositionPercentXEnabled="True" PercentHeightEnable="True" VerticalEdge="TopEdge" LeftMargin="211.0000" RightMargin="179.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
-                    <Position X="2261.0400" Y="83.0000" />
+                  <NodeObjectData Name="v_PanelTopControl" ActionTag="134272340" FrameEvent="" Tag="19" PositionPercentXEnabled="True" PercentHeightEnable="True" VerticalEdge="TopEdge" LeftMargin="195.0000" RightMargin="195.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+                    <Position X="400.0000" Y="83.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <AnchorPoint ScaleX="5.0000" ScaleY="1.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
                     <Size X="410.0000" Y="83.0000" />
-                    <PrePosition X="2.8263" Y="1.0000" />
+                    <PrePosition X="0.5000" Y="1.0000" />
                     <PreSize X="0.5125" Y="1.0000" />
                     <Children>
                       <NodeObjectData Name="Image_1" ActionTag="-517641341" FrameEvent="" Tag="217" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="2.0000" RightMargin="2.0000" TopMargin="-2.0003" BottomMargin="7.0003" Scale9Width="406" Scale9Height="78" ctype="ImageViewObjectData">
@@ -1144,34 +1136,28 @@
                           </NodeObjectData>
                         </Children>
                         <TextColor A="255" R="65" G="65" B="70" />
-                        <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                        <PressedFileData Type="Default" Path="Default/Button_Press.png" />
                         <NormalFileData Type="Normal" Path="NewRes/btn/btn_table_top_roomlist.png" />
                       </NodeObjectData>
-                      <NodeObjectData Name="v_ButtonChat" ActionTag="-1186210375" FrameEvent="" Tag="220" VerticalEdge="TopEdge" LeftMargin="12.9758" RightMargin="337.0242" TopMargin="6.6300" BottomMargin="32.3700" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="60" Scale9Height="60" ctype="ButtonObjectData">
+                      <NodeObjectData Name="v_ButtonChat" ActionTag="-1186210375" FrameEvent="" Tag="220" VerticalEdge="TopEdge" LeftMargin="12.9758" RightMargin="337.0242" TopMargin="6.6300" BottomMargin="16.3700" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="60" Scale9Height="60" ctype="ButtonObjectData">
                         <Position X="42.9758" Y="46.3700" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <CColor A="255" R="255" G="255" B="255" />
                         <Size X="60.0000" Y="60.0000" />
-                        <PrePosition X="0.1048" Y="0.6300" />
+                        <PrePosition X="0.1048" Y="0.5587" />
                         <PreSize X="0.1429" Y="0.6000" />
                         <TextColor A="255" R="65" G="65" B="70" />
-                        <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                        <PressedFileData Type="Default" Path="Default/Button_Press.png" />
                         <NormalFileData Type="Normal" Path="NewRes/icon/icon_table_top_chat.png" />
                       </NodeObjectData>
-                      <NodeObjectData Name="v_ButtonRobot" ActionTag="-1430867024" FrameEvent="" Tag="221" VerticalEdge="TopEdge" LeftMargin="80.0000" RightMargin="270.0000" TopMargin="6.0000" BottomMargin="33.0000" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="60" Scale9Height="60" ctype="ButtonObjectData">
+                      <NodeObjectData Name="v_ButtonRobot" ActionTag="-1430867024" FrameEvent="" Tag="221" VerticalEdge="TopEdge" LeftMargin="80.0000" RightMargin="270.0000" TopMargin="6.0000" BottomMargin="17.0000" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="60" Scale9Height="60" ctype="ButtonObjectData">
                         <Position X="110.0000" Y="47.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <CColor A="255" R="255" G="255" B="255" />
                         <Size X="60.0000" Y="60.0000" />
-                        <PrePosition X="0.2683" Y="0.6364" />
+                        <PrePosition X="0.2683" Y="0.5663" />
                         <PreSize X="0.1429" Y="0.6000" />
                         <TextColor A="255" R="65" G="65" B="70" />
-                        <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                        <PressedFileData Type="Default" Path="Default/Button_Press.png" />
                         <NormalFileData Type="Normal" Path="NewRes/icon/icon_table_top_deposit.png" />
                       </NodeObjectData>
                       <NodeObjectData Name="v_ButtonConfig" ActionTag="-2065889962" FrameEvent="" Tag="222" VerticalEdge="TopEdge" LeftMargin="280.7994" RightMargin="69.2006" TopMargin="6.6299" BottomMargin="16.3701" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="60" Scale9Height="60" ctype="ButtonObjectData">
@@ -1183,8 +1169,6 @@
                         <PrePosition X="0.7580" Y="0.5587" />
                         <PreSize X="0.1429" Y="0.6000" />
                         <TextColor A="255" R="65" G="65" B="70" />
-                        <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                        <PressedFileData Type="Default" Path="Default/Button_Press.png" />
                         <NormalFileData Type="Normal" Path="NewRes/icon/icon_table_top_setting.png" />
                       </NodeObjectData>
                       <NodeObjectData Name="v_ButtonBack" ActionTag="-810515657" FrameEvent="" Tag="223" VerticalEdge="TopEdge" LeftMargin="343.2209" RightMargin="6.7791" TopMargin="6.0001" BottomMargin="16.9999" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="60" Scale9Height="60" ctype="ButtonObjectData">
@@ -1196,8 +1180,6 @@
                         <PrePosition X="0.9103" Y="0.5663" />
                         <PreSize X="0.1429" Y="0.6000" />
                         <TextColor A="255" R="65" G="65" B="70" />
-                        <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                        <PressedFileData Type="Default" Path="Default/Button_Press.png" />
                         <NormalFileData Type="Normal" Path="NewRes/icon/icon_table_top_quit.png" />
                       </NodeObjectData>
                     </Children>
@@ -1261,7 +1243,7 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </NodeObjectData>
-          <NodeObjectData Name="v_PlaneImage" ActionTag="-1967016813" VisibleForFrame="False" FrameEvent="" Tag="162" Scale9Width="361" Scale9Height="191" ctype="ImageViewObjectData">
+          <NodeObjectData Name="v_PlaneImage" ActionTag="-1967016813" VisibleForFrame="False" FrameEvent="" Tag="162" LeftMargin="480.0000" RightMargin="-41.0000" TopMargin="64.5000" BottomMargin="224.5000" Scale9Width="361" Scale9Height="191" ctype="ImageViewObjectData">
             <Position X="480.0000" Y="320.0000" />
             <Scale ScaleX="0.6000" ScaleY="0.6000" />
             <AnchorPoint ScaleY="0.5000" />
@@ -1271,7 +1253,7 @@
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="Res/images/feiji.png" />
           </NodeObjectData>
-          <NodeObjectData Name="v_RocketImage" ActionTag="-1041291965" VisibleForFrame="False" FrameEvent="" Tag="161" Scale9Width="108" Scale9Height="338" ctype="ImageViewObjectData">
+          <NodeObjectData Name="v_RocketImage" ActionTag="-1041291965" VisibleForFrame="False" FrameEvent="" Tag="161" LeftMargin="346.0000" RightMargin="346.0000" TopMargin="142.0000" Scale9Width="108" Scale9Height="338" ctype="ImageViewObjectData">
             <Position X="400.0000" Y="0.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <AnchorPoint ScaleX="0.5000" />
@@ -1284,5 +1266,7 @@
         </Children>
       </ObjectData>
     </Content>
+    <CameraPosition ValueX="0.0000" ValueY="5.0000" ValueZ="-1.0000" />
+    <CameraRotation ValueX="0.0000" ValueY="0.0000" ValueZ="0.0000" />
   </Content>
 </GameProjectFile>

@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="MessageBoxLayer" ID="8b0337d9-99c6-4c91-b3e2-5c2833ec9bad" Version="2.1.5.0" />
+  <PropertyGroup Type="Layer" Name="MessageBoxLayer" ID="8b0337d9-99c6-4c91-b3e2-5c2833ec9bad" Version="2.2.1.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -132,5 +132,7 @@
         <ColorVector ScaleX="1.0000" />
       </ObjectData>
     </Content>
+    <CameraPosition ValueX="0.0000" ValueY="5.0000" ValueZ="-1.0000" />
+    <CameraRotation ValueX="0.0000" ValueY="0.0000" ValueZ="0.0000" />
   </Content>
 </GameProjectFile>

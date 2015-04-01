@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="TaskScene" ID="6dd43f48-27aa-437b-ada5-f2b838183ad3" Version="2.1.5.0" />
+  <PropertyGroup Type="Scene" Name="TaskScene" ID="6dd43f48-27aa-437b-ada5-f2b838183ad3" Version="2.2.1.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -193,5 +193,7 @@
         </Children>
       </ObjectData>
     </Content>
+    <CameraPosition ValueX="0.0000" ValueY="5.0000" ValueZ="-1.0000" />
+    <CameraRotation ValueX="0.0000" ValueY="0.0000" ValueZ="0.0000" />
   </Content>
 </GameProjectFile>

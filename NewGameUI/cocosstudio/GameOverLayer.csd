@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="GameOverLayer" ID="da0c22cb-15f9-4bfe-93c3-250252edffe5" Version="2.1.5.0" />
+  <PropertyGroup Type="Layer" Name="GameOverLayer" ID="da0c22cb-15f9-4bfe-93c3-250252edffe5" Version="2.2.1.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -34,7 +34,7 @@
             <PrePosition X="0.5000" Y="0.4583" />
             <PreSize X="0.6250" Y="0.7917" />
             <Children>
-              <NodeObjectData Name="Image_1" ActionTag="-1466220503" Alpha="230" FrameEvent="" Tag="171" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="30.0000" RightMargin="20.0000" TopMargin="60.6020" BottomMargin="39.3980" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="16" Scale9Height="16" ctype="ImageViewObjectData">
+              <NodeObjectData Name="v_ImageWinBg" ActionTag="-1466220503" Alpha="230" FrameEvent="" Tag="171" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="30.0000" RightMargin="20.0000" TopMargin="60.6020" BottomMargin="39.3980" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="16" Scale9Height="16" ctype="ImageViewObjectData">
                 <Position X="255.0000" Y="179.3980" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -44,7 +44,7 @@
                 <PreSize X="0.9000" Y="0.7368" />
                 <FileData Type="Normal" Path="NewRes/bg/bg_table_vnf_v.png" />
               </NodeObjectData>
-              <NodeObjectData Name="Image_2" ActionTag="2088064195" FrameEvent="" Tag="172" LeftMargin="55.5000" RightMargin="57.5000" TopMargin="190.0000" BottomMargin="188.0000" Scale9Width="387" Scale9Height="2" ctype="ImageViewObjectData">
+              <NodeObjectData Name="v_ImageWinLine" ActionTag="2088064195" FrameEvent="" Tag="172" LeftMargin="55.5000" RightMargin="57.5000" TopMargin="190.0000" BottomMargin="188.0000" Scale9Width="387" Scale9Height="2" ctype="ImageViewObjectData">
                 <Position X="249.0000" Y="189.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -54,7 +54,7 @@
                 <PreSize X="0.7740" Y="0.0048" />
                 <FileData Type="Normal" Path="NewRes/bg/bg_table_vnf_line_v.png" />
               </NodeObjectData>
-              <NodeObjectData Name="v_PanelWinTop" ActionTag="-2137336570" FrameEvent="" Tag="135" PositionPercentXEnabled="True" LeftMargin="50.0000" RightMargin="50.0000" TopMargin="-10.0000" BottomMargin="270.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+              <NodeObjectData Name="v_PanelWinTop" ActionTag="-2137336570" Visible="False" FrameEvent="" Tag="135" PositionPercentXEnabled="True" LeftMargin="50.0000" RightMargin="50.0000" TopMargin="-10.0000" BottomMargin="270.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
                 <Position X="250.0000" Y="330.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -72,13 +72,13 @@
                     <PrePosition X="0.5000" Y="0.7083" />
                     <PreSize X="0.5000" Y="1.0000" />
                     <Children>
-                      <NodeObjectData Name="v_PanelWinLight" ActionTag="1606188134" FrameEvent="" Tag="133" PositionPercentXEnabled="True" LeftMargin="17.0000" RightMargin="17.0000" TopMargin="-3.0000" BottomMargin="-63.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+                      <NodeObjectData Name="v_PanelWinLight" ActionTag="1606188134" FrameEvent="" Tag="133" PositionPercentXEnabled="True" LeftMargin="17.0000" RightMargin="17.0000" TopMargin="17.0000" BottomMargin="-63.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
                         <Position X="100.0000" Y="20.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <CColor A="255" R="255" G="255" B="255" />
                         <Size X="166.0000" Y="166.0000" />
-                        <PrePosition X="0.5000" Y="0.2000" />
+                        <PrePosition X="0.5000" Y="0.1667" />
                         <PreSize X="0.8300" Y="0.8300" />
                         <Children>
                           <NodeObjectData Name="table_vnf_title_v_light_1" ActionTag="-517167481" FrameEvent="" Tag="176" PositionPercentXEnabled="True" TopMargin="-29.0000" BottomMargin="29.0000" ctype="SpriteObjectData">
@@ -147,13 +147,13 @@
                     <PrePosition X="0.5000" Y="0.5000" />
                     <PreSize X="0.8000" Y="1.0500" />
                     <Children>
-                      <NodeObjectData Name="v_spriteLoseAnim" ActionTag="-306173477" FrameEvent="" Tag="139" PositionPercentXEnabled="True" LeftMargin="6.5000" RightMargin="6.5000" TopMargin="10.0000" BottomMargin="-10.0000" ctype="SpriteObjectData">
-                        <Position X="160.0000" Y="53.0000" />
+                      <NodeObjectData Name="v_spriteLoseAnim" ActionTag="-306173477" FrameEvent="" Tag="139" PositionPercentXEnabled="True" LeftMargin="-6.3000" RightMargin="19.3000" TopMargin="10.0000" BottomMargin="-10.0000" ctype="SpriteObjectData">
+                        <Position X="147.2000" Y="53.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <CColor A="255" R="255" G="255" B="255" />
                         <Size X="307.0000" Y="126.0000" />
-                        <PrePosition X="0.5000" Y="0.4206" />
+                        <PrePosition X="0.4600" Y="0.4206" />
                         <PreSize X="0.9594" Y="1.0000" />
                         <FileData Type="Normal" Path="NewRes/fvx/vnf/table_vnf_title_f_light.png" />
                       </NodeObjectData>
@@ -163,13 +163,13 @@
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </NodeObjectData>
-                  <NodeObjectData Name="Image_3" ActionTag="-197683123" FrameEvent="" Tag="141" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="46.5000" RightMargin="46.5000" TopMargin="-3.0000" BottomMargin="-3.0000" Scale9Width="307" Scale9Height="126" ctype="ImageViewObjectData">
-                    <Position X="200.0000" Y="60.0000" />
+                  <NodeObjectData Name="Image_3" ActionTag="-197683123" FrameEvent="" Tag="141" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="38.5000" RightMargin="54.5000" TopMargin="-3.0000" BottomMargin="-3.0000" Scale9Width="307" Scale9Height="126" ctype="ImageViewObjectData">
+                    <Position X="192.0000" Y="60.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <CColor A="255" R="255" G="255" B="255" />
                     <Size X="307.0000" Y="126.0000" />
-                    <PrePosition X="0.5000" Y="0.5000" />
+                    <PrePosition X="0.4800" Y="0.5000" />
                     <PreSize X="0.6140" Y="0.3000" />
                     <FileData Type="Normal" Path="NewRes/fvx/vnf/table_vnf_title_f.png" />
                   </NodeObjectData>
@@ -198,7 +198,7 @@
                 <PrePosition X="0.5200" Y="0.5947" />
                 <PreSize X="0.9000" Y="0.1579" />
                 <Children>
-                  <NodeObjectData Name="v_ImageSelfIcon" ActionTag="438047776" FrameEvent="" Tag="178" PositionPercentYEnabled="True" LeftMargin="12.0000" RightMargin="384.0000" TopMargin="4.0000" BottomMargin="2.0000" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
+                  <NodeObjectData Name="v_ImageSelfIcon" ActionTag="438047776" FrameEvent="" Tag="178" PositionPercentYEnabled="True" LeftMargin="12.0000" RightMargin="384.0000" TopMargin="4.0020" BottomMargin="1.9980" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
                     <Position X="39.0000" Y="28.9980" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -217,7 +217,7 @@
                     <PrePosition X="0.1722" Y="0.5000" />
                     <PreSize X="0.2022" Y="0.3833" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_LabelSelfPlayerResult" ActionTag="851601993" FrameEvent="" Tag="180" PositionPercentYEnabled="True" LeftMargin="333.5000" RightMargin="44.5000" TopMargin="12.0000" BottomMargin="12.0000" LabelText="+1200" ctype="TextBMFontObjectData">
+                  <NodeObjectData Name="v_LabelSelfPlayerResult" ActionTag="851601993" FrameEvent="" Tag="180" PositionPercentYEnabled="True" LeftMargin="310.5000" RightMargin="44.5000" TopMargin="16.0000" BottomMargin="16.0000" LabelText="+1200" ctype="TextBMFontObjectData">
                     <Position X="405.5000" Y="30.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="1.0000" ScaleY="0.5000" />
@@ -242,7 +242,7 @@
                 <PrePosition X="0.5200" Y="0.3842" />
                 <PreSize X="0.9000" Y="0.1579" />
                 <Children>
-                  <NodeObjectData Name="v_ImagePrevIcon" ActionTag="455640253" FrameEvent="" Tag="182" PositionPercentYEnabled="True" LeftMargin="12.0000" RightMargin="384.0000" TopMargin="4.0000" BottomMargin="2.0000" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
+                  <NodeObjectData Name="v_ImagePrevIcon" ActionTag="455640253" FrameEvent="" Tag="182" PositionPercentYEnabled="True" LeftMargin="12.0000" RightMargin="384.0000" TopMargin="4.0020" BottomMargin="1.9980" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
                     <Position X="39.0000" Y="28.9980" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -261,7 +261,7 @@
                     <PrePosition X="0.1722" Y="0.5000" />
                     <PreSize X="0.2022" Y="0.3833" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_LabelPrevPlayerResult" ActionTag="-1319272284" FrameEvent="" Tag="184" PositionPercentYEnabled="True" LeftMargin="333.5000" RightMargin="44.5000" TopMargin="12.0000" BottomMargin="12.0000" LabelText="-1200" ctype="TextBMFontObjectData">
+                  <NodeObjectData Name="v_LabelPrevPlayerResult" ActionTag="-1319272284" FrameEvent="" Tag="184" PositionPercentYEnabled="True" LeftMargin="314.5000" RightMargin="44.5000" TopMargin="16.0000" BottomMargin="16.0000" LabelText="-1200" ctype="TextBMFontObjectData">
                     <Position X="405.5000" Y="30.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="1.0000" ScaleY="0.5000" />
@@ -286,7 +286,7 @@
                 <PrePosition X="0.5200" Y="0.2105" />
                 <PreSize X="0.9000" Y="0.1579" />
                 <Children>
-                  <NodeObjectData Name="v_ImageNextIcon" ActionTag="603005323" FrameEvent="" Tag="186" PositionPercentYEnabled="True" LeftMargin="12.0000" RightMargin="384.0000" TopMargin="4.0000" BottomMargin="2.0000" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
+                  <NodeObjectData Name="v_ImageNextIcon" ActionTag="603005323" FrameEvent="" Tag="186" PositionPercentYEnabled="True" LeftMargin="12.0000" RightMargin="384.0000" TopMargin="4.0020" BottomMargin="1.9980" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
                     <Position X="39.0000" Y="28.9980" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -305,7 +305,7 @@
                     <PrePosition X="0.1722" Y="0.5000" />
                     <PreSize X="0.2022" Y="0.3833" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_LabelNextPlayerResult" ActionTag="858881921" FrameEvent="" Tag="188" PositionPercentYEnabled="True" LeftMargin="333.5000" RightMargin="44.5000" TopMargin="12.0000" BottomMargin="12.0000" LabelText="+600" ctype="TextBMFontObjectData">
+                  <NodeObjectData Name="v_LabelNextPlayerResult" ActionTag="858881921" FrameEvent="" Tag="188" PositionPercentYEnabled="True" LeftMargin="329.5000" RightMargin="44.5000" TopMargin="16.0000" BottomMargin="16.0000" LabelText="+600" ctype="TextBMFontObjectData">
                     <Position X="405.5000" Y="30.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="1.0000" ScaleY="0.5000" />
@@ -330,5 +330,7 @@
         </Children>
       </ObjectData>
     </Content>
+    <CameraPosition ValueX="0.0000" ValueY="5.0000" ValueZ="-1.0000" />
+    <CameraRotation ValueX="0.0000" ValueY="0.0000" ValueZ="0.0000" />
   </Content>
 </GameProjectFile>

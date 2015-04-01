@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="ShopScene2" ID="98621172-03cf-47e0-8965-7de0b1c68850" Version="2.1.5.0" />
+  <PropertyGroup Type="Scene" Name="ShopScene2" ID="98621172-03cf-47e0-8965-7de0b1c68850" Version="2.2.1.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -31,7 +31,7 @@
             <PrePosition X="0.5000" Y="1.0000" />
             <PreSize X="1.0000" Y="0.1667" />
             <Children>
-              <NodeObjectData Name="Image_2" ActionTag="239033164" FrameEvent="" Tag="69" PositionPercentXEnabled="True" PositionPercentYEnabled="True" BottomMargin="-16.0000" Scale9Width="800" Scale9Height="76" ctype="ImageViewObjectData">
+              <NodeObjectData Name="Image_2" ActionTag="239033164" FrameEvent="" Tag="69" PositionPercentXEnabled="True" PositionPercentYEnabled="True" BottomMargin="4.0000" Scale9Width="800" Scale9Height="76" ctype="ImageViewObjectData">
                 <Position X="400.0000" Y="80.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="1.0000" />
@@ -63,23 +63,23 @@
                 <PrePosition X="0.0943" Y="0.3802" />
                 <PreSize X="0.2800" Y="0.5385" />
                 <Children>
-                  <NodeObjectData Name="icon_gold_1" ActionTag="328199498" FrameEvent="" Tag="73" LeftMargin="-5.1227" RightMargin="149.1227" TopMargin="-12.0000" BottomMargin="-9.0000" ctype="SpriteObjectData">
+                  <NodeObjectData Name="icon_gold_1" ActionTag="328199498" FrameEvent="" Tag="73" LeftMargin="-5.1227" RightMargin="173.1227" TopMargin="-12.0000" BottomMargin="-9.0000" ctype="SpriteObjectData">
                     <Position X="22.8773" Y="19.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <CColor A="255" R="255" G="255" B="255" />
                     <Size X="56.0000" Y="56.0000" />
-                    <PrePosition X="0.1144" Y="0.5429" />
+                    <PrePosition X="0.1021" Y="0.5429" />
                     <PreSize X="0.0000" Y="0.0000" />
                     <FileData Type="Normal" Path="NewRes/icon/icon_gold.png" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_LabelCoins" ActionTag="-797165627" FrameEvent="" Tag="74" PositionPercentYEnabled="True" LeftMargin="45.0000" RightMargin="44.0000" TopMargin="5.9997" BottomMargin="6.0003" FontSize="20" LabelText="1234567890" ctype="TextObjectData">
+                  <NodeObjectData Name="v_LabelCoins" ActionTag="-797165627" FrameEvent="" Tag="74" PositionPercentYEnabled="True" LeftMargin="45.0000" RightMargin="68.0000" TopMargin="6.0000" BottomMargin="6.0000" FontSize="20" LabelText="1234567890" ctype="TextObjectData">
                     <Position X="45.0000" Y="17.5000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleY="0.5000" />
                     <CColor A="255" R="255" G="255" B="255" />
                     <Size X="111.0000" Y="23.0000" />
-                    <PrePosition X="0.2250" Y="0.5000" />
+                    <PrePosition X="0.2009" Y="0.5000" />
                     <PreSize X="0.4550" Y="0.6571" />
                   </NodeObjectData>
                   <NodeObjectData Name="v_ButtonRecharge" ActionTag="-315542353" FrameEvent="" Tag="75" HorizontalEdge="RightEdge" LeftMargin="179.4586" RightMargin="-11.4586" TopMargin="-11.9999" BottomMargin="-9.0001" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="56" Scale9Height="56" ctype="ButtonObjectData">
@@ -127,13 +127,13 @@
             <PrePosition X="0.0000" Y="0.0000" />
             <PreSize X="1.0000" Y="0.8333" />
             <Children>
-              <NodeObjectData Name="Image_3" ActionTag="34754094" FrameEvent="" Tag="70" PositionPercentXEnabled="True" PositionPercentYEnabled="True" TopMargin="-20.0000" BottomMargin="4.0000" Scale9Width="800" Scale9Height="416" ctype="ImageViewObjectData">
-                <Position X="400.0000" Y="212.0000" />
+              <NodeObjectData Name="Image_3" ActionTag="34754094" FrameEvent="" Tag="70" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-1.0000" RightMargin="1.0000" TopMargin="-20.0000" BottomMargin="4.0000" Scale9Width="800" Scale9Height="416" ctype="ImageViewObjectData">
+                <Position X="399.0000" Y="212.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <Size X="800.0000" Y="416.0000" />
-                <PrePosition X="0.5000" Y="0.5300" />
+                <PrePosition X="0.4988" Y="0.5300" />
                 <PreSize X="1.0000" Y="1.0400" />
                 <FileData Type="Normal" Path="NewRes/bg/bg_subUI.png" />
               </NodeObjectData>
@@ -197,13 +197,13 @@
                 <PreSize X="1.0000" Y="0.9600" />
                 <FileData Type="Normal" Path="NewRes/bg/bg_item_01.png" />
               </NodeObjectData>
-              <NodeObjectData Name="ImagePkgIcon" ActionTag="-20612823" FrameEvent="" Tag="79" PositionPercentYEnabled="True" LeftMargin="9.0000" RightMargin="513.0000" TopMargin="21.0000" BottomMargin="21.0000" Scale9Width="78" Scale9Height="78" ctype="ImageViewObjectData">
+              <NodeObjectData Name="ImagePkgIcon" ActionTag="-20612823" FrameEvent="" Tag="79" PositionPercentYEnabled="True" LeftMargin="9.0000" RightMargin="563.0000" TopMargin="11.0000" BottomMargin="11.0000" Scale9Width="78" Scale9Height="78" ctype="ImageViewObjectData">
                 <Position X="48.0000" Y="50.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <Size X="78.0000" Y="78.0000" />
-                <PrePosition X="0.0800" Y="0.5000" />
+                <PrePosition X="0.0738" Y="0.5000" />
                 <PreSize X="0.1300" Y="0.6500" />
                 <FileData Type="Normal" Path="NewRes/icon/icon_store_01.png" />
               </NodeObjectData>
@@ -234,7 +234,7 @@
                 <PrePosition X="0.8518" Y="0.5000" />
                 <PreSize X="0.2369" Y="0.4500" />
                 <TextColor A="255" R="255" G="255" B="255" />
-                <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
+                <DisabledFileData Type="Normal" Path="NewRes/btn/btn_no_m.png" />
                 <PressedFileData Type="Normal" Path="NewRes/btn/btn_blue_m_pr.png" />
                 <NormalFileData Type="Normal" Path="NewRes/btn/btn_blue_m_default.png" />
               </NodeObjectData>
@@ -247,5 +247,7 @@
         </Children>
       </ObjectData>
     </Content>
+    <CameraPosition ValueX="0.0000" ValueY="5.0000" ValueZ="-1.0000" />
+    <CameraRotation ValueX="0.0000" ValueY="0.0000" ValueZ="0.0000" />
   </Content>
 </GameProjectFile>

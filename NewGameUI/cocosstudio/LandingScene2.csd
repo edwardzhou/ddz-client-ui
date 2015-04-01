@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="LandingScene2" ID="a3bd0469-1426-4784-b8e4-5cea6f04106c" Version="2.1.5.0" />
+  <PropertyGroup Type="Scene" Name="LandingScene2" ID="a3bd0469-1426-4784-b8e4-5cea6f04106c" Version="2.2.1.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -163,5 +163,7 @@
         </Children>
       </ObjectData>
     </Content>
+    <CameraPosition ValueX="0.0000" ValueY="5.0000" ValueZ="-1.0000" />
+    <CameraRotation ValueX="0.0000" ValueY="0.0000" ValueZ="0.0000" />
   </Content>
 </GameProjectFile>

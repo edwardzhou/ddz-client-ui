@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="NetworkConnectingLayer" ID="af32a99c-97b1-47de-b51b-d88f332a5f9b" Version="2.1.5.0" />
+  <PropertyGroup Type="Layer" Name="NetworkConnectingLayer" ID="af32a99c-97b1-47de-b51b-d88f332a5f9b" Version="2.2.1.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -121,5 +121,7 @@
         </Children>
       </ObjectData>
     </Content>
+    <CameraPosition ValueX="0.0000" ValueY="5.0000" ValueZ="-1.0000" />
+    <CameraRotation ValueX="0.0000" ValueY="0.0000" ValueZ="0.0000" />
   </Content>
 </GameProjectFile>

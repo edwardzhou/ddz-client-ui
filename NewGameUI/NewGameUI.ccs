@@ -1,5 +1,5 @@
 <Solution>
-  <PropertyGroup Name="NewGameUI" Version="2.1.5.0" Type="CocosStudio" />
+  <PropertyGroup Name="NewGameUI" Version="2.2.1.0" Type="CocosStudio" />
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
@@ -687,6 +687,8 @@
             <Image Name="bg_setting_ctrlLine.png" />
             <Image Name="obj_setting_ctrlLine.png" />
             <Image Name="bg_table_top.jpg" />
+            <Image Name="bg_panel_content.png" />
+            <Image Name="scrollLine.png" />
           </Folder>
           <Folder Name="btn">
             <Image Name="btn_back_default.png" />
@@ -1041,6 +1043,26 @@
             <Fnt Name="lose_num_28.fnt" />
             <Fnt Name="win_num_28.fnt" />
           </Folder>
+          <Folder Name="idImg">
+            <Image Name="idImg_head_01.jpg" />
+            <Image Name="idImg_head_10.jpg" />
+            <Image Name="idImg_head_02.jpg" />
+            <Image Name="idImg_head_03.jpg" />
+            <Image Name="idImg_head_04.jpg" />
+            <Image Name="idImg_head_05.jpg" />
+            <Image Name="idImg_head_06.jpg" />
+            <Image Name="idImg_head_07.jpg" />
+            <Image Name="idImg_head_08.jpg" />
+            <Image Name="idImg_head_09.jpg" />
+            <Image Name="idImg_head_11.jpg" />
+            <Image Name="idImg_head_12.jpg" />
+            <Image Name="idImg_head_13.jpg" />
+            <Image Name="idImg_head_14.jpg" />
+            <Image Name="idImg_head_15.jpg" />
+            <Image Name="id_img_l.png" />
+            <Image Name="id_img_s.png" />
+            <Image Name="tag_idImg_vip.png" />
+          </Folder>
         </Folder>
         <Project Name="LandingScene2.csd" Type="Scene" />
         <Project Name="LoginScene2.csd" Type="Scene" />
@@ -1050,6 +1072,9 @@
         <Project Name="SysConfigLayer2.csd" Type="Layer" />
         <Project Name="GamingScene2.csd" Type="Scene" />
         <Project Name="GameOverLayer.csd" Type="Layer" />
+        <Project Name="UserProfileLayer.csd" Type="Layer" />
+        <Project Name="UP_HeadIconsLayer.csd" Type="Layer" />
+        <Project Name="UP_PasswordLayer.csd" Type="Layer" />
       </RootFolder>
     </Group>
   </SolutionFolder>

@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="Toast" ID="1cd88cd6-8eb0-489f-8d9e-c8cc20d0cef4" Version="2.1.5.0" />
+  <PropertyGroup Type="Layer" Name="Toast" ID="1cd88cd6-8eb0-489f-8d9e-c8cc20d0cef4" Version="2.2.1.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -71,5 +71,7 @@
         <ColorVector ScaleX="1.0000" />
       </ObjectData>
     </Content>
+    <CameraPosition ValueX="0.0000" ValueY="5.0000" ValueZ="-1.0000" />
+    <CameraRotation ValueX="0.0000" ValueY="0.0000" ValueZ="0.0000" />
   </Content>
 </GameProjectFile>

@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="LoginScene2" ID="83b28651-2930-4bee-af61-cd6dd80df747" Version="2.1.5.0" />
+  <PropertyGroup Type="Scene" Name="LoginScene2" ID="83b28651-2930-4bee-af61-cd6dd80df747" Version="2.2.1.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -41,7 +41,7 @@
                 <PreSize X="1.0000" Y="1.0000" />
                 <FileData Type="Normal" Path="NewRes/login/login_blank_bg.png" />
               </NodeObjectData>
-              <NodeObjectData Name="v_PanelUserId" ActionTag="-1712266370" FrameEvent="" Tag="53" PositionPercentXEnabled="True" LeftMargin="31.0005" RightMargin="30.9995" TopMargin="40.0000" BottomMargin="214.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="320" Scale9Height="46" ctype="PanelObjectData">
+              <NodeObjectData Name="v_PanelUserId" ActionTag="-1712266370" FrameEvent="" Tag="53" PositionPercentXEnabled="True" LeftMargin="31.0000" RightMargin="31.0000" TopMargin="40.0000" BottomMargin="214.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="320" Scale9Height="46" ctype="PanelObjectData">
                 <Position X="193.0000" Y="264.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="1.0000" />
@@ -88,8 +88,6 @@
                     <PrePosition X="0.9043" Y="0.5000" />
                     <PreSize X="0.1420" Y="0.9200" />
                     <TextColor A="255" R="65" G="65" B="70" />
-                    <DisabledFileData Type="Default" Path="Default/Button_Disable.png" />
-                    <PressedFileData Type="Default" Path="Default/Button_Press.png" />
                     <NormalFileData Type="Normal" Path="NewRes/login/login_icon_more.png" />
                   </NodeObjectData>
                 </Children>
@@ -99,7 +97,7 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </NodeObjectData>
-              <NodeObjectData Name="v_PanelPassword" ActionTag="-102342317" FrameEvent="" Tag="59" PositionPercentXEnabled="True" LeftMargin="31.0005" RightMargin="30.9995" TopMargin="110.0000" BottomMargin="144.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="320" Scale9Height="46" ctype="PanelObjectData">
+              <NodeObjectData Name="v_PanelPassword" ActionTag="-102342317" FrameEvent="" Tag="59" PositionPercentXEnabled="True" LeftMargin="31.0000" RightMargin="31.0000" TopMargin="110.0000" BottomMargin="144.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="320" Scale9Height="46" ctype="PanelObjectData">
                 <Position X="193.0000" Y="194.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="1.0000" />
@@ -144,7 +142,7 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </NodeObjectData>
-              <NodeObjectData Name="v_ButtonSignIn" ActionTag="-1936670513" FrameEvent="" Tag="64" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="205.0000" RightMargin="31.0000" TopMargin="232.8192" BottomMargin="23.1808" TouchEnable="True" FontSize="24" ButtonText="登 录" Scale9Enable="True" Scale9Width="150" Scale9Height="48" ctype="ButtonObjectData">
+              <NodeObjectData Name="v_ButtonSignIn" ActionTag="-1936670513" FrameEvent="" Tag="64" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="205.0044" RightMargin="30.9956" TopMargin="232.8192" BottomMargin="23.1808" TouchEnable="True" FontSize="24" ButtonText="登 录" Scale9Enable="True" Scale9Width="150" Scale9Height="48" ctype="ButtonObjectData">
                 <Position X="280.0044" Y="47.1808" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -190,7 +188,7 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </NodeObjectData>
-          <NodeObjectData Name="login_logo_8" ActionTag="-23342425" FrameEvent="" Tag="65" LeftMargin="679.4979" RightMargin="74.5021" TopMargin="51.0471" BottomMargin="382.9529" ctype="SpriteObjectData">
+          <NodeObjectData Name="login_logo_8" ActionTag="-23342425" FrameEvent="" Tag="65" LeftMargin="604.4979" RightMargin="-0.4979" TopMargin="0.0471" BottomMargin="331.9529" ctype="SpriteObjectData">
             <Position X="702.4979" Y="405.9529" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -218,7 +216,7 @@
             <PrePosition X="0.0644" Y="0.0515" />
             <PreSize X="0.0000" Y="0.0000" />
           </NodeObjectData>
-          <NodeObjectData Name="v_Version" ActionTag="-1598365086" FrameEvent="" Tag="76" LeftMargin="95.0001" RightMargin="626.9999" TopMargin="441.0001" BottomMargin="10.9999" FontSize="24" LabelText="v1.0.0.121" ctype="TextObjectData">
+          <NodeObjectData Name="v_Version" ActionTag="-1598365086" FrameEvent="" Tag="76" LeftMargin="95.0001" RightMargin="592.9999" TopMargin="441.0001" BottomMargin="10.9999" FontSize="24" LabelText="v1.0.0.121" ctype="TextObjectData">
             <Position X="95.0001" Y="24.9999" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <AnchorPoint ScaleY="0.5000" />
@@ -287,17 +285,17 @@
                 <PrePosition X="0.5000" Y="0.5708" />
                 <PreSize X="0.3950" Y="0.0833" />
                 <Children>
-                  <NodeObjectData Name="Image_3" ActionTag="581103253" FrameEvent="" Tag="30" PositionPercentYEnabled="True" LeftMargin="-0.5742" RightMargin="284.5742" TopMargin="1.8000" BottomMargin="14.2000" Scale9Width="46" Scale9Height="46" ctype="ImageViewObjectData">
+                  <NodeObjectData Name="Image_3" ActionTag="581103253" FrameEvent="" Tag="30" PositionPercentYEnabled="True" LeftMargin="-0.5742" RightMargin="270.5742" TopMargin="-7.0000" BottomMargin="1.0000" Scale9Width="46" Scale9Height="46" ctype="ImageViewObjectData">
                     <Position X="22.4258" Y="24.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <CColor A="255" R="255" G="255" B="255" />
                     <Size X="46.0000" Y="46.0000" />
-                    <PrePosition X="0.0680" Y="0.6000" />
+                    <PrePosition X="0.0710" Y="0.6000" />
                     <PreSize X="0.1456" Y="1.1500" />
                     <FileData Type="Normal" Path="NewRes/login/login_icon_history.png" />
                   </NodeObjectData>
-                  <NodeObjectData Name="UserId" ActionTag="600555441" FrameEvent="" Tag="31" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="55.5000" RightMargin="194.5000" TopMargin="9.0000" BottomMargin="9.0000" FontSize="24" LabelText="50001" ctype="TextObjectData">
+                  <NodeObjectData Name="UserId" ActionTag="600555441" FrameEvent="" Tag="31" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="55.4896" RightMargin="194.5104" TopMargin="6.0000" BottomMargin="6.0000" FontSize="24" LabelText="50001" ctype="TextObjectData">
                     <Position X="55.4896" Y="20.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleY="0.5000" />
@@ -321,5 +319,7 @@
         </Children>
       </ObjectData>
     </Content>
+    <CameraPosition ValueX="0.0000" ValueY="5.0000" ValueZ="-1.0000" />
+    <CameraRotation ValueX="0.0000" ValueY="0.0000" ValueZ="0.0000" />
   </Content>
 </GameProjectFile>

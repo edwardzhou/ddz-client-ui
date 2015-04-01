@@ -1,4 +1,21 @@
 <UserData>
+  <OpenedDocuments>
+    <FilePathData Path="GamingScene2.csd" />
+    <FilePathData Path="GamingScene.csd" />
+    <FilePathData Path="ShopScene2.csd" />
+    <FilePathData Path="EveryDayLoginLayer.csd" />
+    <FilePathData Path="EveryDayLoginItemLayer.csd" />
+    <FilePathData Path="HallScene2.csd" />
+    <FilePathData Path="GameOverLayer.csd" />
+    <FilePathData Path="JipaiqiLayer.csd" />
+    <FilePathData Path="ChatLayer.csd" />
+    <FilePathData Path="SysConfigLayer2.csd" />
+    <FilePathData Path="UserProfileScene.csd" />
+    <FilePathData Path="UserProfileLayer.csd" />
+    <FilePathData Path="UP_HeadIconsLayer.csd" />
+    <FilePathData Path="UP_HeadIconScene.csd" />
+  </OpenedDocuments>
+  <ActiveDocument Path="UserProfileLayer.csd" />
   <Properties>
     <Item Key="PackageParamsKey">
       <Value ctype="PackageParams">

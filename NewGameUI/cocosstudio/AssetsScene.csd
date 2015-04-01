@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="AssetsScene" ID="d4827ee0-8f38-11e4-84e8-95dcf7cc89e4" Version="2.1.5.0" />
+  <PropertyGroup Type="Scene" Name="AssetsScene" ID="d4827ee0-8f38-11e4-84e8-95dcf7cc89e4" Version="2.2.1.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -187,5 +187,7 @@
         </Children>
       </ObjectData>
     </Content>
+    <CameraPosition ValueX="0.0000" ValueY="5.0000" ValueZ="-1.0000" />
+    <CameraRotation ValueX="0.0000" ValueY="0.0000" ValueZ="0.0000" />
   </Content>
 </GameProjectFile>

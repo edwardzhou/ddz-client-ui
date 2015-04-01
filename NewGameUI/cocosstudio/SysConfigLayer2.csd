@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="SysConfigLayer2" ID="8bd21565-4623-4915-b588-24725d973122" Version="2.1.5.0" />
+  <PropertyGroup Type="Layer" Name="SysConfigLayer2" ID="8bd21565-4623-4915-b588-24725d973122" Version="2.2.1.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -143,5 +143,7 @@
         </Children>
       </ObjectData>
     </Content>
+    <CameraPosition ValueX="0.0000" ValueY="5.0000" ValueZ="-1.0000" />
+    <CameraRotation ValueX="0.0000" ValueY="0.0000" ValueZ="0.0000" />
   </Content>
 </GameProjectFile>
