@@ -546,18 +546,20 @@
                             <Size X="54.0000" Y="54.0000" />
                             <PrePosition X="0.5000" Y="0.5000" />
                             <PreSize X="0.6353" Y="0.6353" />
+                            <Children>
+                              <NodeObjectData Name="v_PrevUserHeadIcon" ActionTag="-1580438835" FrameEvent="" Tag="73" PositionPercentXEnabled="True" PositionPercentYEnabled="True" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
+                                <Position X="27.0000" Y="27.0000" />
+                                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                                <CColor A="255" R="255" G="255" B="255" />
+                                <Size X="54.0000" Y="54.0000" />
+                                <PrePosition X="0.5000" Y="0.5000" />
+                                <PreSize X="0.6353" Y="0.6353" />
+                                <FileData Type="Normal" Path="NewRes/icon/icon_idImg_default.png" />
+                              </NodeObjectData>
+                            </Children>
                             <TextColor A="255" R="65" G="65" B="70" />
-                            <NormalFileData Type="Normal" Path="NewRes/bg/bg_idImg.png" />
-                          </NodeObjectData>
-                          <NodeObjectData Name="v_PrevUserHeadIcon" ActionTag="-1580438835" FrameEvent="" Tag="73" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="8.0000" RightMargin="8.0000" TopMargin="8.0000" BottomMargin="8.0000" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
-                            <Position X="35.0000" Y="35.0000" />
-                            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                            <CColor A="255" R="255" G="255" B="255" />
-                            <Size X="54.0000" Y="54.0000" />
-                            <PrePosition X="0.5000" Y="0.5000" />
-                            <PreSize X="0.6353" Y="0.6353" />
-                            <FileData Type="Normal" Path="NewRes/icon/icon_idImg_default.png" />
+                            <NormalFileData Type="Normal" Path="NewRes/idImg/id_img_s.png" />
                           </NodeObjectData>
                         </Children>
                         <FileData Type="Normal" Path="Res/images/menu_icon_high.png" />
@@ -694,18 +696,20 @@
                             <Size X="54.0000" Y="54.0000" />
                             <PrePosition X="0.5000" Y="0.5000" />
                             <PreSize X="0.6353" Y="0.6353" />
+                            <Children>
+                              <NodeObjectData Name="v_NextUserHeadIcon" ActionTag="-753716616" FrameEvent="" Tag="154" PositionPercentXEnabled="True" PositionPercentYEnabled="True" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
+                                <Position X="27.0000" Y="27.0000" />
+                                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                                <CColor A="255" R="255" G="255" B="255" />
+                                <Size X="54.0000" Y="54.0000" />
+                                <PrePosition X="0.5000" Y="0.5000" />
+                                <PreSize X="0.6353" Y="0.6353" />
+                                <FileData Type="Normal" Path="NewRes/icon/icon_idImg_default.png" />
+                              </NodeObjectData>
+                            </Children>
                             <TextColor A="255" R="65" G="65" B="70" />
                             <NormalFileData Type="Normal" Path="NewRes/bg/bg_idImg.png" />
-                          </NodeObjectData>
-                          <NodeObjectData Name="v_NextUserHeadIcon" ActionTag="-753716616" FrameEvent="" Tag="154" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="8.0000" RightMargin="8.0000" TopMargin="8.0000" BottomMargin="8.0000" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
-                            <Position X="35.0000" Y="35.0000" />
-                            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                            <CColor A="255" R="255" G="255" B="255" />
-                            <Size X="54.0000" Y="54.0000" />
-                            <PrePosition X="0.5000" Y="0.5000" />
-                            <PreSize X="0.6353" Y="0.6353" />
-                            <FileData Type="Normal" Path="NewRes/icon/icon_idImg_default.png" />
                           </NodeObjectData>
                         </Children>
                         <FileData Type="Normal" Path="Res/images/menu_icon_high.png" />

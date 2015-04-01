@@ -12,13 +12,13 @@
         <PrePosition X="0.0000" Y="0.0000" />
         <PreSize X="0.0000" Y="0.0000" />
         <Children>
-          <NodeObjectData Name="v_PanelBg" ActionTag="1869376214" FrameEvent="" Tag="169" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
-            <Position X="400.0000" Y="240.0000" />
+          <NodeObjectData Name="v_PanelBg" ActionTag="1869376214" FrameEvent="" Tag="169" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" TopMargin="1.0000" BottomMargin="-1.0000" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+            <Position X="400.0000" Y="239.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <CColor A="255" R="255" G="255" B="255" />
             <Size X="800.0000" Y="480.0000" />
-            <PrePosition X="0.5000" Y="0.5000" />
+            <PrePosition X="0.5000" Y="0.4979" />
             <PreSize X="1.0000" Y="1.0000" />
             <SingleColor A="255" R="0" G="0" B="0" />
             <FirstColor A="255" R="150" G="200" B="255" />
