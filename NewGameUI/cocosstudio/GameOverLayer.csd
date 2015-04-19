@@ -34,7 +34,7 @@
             <PrePosition X="0.5000" Y="0.4583" />
             <PreSize X="0.6250" Y="0.7917" />
             <Children>
-              <NodeObjectData Name="v_ImageWinBg" ActionTag="-1466220503" Alpha="230" FrameEvent="" Tag="171" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="30.0000" RightMargin="20.0000" TopMargin="60.6020" BottomMargin="39.3980" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="16" Scale9Height="16" ctype="ImageViewObjectData">
+              <NodeObjectData Name="v_ImageWinBg" ActionTag="-1466220503" FrameEvent="" Tag="171" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="30.0000" RightMargin="20.0000" TopMargin="60.6020" BottomMargin="39.3980" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="16" Scale9Height="16" ctype="ImageViewObjectData">
                 <Position X="255.0000" Y="179.3980" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />

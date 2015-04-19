@@ -497,13 +497,228 @@
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_SelfPokeCards" ActionTag="1029620733" FrameEvent="" Tag="238" TopMargin="231.0000" BottomMargin="-1.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
-                    <Position X="0.0000" Y="-1.0000" />
+                  <NodeObjectData Name="v_PanelNextPokes" ActionTag="-784298253" FrameEvent="" Tag="134" LeftMargin="532.0000" RightMargin="68.0000" TopMargin="100.0000" BottomMargin="100.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                    <Position X="532.0000" Y="100.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <AnchorPoint />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <Size X="200.0000" Y="200.0000" />
+                    <PrePosition X="0.6650" Y="0.2500" />
+                    <PreSize X="0.0000" Y="0.0000" />
+                    <Children>
+                      <NodeObjectData Name="v_next_pc_01" ActionTag="1021550723" FrameEvent="" Tag="135" LeftMargin="71.0000" RightMargin="73.0000" TopMargin="9.0000" BottomMargin="161.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="99.0000" Y="176.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.4950" Y="0.8800" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_02" ActionTag="-1253182364" FrameEvent="" Tag="136" LeftMargin="73.0000" RightMargin="71.0000" TopMargin="15.0000" BottomMargin="155.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="101.0000" Y="170.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.5050" Y="0.8500" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_03" ActionTag="-1393950962" FrameEvent="" Tag="137" LeftMargin="76.0000" RightMargin="68.0000" TopMargin="21.0000" BottomMargin="149.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="104.0000" Y="164.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.5200" Y="0.8200" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_04" ActionTag="2031231512" FrameEvent="" Tag="138" LeftMargin="78.0000" RightMargin="66.0000" TopMargin="27.0000" BottomMargin="143.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="106.0000" Y="158.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.5300" Y="0.7900" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_05" ActionTag="-1353071642" FrameEvent="" Tag="139" LeftMargin="80.0000" RightMargin="64.0000" TopMargin="33.0000" BottomMargin="137.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="108.0000" Y="152.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.5400" Y="0.7600" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_06" ActionTag="803671166" FrameEvent="" Tag="140" LeftMargin="83.0000" RightMargin="61.0000" TopMargin="39.0000" BottomMargin="131.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="111.0000" Y="146.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.5550" Y="0.7300" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_07" ActionTag="864479594" FrameEvent="" Tag="141" LeftMargin="85.0000" RightMargin="59.0000" TopMargin="45.0000" BottomMargin="125.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="113.0000" Y="140.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.5650" Y="0.7000" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_08" ActionTag="-441959497" FrameEvent="" Tag="142" LeftMargin="87.0000" RightMargin="57.0000" TopMargin="51.0000" BottomMargin="119.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="115.0000" Y="134.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.5750" Y="0.6700" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_09" ActionTag="648129161" FrameEvent="" Tag="143" LeftMargin="90.0000" RightMargin="54.0000" TopMargin="57.0000" BottomMargin="113.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="118.0000" Y="128.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.5900" Y="0.6400" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_10" ActionTag="-1167280882" FrameEvent="" Tag="144" LeftMargin="92.0000" RightMargin="52.0000" TopMargin="63.0000" BottomMargin="107.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="120.0000" Y="122.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.6000" Y="0.6100" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_11" ActionTag="282200189" FrameEvent="" Tag="145" LeftMargin="94.0000" RightMargin="50.0000" TopMargin="69.0000" BottomMargin="101.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="122.0000" Y="116.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.6100" Y="0.5800" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_12" ActionTag="-735374413" FrameEvent="" Tag="146" LeftMargin="96.0000" RightMargin="48.0000" TopMargin="75.0000" BottomMargin="95.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="124.0000" Y="110.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.6200" Y="0.5500" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_13" ActionTag="-472086200" FrameEvent="" Tag="147" LeftMargin="98.0000" RightMargin="46.0000" TopMargin="81.0000" BottomMargin="89.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="126.0000" Y="104.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.6300" Y="0.5200" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_14" ActionTag="-1039062585" FrameEvent="" Tag="148" LeftMargin="100.0000" RightMargin="44.0000" TopMargin="87.0000" BottomMargin="83.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="128.0000" Y="98.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.6400" Y="0.4900" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_15" ActionTag="1688376764" FrameEvent="" Tag="149" LeftMargin="102.0000" RightMargin="42.0000" TopMargin="93.0000" BottomMargin="77.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="130.0000" Y="92.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.6500" Y="0.4600" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_16" ActionTag="-1201507791" FrameEvent="" Tag="150" LeftMargin="104.0000" RightMargin="40.0000" TopMargin="99.0000" BottomMargin="71.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="132.0000" Y="86.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.6600" Y="0.4300" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_17" ActionTag="-25469779" FrameEvent="" Tag="151" LeftMargin="106.0000" RightMargin="38.0000" TopMargin="105.0000" BottomMargin="65.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="134.0000" Y="80.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.6700" Y="0.4000" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_18" ActionTag="-210232930" FrameEvent="" Tag="152" LeftMargin="108.0000" RightMargin="36.0000" TopMargin="111.0000" BottomMargin="59.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="136.0000" Y="74.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.6800" Y="0.3700" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_19" ActionTag="1163605359" FrameEvent="" Tag="153" LeftMargin="110.0000" RightMargin="34.0000" TopMargin="117.0000" BottomMargin="53.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="138.0000" Y="68.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.6900" Y="0.3400" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                      <NodeObjectData Name="v_next_pc_20" ActionTag="-1435806037" FrameEvent="" Tag="154" LeftMargin="112.0000" RightMargin="32.0000" TopMargin="124.0000" BottomMargin="46.0000" FlipX="True" ctype="SpriteObjectData">
+                        <Position X="140.0000" Y="61.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <Size X="56.0000" Y="30.0000" />
+                        <PrePosition X="0.7000" Y="0.3050" />
+                        <PreSize X="0.0000" Y="0.0000" />
+                        <FileData Type="Normal" Path="NewRes/poke/poke_cover.png" />
+                      </NodeObjectData>
+                    </Children>
+                    <SingleColor A="255" R="150" G="200" B="255" />
+                    <FirstColor A="255" R="150" G="200" B="255" />
+                    <EndColor A="255" R="255" G="255" B="255" />
+                    <ColorVector ScaleY="1.0000" />
+                  </NodeObjectData>
+                  <NodeObjectData Name="v_SelfPokeCards" ActionTag="1029620733" FrameEvent="" Tag="238" TopMargin="237.0000" BottomMargin="-7.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                    <Position X="0.0000" Y="-7.0000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint />
                     <CColor A="255" R="255" G="255" B="255" />
                     <Size X="800.0000" Y="170.0000" />
-                    <PrePosition X="0.0000" Y="-0.0025" />
+                    <PrePosition X="0.0000" Y="-0.0175" />
                     <PreSize X="1.0000" Y="0.4250" />
                     <SingleColor A="255" R="150" G="255" B="223" />
                     <FirstColor A="255" R="150" G="200" B="255" />
@@ -645,13 +860,13 @@
                         <PrePosition X="0.9468" Y="0.9333" />
                         <PreSize X="0.2222" Y="0.1769" />
                       </NodeObjectData>
-                      <NodeObjectData Name="v_NextUserPokeCount" ActionTag="-826652062" FrameEvent="" Tag="154" LeftMargin="57.5892" RightMargin="102.4108" TopMargin="91.4534" BottomMargin="67.5466" FontSize="18" LabelText="17" ctype="TextObjectData">
-                        <Position X="77.5892" Y="78.0466" />
+                      <NodeObjectData Name="v_NextUserPokeCount" ActionTag="-826652062" FrameEvent="" Tag="154" LeftMargin="55.5892" RightMargin="104.4108" TopMargin="111.4534" BottomMargin="47.5466" FontSize="18" LabelText="17" ctype="TextObjectData">
+                        <Position X="75.5892" Y="58.0466" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="1.0000" ScaleY="0.5000" />
-                        <CColor A="255" R="255" G="255" B="255" />
+                        <CColor A="255" R="56" G="30" B="0" />
                         <Size X="20.0000" Y="21.0000" />
-                        <PrePosition X="0.4311" Y="0.4336" />
+                        <PrePosition X="0.4199" Y="0.3225" />
                         <PreSize X="0.0000" Y="0.0000" />
                       </NodeObjectData>
                       <NodeObjectData Name="Panel_11" ActionTag="-114038139" FrameEvent="" Tag="156" LeftMargin="-50.9871" RightMargin="130.9871" TopMargin="35.0000" BottomMargin="75.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
@@ -789,7 +1004,7 @@
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </NodeObjectData>
-                  <NodeObjectData Name="v_ButtonsPanel" ActionTag="803306839" FrameEvent="" Tag="142" PositionPercentXEnabled="True" LeftMargin="125.0000" RightMargin="125.0000" TopMargin="149.5000" BottomMargin="150.5000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                  <NodeObjectData Name="v_ButtonsPanel" ActionTag="803306839" Visible="False" FrameEvent="" Tag="142" PositionPercentXEnabled="True" LeftMargin="125.0000" RightMargin="125.0000" TopMargin="149.5000" BottomMargin="150.5000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                     <Position X="400.0000" Y="150.5000" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <AnchorPoint ScaleX="0.5000" />
@@ -1119,7 +1334,7 @@
                         <PreSize X="0.9902" Y="0.9398" />
                         <FileData Type="Normal" Path="NewRes/bg/bg_uiTop_03.png" />
                       </NodeObjectData>
-                      <NodeObjectData Name="v_ButtonRoomList" ActionTag="1374425031" FrameEvent="" Tag="218" PositionPercentXEnabled="True" VerticalEdge="TopEdge" LeftMargin="152.2000" RightMargin="135.8000" TopMargin="5.6300" BottomMargin="19.3700" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="112" Scale9Height="48" ctype="ButtonObjectData">
+                      <NodeObjectData Name="v_ButtonRoomList" ActionTag="1374425031" FrameEvent="" Tag="218" PositionPercentXEnabled="True" VerticalEdge="TopEdge" LeftMargin="152.2000" RightMargin="135.8000" TopMargin="5.6300" BottomMargin="19.3700" TouchEnable="True" FontSize="28" ButtonText="新手场" Scale9Enable="True" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="112" Scale9Height="48" ctype="ButtonObjectData">
                         <Position X="213.2000" Y="48.3700" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -1128,7 +1343,7 @@
                         <PrePosition X="0.5200" Y="0.5828" />
                         <PreSize X="0.2976" Y="0.5800" />
                         <Children>
-                          <NodeObjectData Name="Image_2" ActionTag="1842698468" FrameEvent="" Tag="219" PositionPercentXEnabled="True" VerticalEdge="TopEdge" TopMargin="-1.0000" BottomMargin="1.0000" Scale9Width="122" Scale9Height="58" ctype="ImageViewObjectData">
+                          <NodeObjectData Name="Image_2" ActionTag="1842698468" VisibleForFrame="False" FrameEvent="" Tag="219" PositionPercentXEnabled="True" VerticalEdge="TopEdge" TopMargin="-1.0000" BottomMargin="1.0000" Scale9Width="122" Scale9Height="58" ctype="ImageViewObjectData">
                             <Position X="61.0000" Y="30.0000" />
                             <Scale ScaleX="1.0000" ScaleY="1.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -1139,7 +1354,7 @@
                             <FileData Type="Normal" Path="NewRes/text/text_table_top_btn_roomList_01.png" />
                           </NodeObjectData>
                         </Children>
-                        <TextColor A="255" R="65" G="65" B="70" />
+                        <TextColor A="255" R="74" G="62" B="9" />
                         <NormalFileData Type="Normal" Path="NewRes/btn/btn_table_top_roomlist.png" />
                       </NodeObjectData>
                       <NodeObjectData Name="v_ButtonChat" ActionTag="-1186210375" FrameEvent="" Tag="220" VerticalEdge="TopEdge" LeftMargin="12.9758" RightMargin="337.0242" TopMargin="6.6300" BottomMargin="16.3700" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="60" Scale9Height="60" ctype="ButtonObjectData">
@@ -1234,13 +1449,13 @@
             </Children>
             <FileData Type="Normal" Path="NewRes/icon/icon_table_mid_clock.png" />
           </NodeObjectData>
-          <NodeObjectData Name="v_JipaiqiPanel" ActionTag="1440589557" FrameEvent="" Tag="214" LeftMargin="119.2909" RightMargin="180.7091" TopMargin="357.5077" BottomMargin="62.4923" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
-            <Position X="369.2909" Y="62.4923" />
+          <NodeObjectData Name="v_JipaiqiPanel" ActionTag="1440589557" FrameEvent="" Tag="214" LeftMargin="104.0000" RightMargin="196.0000" TopMargin="364.0000" BottomMargin="56.0000" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+            <Position X="354.0000" Y="56.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <AnchorPoint ScaleX="0.5000" />
             <CColor A="255" R="255" G="255" B="255" />
             <Size X="500.0000" Y="60.0000" />
-            <PrePosition X="0.4616" Y="0.1302" />
+            <PrePosition X="0.4425" Y="0.1167" />
             <PreSize X="0.6250" Y="0.1250" />
             <SingleColor A="255" R="150" G="200" B="255" />
             <FirstColor A="255" R="150" G="200" B="255" />

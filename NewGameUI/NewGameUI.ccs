@@ -1069,12 +1069,17 @@
         <Project Name="MsgBoxLayer.csd" Type="Layer" />
         <Project Name="HallScene2.csd" Type="Scene" />
         <Project Name="ShopScene2.csd" Type="Scene" />
-        <Project Name="SysConfigLayer2.csd" Type="Layer" />
+        <Project Name="SysConfigLayer2xxx.csd" Type="Layer" />
         <Project Name="GamingScene2.csd" Type="Scene" />
         <Project Name="GameOverLayer.csd" Type="Layer" />
         <Project Name="UserProfileLayer.csd" Type="Layer" />
         <Project Name="UP_HeadIconsLayer.csd" Type="Layer" />
         <Project Name="UP_PasswordLayer.csd" Type="Layer" />
+        <Project Name="AudioSettingLayer.csd" Type="Layer" />
+        <Project Name="TaskScene2.csd" Type="Scene" />
+        <Project Name="AssetsScene2.csd" Type="Scene" />
+        <Project Name="ToastLayer.csd" Type="Layer" />
+        <Project Name="NetworkConnectingLayer2.csd" Type="Layer" />
       </RootFolder>
     </Group>
   </SolutionFolder>
