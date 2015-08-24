@@ -1,5 +1,5 @@
 <Solution>
-  <PropertyGroup Name="NewGameUI" Version="2.2.1.0" Type="CocosStudio" />
+  <PropertyGroup Name="NewGameUI" Version="2.3.2.0" Type="CocosStudio" />
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
@@ -861,6 +861,13 @@
             <Image Name="icon_vip_05.png" />
             <Image Name="icon_vip_06.png" />
             <Image Name="icon_launcher_l.png" />
+            <Image Name="icon_loginReward_01.png" />
+            <Image Name="icon_loginReward_02.png" />
+            <Image Name="icon_loginReward_03.png" />
+            <Image Name="icon_loginReward_04.png" />
+            <Image Name="icon_loginReward_05.png" />
+            <Image Name="icon_loginReward_06.png" />
+            <Image Name="icon_loginReward_07.png" />
           </Folder>
           <Folder Name="loading">
             <File Name="login_light_demo.gif" />
@@ -1042,6 +1049,10 @@
             <Fnt Name="btn_text_gold_36.fnt" />
             <Fnt Name="lose_num_28.fnt" />
             <Fnt Name="win_num_28.fnt" />
+            <Fnt Name="waiting_for_start.fnt" />
+            <Fnt Name="playTips.fnt" />
+            <Fnt Name="panel_title.fnt" />
+            <Image Name="btn_text_red_s.png" />
           </Folder>
           <Folder Name="idImg">
             <Image Name="idImg_head_01.jpg" />
@@ -1062,7 +1073,25 @@
             <Image Name="id_img_l.png" />
             <Image Name="id_img_s.png" />
             <Image Name="tag_idImg_vip.png" />
+            <Image Name="idImg_default_01.jpg" />
+            <Image Name="idImg_default_02.jpg" />
+            <Image Name="idImg_default_03.jpg" />
+            <Image Name="idImg_default_04.jpg" />
+            <Image Name="idImg_default_05.jpg" />
+            <Image Name="idImg_default_06.jpg" />
+            <Image Name="idImg_default_07.jpg" />
+            <Image Name="idImg_default_08.jpg" />
+            <Image Name="idImg_default_09.jpg" />
+            <Image Name="idImg_default_10.jpg" />
+            <Image Name="idImg_vip_01.jpg" />
+            <Image Name="idImg_vip_02.jpg" />
+            <Image Name="idImg_vip_03.jpg" />
+            <Image Name="idImg_vip_04.jpg" />
+            <Image Name="idImg_vip_05.jpg" />
           </Folder>
+          <Image Name="feiji.png" />
+          <Image Name="red_dot.jpg" />
+          <Image Name="rocket2.png" />
         </Folder>
         <Project Name="LandingScene2.csd" Type="Scene" />
         <Project Name="LoginScene2.csd" Type="Scene" />
