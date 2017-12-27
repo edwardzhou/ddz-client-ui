@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="EveryDayLoginLayer" ID="15546f76-ef09-4677-81ef-c23055259251" Version="2.3.2.0" />
+  <PropertyGroup Type="Scene" Name="EveryDayLoginLayer" ID="15546f76-ef09-4677-81ef-c23055259251" Version="2.3.2.3" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -16,7 +16,7 @@
             <PreSize X="0.9350" Y="0.9688" />
             <FileData Type="Normal" Path="NewRes/bg/bg_panel.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Sprite_3" ActionTag="682319849" Tag="78" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="229.0000" RightMargin="229.0000" TopMargin="2.4000" BottomMargin="411.6000" ctype="SpriteObjectData">
+          <AbstractNodeData Name="Sprite_3" ActionTag="682319849" Tag="78" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="229.0000" RightMargin="229.0000" TopMargin="2.4000" BottomMargin="411.6000" ctype="SpriteObjectData">
             <Size X="290.0000" Y="51.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="400.0000" Y="451.2000" />
@@ -38,10 +38,10 @@
             <FileData Type="Normal" Path="Res/everydaylogin/login_man.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="v_ButtonGet" ActionTag="-95600277" CallBackType="Click" CallBackName="onGetAwardClick" Tag="79" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="318.0000" RightMargin="322.0000" TopMargin="393.2000" BottomMargin="36.8000" TouchEnable="True" FontSize="14" ButtonText="Button" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="11" Scale9Width="58" Scale9Height="39" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="v_ButtonGet" ActionTag="-95600277" CallBackType="Click" CallBackName="onGetAwardClick" Tag="79" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="318.0000" RightMargin="322.0000" TopMargin="393.2000" BottomMargin="36.8000" TouchEnable="True" FontSize="14" ButtonText="Button" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="11" Scale9Width="58" Scale9Height="39" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="160.0000" Y="50.0000" />
             <Children>
-              <AbstractNodeData Name="Sprite_4" ActionTag="570267628" Tag="80" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-44.0000" RightMargin="-44.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="Sprite_4" ActionTag="570267628" Tag="80" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="-44.0000" RightMargin="-44.0000" ctype="SpriteObjectData">
                 <Size X="131.0000" Y="36.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="80.0000" Y="25.0000" />

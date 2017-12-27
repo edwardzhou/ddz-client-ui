@@ -1,12 +1,12 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="UP_HeadIconsLayer" ID="eed89bf8-00f2-4fe6-9018-a5b6b6e4ac08" Version="2.3.2.0" />
+  <PropertyGroup Type="Layer" Name="UP_HeadIconsLayer" ID="eed89bf8-00f2-4fe6-9018-a5b6b6e4ac08" Version="2.3.2.3" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
       <ObjectData Name="Layer" Tag="379" ctype="GameLayerObjectData">
         <Size X="800.0000" Y="480.0000" />
         <Children>
-          <AbstractNodeData Name="v_PanelBg" ActionTag="-2016034537" Tag="380" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+          <AbstractNodeData Name="v_PanelBg" ActionTag="-2016034537" Tag="380" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="800.0000" Y="480.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="400.0000" Y="240.0000" />
@@ -19,10 +19,10 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="v_PanelHeadIcons" ActionTag="1190474715" Tag="381" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="135.0000" RightMargin="135.0000" TopMargin="70.0000" BottomMargin="70.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="80" RightEage="80" TopEage="80" BottomEage="80" Scale9OriginX="80" Scale9OriginY="80" Scale9Width="2" Scale9Height="2" ctype="PanelObjectData">
+          <AbstractNodeData Name="v_PanelHeadIcons" ActionTag="1190474715" Tag="381" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="135.0000" RightMargin="135.0000" TopMargin="70.0000" BottomMargin="70.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="80" RightEage="80" TopEage="80" BottomEage="80" Scale9OriginX="80" Scale9OriginY="80" Scale9Width="2" Scale9Height="2" ctype="PanelObjectData">
             <Size X="530.0000" Y="340.0000" />
             <Children>
-              <AbstractNodeData Name="v_ButtonClose" ActionTag="-1135017625" VisibleForFrame="False" Tag="382" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="498.0000" RightMargin="-32.0000" TopMargin="-32.0000" BottomMargin="308.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" Scale9Width="64" Scale9Height="64" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="v_ButtonClose" ActionTag="-1135017625" VisibleForFrame="False" Tag="382" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="498.0000" RightMargin="-32.0000" TopMargin="-32.0000" BottomMargin="308.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" Scale9Width="64" Scale9Height="64" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="64.0000" Y="64.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="530.0000" Y="340.0000" />
@@ -46,7 +46,7 @@
                 <FileData Type="Normal" Path="NewRes/text/text__panel_selfInfo_title.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Image_1" ActionTag="2092979131" Tag="385" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="65.0000" RightMargin="65.0000" TopMargin="70.0000" BottomMargin="30.0000" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="15" BottomEage="15" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="2" Scale9Height="4" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="Image_1" ActionTag="2092979131" Tag="385" IconVisible="False" PositionPercentXEnabled="True" HorizontalEdge="BothEdge" LeftMargin="65.0000" RightMargin="65.0000" TopMargin="70.0000" BottomMargin="30.0000" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="15" BottomEage="15" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="2" Scale9Height="4" ctype="ImageViewObjectData">
                 <Size X="400.0000" Y="240.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="265.0000" Y="150.0000" />

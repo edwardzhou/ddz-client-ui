@@ -1,12 +1,12 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="ShopScene2" ID="98621172-03cf-47e0-8965-7de0b1c68850" Version="2.3.2.0" />
+  <PropertyGroup Type="Scene" Name="ShopScene2" ID="98621172-03cf-47e0-8965-7de0b1c68850" Version="2.3.2.3" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
       <ObjectData Name="Scene" Tag="65" ctype="GameNodeObjectData">
         <Size X="800.0000" Y="480.0000" />
         <Children>
-          <AbstractNodeData Name="Image_1" ActionTag="-685912891" Tag="66" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" Scale9Width="800" Scale9Height="480" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_1" ActionTag="-685912891" Tag="66" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" Scale9Width="800" Scale9Height="480" ctype="ImageViewObjectData">
             <Size X="800.0000" Y="480.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="400.0000" Y="240.0000" />
@@ -16,10 +16,10 @@
             <PreSize X="1.0000" Y="1.0000" />
             <FileData Type="Normal" Path="NewRes/bg_mailUI.jpg" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="PanelTop" ActionTag="-1383095305" Tag="67" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentWidthEnabled="True" BottomMargin="400.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+          <AbstractNodeData Name="PanelTop" ActionTag="-1383095305" Tag="67" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentWidthEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" BottomMargin="400.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
             <Size X="800.0000" Y="80.0000" />
             <Children>
-              <AbstractNodeData Name="Image_2" ActionTag="239033164" Tag="69" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" BottomMargin="4.0000" Scale9Width="800" Scale9Height="76" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="Image_2" ActionTag="239033164" Tag="69" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" BottomMargin="4.0000" Scale9Width="800" Scale9Height="76" ctype="ImageViewObjectData">
                 <Size X="800.0000" Y="76.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="1.0000" />
                 <Position X="400.0000" Y="80.0000" />
@@ -56,7 +56,7 @@
                     <FileData Type="Normal" Path="NewRes/icon/icon_gold.png" Plist="" />
                     <BlendFunc Src="1" Dst="771" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="v_LabelCoins" ActionTag="-797165627" Tag="74" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="45.0000" RightMargin="68.0000" TopMargin="6.0000" BottomMargin="6.0000" FontSize="20" LabelText="1234567890" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                  <AbstractNodeData Name="v_LabelCoins" ActionTag="-797165627" Tag="74" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="45.0000" RightMargin="68.0000" TopMargin="6.0000" BottomMargin="6.0000" FontSize="20" LabelText="1234567890" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                     <Size X="111.0000" Y="23.0000" />
                     <AnchorPoint ScaleY="0.5000" />
                     <Position X="45.0000" Y="17.5000" />
@@ -91,7 +91,7 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="TopTitle" ActionTag="219294534" Tag="76" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="356.0000" RightMargin="356.0000" TopMargin="10.0000" BottomMargin="26.0000" ctype="SpriteObjectData">
+              <AbstractNodeData Name="TopTitle" ActionTag="219294534" Tag="76" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="356.0000" RightMargin="356.0000" TopMargin="10.0000" BottomMargin="26.0000" ctype="SpriteObjectData">
                 <Size X="88.0000" Y="44.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="400.0000" Y="48.0000" />
@@ -117,7 +117,7 @@
           <AbstractNodeData Name="PanelMain" ActionTag="508221915" Tag="68" IconVisible="False" TopMargin="80.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
             <Size X="800.0000" Y="400.0000" />
             <Children>
-              <AbstractNodeData Name="Image_3" ActionTag="34754094" Tag="70" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-1.0000" RightMargin="1.0000" TopMargin="-20.0000" BottomMargin="4.0000" Scale9Width="800" Scale9Height="416" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="Image_3" ActionTag="34754094" Tag="70" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="-1.0000" RightMargin="1.0000" TopMargin="-20.0000" BottomMargin="4.0000" Scale9Width="800" Scale9Height="416" ctype="ImageViewObjectData">
                 <Size X="800.0000" Y="416.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="399.0000" Y="212.0000" />
@@ -127,7 +127,7 @@
                 <PreSize X="1.0000" Y="1.0400" />
                 <FileData Type="Normal" Path="NewRes/bg/bg_subUI.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="v_ShopItemList" ActionTag="-1756544630" Tag="83" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="70.5000" RightMargin="70.5000" TopMargin="35.0000" BottomMargin="50.0000" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" IsBounceEnabled="True" ScrollDirectionType="0" ItemMargin="5" DirectionType="Vertical" HorizontalType="Align_HorizontalCenter" ctype="ListViewObjectData">
+              <AbstractNodeData Name="v_ShopItemList" ActionTag="-1756544630" Tag="83" IconVisible="False" PositionPercentXEnabled="True" HorizontalEdge="BothEdge" LeftMargin="70.5000" RightMargin="70.5000" TopMargin="35.0000" BottomMargin="50.0000" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" IsBounceEnabled="True" ScrollDirectionType="0" ItemMargin="5" DirectionType="Vertical" HorizontalType="Align_HorizontalCenter" ctype="ListViewObjectData">
                 <Size X="659.0000" Y="315.0000" />
                 <AnchorPoint ScaleX="0.5000" />
                 <Position X="400.0000" Y="50.0000" />
@@ -174,10 +174,10 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="v_ShopItemModel" ActionTag="-427443515" Tag="77" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="75.0000" RightMargin="75.0000" TopMargin="143.5437" BottomMargin="236.4563" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+          <AbstractNodeData Name="v_ShopItemModel" ActionTag="-427443515" Tag="77" IconVisible="False" PositionPercentXEnabled="True" HorizontalEdge="BothEdge" LeftMargin="75.0000" RightMargin="75.0000" TopMargin="143.5437" BottomMargin="236.4563" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
             <Size X="650.0000" Y="100.0000" />
             <Children>
-              <AbstractNodeData Name="Image_4" ActionTag="85568073" Tag="78" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TopMargin="2.0000" BottomMargin="2.0000" Scale9Enable="True" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="16" Scale9Height="14" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="Image_4" ActionTag="85568073" Tag="78" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" TopMargin="2.0000" BottomMargin="2.0000" Scale9Enable="True" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="16" Scale9Height="14" ctype="ImageViewObjectData">
                 <Size X="650.0000" Y="96.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="325.0000" Y="50.0000" />
@@ -187,7 +187,7 @@
                 <PreSize X="1.0000" Y="0.9600" />
                 <FileData Type="Normal" Path="NewRes/bg/bg_item_01.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ImagePkgIcon" ActionTag="-20612823" Tag="79" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="9.0000" RightMargin="563.0000" TopMargin="11.0000" BottomMargin="11.0000" Scale9Width="78" Scale9Height="78" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="ImagePkgIcon" ActionTag="-20612823" Tag="79" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="9.0000" RightMargin="563.0000" TopMargin="11.0000" BottomMargin="11.0000" Scale9Width="78" Scale9Height="78" ctype="ImageViewObjectData">
                 <Size X="78.0000" Y="78.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="48.0000" Y="50.0000" />
@@ -215,7 +215,7 @@
                 <PrePosition X="0.1477" Y="0.1000" />
                 <PreSize X="0.5692" Y="0.4800" />
               </AbstractNodeData>
-              <AbstractNodeData Name="ButtonBuy" ActionTag="-487801272" Tag="82" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="476.6536" RightMargin="19.3464" TopMargin="27.5000" BottomMargin="27.5000" TouchEnable="True" FontSize="24" ButtonText="￥4.00" Scale9Enable="True" Scale9Width="154" Scale9Height="45" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="ButtonBuy" ActionTag="-487801272" Tag="82" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="476.6536" RightMargin="19.3464" TopMargin="27.5000" BottomMargin="27.5000" TouchEnable="True" FontSize="24" ButtonText="￥4.00" Scale9Enable="True" Scale9Width="154" Scale9Height="45" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="154.0000" Y="45.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="553.6536" Y="50.0000" />

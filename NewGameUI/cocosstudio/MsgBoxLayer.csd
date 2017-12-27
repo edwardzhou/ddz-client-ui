@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="MsgBoxLayer" ID="6323022b-3e57-48e1-b4db-d20235384e9e" Version="2.3.2.0" />
+  <PropertyGroup Type="Layer" Name="MsgBoxLayer" ID="6323022b-3e57-48e1-b4db-d20235384e9e" Version="2.3.2.3" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -22,10 +22,10 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="v_MsgPanel" ActionTag="354002067" Tag="83" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="200.0000" RightMargin="200.0000" TopMargin="115.0000" BottomMargin="115.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="80" RightEage="80" TopEage="80" BottomEage="80" Scale9OriginX="80" Scale9OriginY="80" Scale9Width="2" Scale9Height="2" ctype="PanelObjectData">
+              <AbstractNodeData Name="v_MsgPanel" ActionTag="354002067" Tag="83" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="200.0000" RightMargin="200.0000" TopMargin="115.0000" BottomMargin="115.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="80" RightEage="80" TopEage="80" BottomEage="80" Scale9OriginX="80" Scale9OriginY="80" Scale9Width="2" Scale9Height="2" ctype="PanelObjectData">
                 <Size X="400.0000" Y="250.0000" />
                 <Children>
-                  <AbstractNodeData Name="v_LabelTitle" ActionTag="-1876108143" Tag="84" IconVisible="False" PositionPercentXEnabled="True" VerticalEdge="TopEdge" LeftMargin="144.0000" RightMargin="144.0000" TopMargin="20.0000" BottomMargin="198.0000" FontSize="28" LabelText="消息标题" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                  <AbstractNodeData Name="v_LabelTitle" ActionTag="-1876108143" Tag="84" IconVisible="False" PositionPercentXEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="TopEdge" LeftMargin="144.0000" RightMargin="144.0000" TopMargin="20.0000" BottomMargin="198.0000" FontSize="28" LabelText="消息标题" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                     <Size X="112.0000" Y="32.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="1.0000" />
                     <Position X="200.0000" Y="230.0000" />
@@ -56,10 +56,10 @@
                     <PressedFileData Type="Normal" Path="NewRes/btn/btn_close_pr.png" Plist="" />
                     <NormalFileData Type="Normal" Path="NewRes/btn/btn_close_default.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="v_PanelButtons" ActionTag="920591301" Tag="89" IconVisible="False" PositionPercentXEnabled="True" VerticalEdge="BottomEdge" TopMargin="160.0000" BottomMargin="40.0000" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+                  <AbstractNodeData Name="v_PanelButtons" ActionTag="920591301" Tag="89" IconVisible="False" PositionPercentXEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BottomEdge" TopMargin="160.0000" BottomMargin="40.0000" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
                     <Size X="400.0000" Y="50.0000" />
                     <Children>
-                      <AbstractNodeData Name="v_ButtonCancel" ActionTag="1919976433" Tag="86" IconVisible="False" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" LeftMargin="31.5600" RightMargin="214.4400" TopMargin="2.5000" BottomMargin="2.5000" TouchEnable="True" FontSize="24" ButtonText="取 消" Scale9Width="154" Scale9Height="45" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                      <AbstractNodeData Name="v_ButtonCancel" ActionTag="1919976433" Tag="86" IconVisible="False" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="31.5600" RightMargin="214.4400" TopMargin="2.5000" BottomMargin="2.5000" TouchEnable="True" FontSize="24" ButtonText="取 消" Scale9Width="154" Scale9Height="45" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="154.0000" Y="45.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="108.5600" Y="25.0000" />
@@ -72,7 +72,7 @@
                         <PressedFileData Type="Normal" Path="NewRes/btn/btn_blue_m_pr.png" Plist="" />
                         <NormalFileData Type="Normal" Path="NewRes/btn/btn_blue_m_default.png" Plist="" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="v_ButtonOk" ActionTag="-1482078727" Tag="87" IconVisible="False" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" LeftMargin="213.6800" RightMargin="32.3200" TopMargin="1.5000" BottomMargin="3.5000" TouchEnable="True" FontSize="24" ButtonText="确 定" Scale9Width="154" Scale9Height="45" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                      <AbstractNodeData Name="v_ButtonOk" ActionTag="-1482078727" Tag="87" IconVisible="False" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="213.6800" RightMargin="32.3200" TopMargin="1.5000" BottomMargin="3.5000" TouchEnable="True" FontSize="24" ButtonText="确 定" Scale9Width="154" Scale9Height="45" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="154.0000" Y="45.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="290.6800" Y="26.0000" />

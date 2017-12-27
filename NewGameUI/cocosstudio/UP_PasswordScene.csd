@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="UP_PasswordScene" ID="4ed9e52c-e526-417e-a05e-8212c7d4a852" Version="2.3.2.0" />
+  <PropertyGroup Type="Scene" Name="UP_PasswordScene" ID="4ed9e52c-e526-417e-a05e-8212c7d4a852" Version="2.3.2.3" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />

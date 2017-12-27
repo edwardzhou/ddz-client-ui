@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="TaskScene" ID="6dd43f48-27aa-437b-ada5-f2b838183ad3" Version="2.3.2.0" />
+  <PropertyGroup Type="Scene" Name="TaskScene" ID="6dd43f48-27aa-437b-ada5-f2b838183ad3" Version="2.3.2.3" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -57,7 +57,7 @@
               <AbstractNodeData Name="v_TaskItemModel" ActionTag="-489607564" Tag="55" IconVisible="False" LeftMargin="3.0000" RightMargin="4.0000" TopMargin="189.0000" BottomMargin="181.0000" TouchEnable="True" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
                 <Size X="793.0000" Y="110.0000" />
                 <Children>
-                  <AbstractNodeData Name="v_ImageIcon" ActionTag="271150575" Tag="56" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="57.4999" RightMargin="648.5001" TopMargin="17.5000" BottomMargin="17.5000" Scale9Width="87" Scale9Height="75" ctype="ImageViewObjectData">
+                  <AbstractNodeData Name="v_ImageIcon" ActionTag="271150575" Tag="56" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="57.4999" RightMargin="648.5001" TopMargin="17.5000" BottomMargin="17.5000" Scale9Width="87" Scale9Height="75" ctype="ImageViewObjectData">
                     <Size X="87.0000" Y="75.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="100.9999" Y="55.0000" />
@@ -67,7 +67,7 @@
                     <PreSize X="0.1097" Y="0.6818" />
                     <FileData Type="Normal" Path="Res/task/sys_win.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="Image_4" ActionTag="-203326572" Tag="57" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="46.5000" RightMargin="46.5000" TopMargin="5.0000" BottomMargin="5.0000" Scale9Enable="True" LeftEage="130" RightEage="65" Scale9OriginX="130" Scale9Width="1" Scale9Height="100" ctype="ImageViewObjectData">
+                  <AbstractNodeData Name="Image_4" ActionTag="-203326572" Tag="57" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="46.5000" RightMargin="46.5000" TopMargin="5.0000" BottomMargin="5.0000" Scale9Enable="True" LeftEage="130" RightEage="65" Scale9OriginX="130" Scale9Width="1" Scale9Height="100" ctype="ImageViewObjectData">
                     <Size X="700.0000" Y="100.0000" />
                     <Children>
                       <AbstractNodeData Name="TaskName" ActionTag="-1594242490" Tag="58" IconVisible="False" LeftMargin="113.0000" RightMargin="432.0000" TopMargin="28.5000" BottomMargin="48.5000" FontSize="20" LabelText="100地主对战20局" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
@@ -118,7 +118,7 @@
                         <PrePosition X="0.3021" Y="0.3700" />
                         <PreSize X="0.0000" Y="0.0000" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="Image_10" ActionTag="1818122693" Tag="63" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="362.0000" RightMargin="292.0000" TopMargin="27.0000" BottomMargin="27.0000" Scale9Width="50" Scale9Height="50" ctype="ImageViewObjectData">
+                      <AbstractNodeData Name="Image_10" ActionTag="1818122693" Tag="63" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="362.0000" RightMargin="292.0000" TopMargin="27.0000" BottomMargin="27.0000" Scale9Width="50" Scale9Height="50" ctype="ImageViewObjectData">
                         <Size X="46.0000" Y="46.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="385.0000" Y="50.0000" />
@@ -128,7 +128,7 @@
                         <PreSize X="0.0657" Y="0.4600" />
                         <FileData Type="Normal" Path="Res/task/goldIcon.png" Plist="" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="TaskBonus" ActionTag="-1834208969" Tag="64" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="406.0000" RightMargin="199.0000" TopMargin="38.5000" BottomMargin="38.5000" FontSize="20" LabelText="10000金币" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                      <AbstractNodeData Name="TaskBonus" ActionTag="-1834208969" Tag="64" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="406.0000" RightMargin="199.0000" TopMargin="38.5000" BottomMargin="38.5000" FontSize="20" LabelText="10000金币" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                         <Size X="95.0000" Y="23.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="453.5000" Y="50.0000" />
@@ -137,7 +137,7 @@
                         <PrePosition X="0.6479" Y="0.5000" />
                         <PreSize X="0.1357" Y="0.2300" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="ButtonTakeBonus" ActionTag="349055181" Tag="65" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="513.0200" RightMargin="66.9800" TopMargin="26.5000" BottomMargin="28.5000" TouchEnable="True" FontSize="18" ButtonText="去做任务" Scale9Enable="True" LeftEage="36" RightEage="35" Scale9OriginX="36" Scale9Width="1" Scale9Height="45" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                      <AbstractNodeData Name="ButtonTakeBonus" ActionTag="349055181" Tag="65" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="513.0200" RightMargin="66.9800" TopMargin="26.5000" BottomMargin="28.5000" TouchEnable="True" FontSize="18" ButtonText="去做任务" Scale9Enable="True" LeftEage="36" RightEage="35" Scale9OriginX="36" Scale9Width="1" Scale9Height="45" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="120.0000" Y="45.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="573.0200" Y="51.0000" />

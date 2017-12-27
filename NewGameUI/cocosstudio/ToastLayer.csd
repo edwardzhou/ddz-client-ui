@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="ToastLayer" ID="6a291828-39d7-4fd9-b3c1-b22ad66f8a36" Version="2.3.2.0" />
+  <PropertyGroup Type="Layer" Name="ToastLayer" ID="6a291828-39d7-4fd9-b3c1-b22ad66f8a36" Version="2.3.2.3" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -22,10 +22,10 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="v_PanelBox" ActionTag="-1822018539" Tag="373" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="150.0000" RightMargin="150.0000" TopMargin="140.0000" BottomMargin="140.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" LeftEage="15" RightEage="15" TopEage="15" BottomEage="15" Scale9OriginX="15" Scale9OriginY="15" Scale9Width="6" Scale9Height="4" ctype="PanelObjectData">
+              <AbstractNodeData Name="v_PanelBox" ActionTag="-1822018539" Tag="373" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="150.0000" RightMargin="150.0000" TopMargin="140.0000" BottomMargin="140.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" LeftEage="15" RightEage="15" TopEage="15" BottomEage="15" Scale9OriginX="15" Scale9OriginY="15" Scale9Width="6" Scale9Height="4" ctype="PanelObjectData">
                 <Size X="500.0000" Y="200.0000" />
                 <Children>
-                  <AbstractNodeData Name="Image_1" ActionTag="1603947769" Tag="375" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="15" BottomEage="15" Scale9OriginX="15" Scale9OriginY="15" Scale9Width="6" Scale9Height="4" ctype="ImageViewObjectData">
+                  <AbstractNodeData Name="Image_1" ActionTag="1603947769" Tag="375" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="15" BottomEage="15" Scale9OriginX="15" Scale9OriginY="15" Scale9Width="6" Scale9Height="4" ctype="ImageViewObjectData">
                     <Size X="500.0000" Y="200.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="250.0000" Y="100.0000" />
@@ -35,7 +35,7 @@
                     <PreSize X="1.0000" Y="1.0000" />
                     <FileData Type="Normal" Path="NewRes/login/login_blank_bg.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="v_LoadingSprite" ActionTag="-78811800" Tag="376" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="228.0000" RightMargin="228.0000" TopMargin="38.0000" BottomMargin="118.0000" ctype="SpriteObjectData">
+                  <AbstractNodeData Name="v_LoadingSprite" ActionTag="-78811800" Tag="376" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="228.0000" RightMargin="228.0000" TopMargin="38.0000" BottomMargin="118.0000" ctype="SpriteObjectData">
                     <Size X="44.0000" Y="44.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="250.0000" Y="140.0000" />
@@ -46,7 +46,7 @@
                     <FileData Type="Normal" Path="NewRes/loading/loading_animate_01.png" Plist="" />
                     <BlendFunc Src="1" Dst="771" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="v_LabelMsg" ActionTag="-1806377080" Tag="374" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="191.0000" RightMargin="191.0000" TopMargin="127.0000" BottomMargin="47.0000" FontSize="22" LabelText="v_LabelMsg" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                  <AbstractNodeData Name="v_LabelMsg" ActionTag="-1806377080" Tag="374" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="191.0000" RightMargin="191.0000" TopMargin="127.0000" BottomMargin="47.0000" FontSize="22" LabelText="v_LabelMsg" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                     <Size X="118.0000" Y="26.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="250.0000" Y="60.0000" />

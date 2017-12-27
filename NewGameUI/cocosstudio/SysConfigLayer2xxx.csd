@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="SysConfigLayer2xxx" ID="8bd21565-4623-4915-b588-24725d973122" Version="2.3.2.0" />
+  <PropertyGroup Type="Layer" Name="SysConfigLayer2xxx" ID="8bd21565-4623-4915-b588-24725d973122" Version="2.3.2.3" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -19,7 +19,7 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="v_PanelSetting" ActionTag="-2051603241" Tag="200" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="39.7278" RightMargin="310.2722" TopMargin="158.3532" BottomMargin="41.6468" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="80" RightEage="80" TopEage="80" BottomEage="80" Scale9OriginX="80" Scale9OriginY="80" Scale9Width="2" Scale9Height="2" ctype="PanelObjectData">
+          <AbstractNodeData Name="v_PanelSetting" ActionTag="-2051603241" Tag="200" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="39.7278" RightMargin="310.2722" TopMargin="158.3532" BottomMargin="41.6468" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="80" RightEage="80" TopEage="80" BottomEage="80" Scale9OriginX="80" Scale9OriginY="80" Scale9Width="2" Scale9Height="2" ctype="PanelObjectData">
             <Size X="450.0000" Y="280.0000" />
             <Children>
               <AbstractNodeData Name="v_ButtonClose" ActionTag="-680345048" Tag="201" IconVisible="False" HorizontalEdge="RightEdge" VerticalEdge="TopEdge" LeftMargin="413.0601" RightMargin="-27.0601" TopMargin="-28.0399" BottomMargin="244.0399" TouchEnable="True" FontSize="14" Scale9Enable="True" Scale9Width="64" Scale9Height="64" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
@@ -121,10 +121,10 @@
               <AbstractNodeData Name="v_PanelEffectVolume" ActionTag="-718116345" Tag="107" IconVisible="False" LeftMargin="93.0000" RightMargin="127.0000" TopMargin="191.0000" BottomMargin="64.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="12" Scale9Height="11" ctype="PanelObjectData">
                 <Size X="230.0000" Y="25.0000" />
                 <Children>
-                  <AbstractNodeData Name="v_PanelEffectValue" ActionTag="1940252184" Tag="109" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" RightMargin="115.0000" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+                  <AbstractNodeData Name="v_PanelEffectValue" ActionTag="1940252184" Tag="109" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" RightMargin="115.0000" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
                     <Size X="115.0000" Y="25.0000" />
                     <Children>
-                      <AbstractNodeData Name="Image_1" ActionTag="-667324478" Tag="108" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" RightMargin="-115.0000" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="153" Scale9Height="1" ctype="ImageViewObjectData">
+                      <AbstractNodeData Name="Image_1" ActionTag="-667324478" Tag="108" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" RightMargin="-115.0000" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="153" Scale9Height="1" ctype="ImageViewObjectData">
                         <Size X="230.0000" Y="25.0000" />
                         <AnchorPoint ScaleY="0.5000" />
                         <Position Y="12.5000" />
@@ -146,7 +146,7 @@
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="v_ImageEffectSlider" ActionTag="166854709" Tag="110" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="113.5318" RightMargin="68.4682" TopMargin="-12.5000" BottomMargin="-12.5000" Scale9Width="48" Scale9Height="48" ctype="ImageViewObjectData">
+                  <AbstractNodeData Name="v_ImageEffectSlider" ActionTag="166854709" Tag="110" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="113.5318" RightMargin="68.4682" TopMargin="-12.5000" BottomMargin="-12.5000" Scale9Width="48" Scale9Height="48" ctype="ImageViewObjectData">
                     <Size X="48.0000" Y="50.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="137.5318" Y="12.5000" />
@@ -172,10 +172,10 @@
               <AbstractNodeData Name="v_PanelMusicVolume" ActionTag="-1579324677" Tag="116" IconVisible="False" LeftMargin="93.0000" RightMargin="127.0000" TopMargin="96.5000" BottomMargin="158.5000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="12" Scale9Height="11" ctype="PanelObjectData">
                 <Size X="230.0000" Y="25.0000" />
                 <Children>
-                  <AbstractNodeData Name="v_PanelMusicValue" ActionTag="-537848779" Tag="117" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" RightMargin="115.0000" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                  <AbstractNodeData Name="v_PanelMusicValue" ActionTag="-537848779" Tag="117" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" RightMargin="115.0000" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                     <Size X="115.0000" Y="25.0000" />
                     <Children>
-                      <AbstractNodeData Name="Image_1_9" ActionTag="-1665024527" Tag="118" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" RightMargin="-115.0000" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="153" Scale9Height="1" ctype="ImageViewObjectData">
+                      <AbstractNodeData Name="Image_1_9" ActionTag="-1665024527" Tag="118" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" RightMargin="-115.0000" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="153" Scale9Height="1" ctype="ImageViewObjectData">
                         <Size X="230.0000" Y="25.0000" />
                         <AnchorPoint ScaleY="0.5000" />
                         <Position Y="12.5000" />
@@ -197,7 +197,7 @@
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="v_ImageMusicSlider" ActionTag="1204446643" Tag="119" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="113.5318" RightMargin="68.4682" TopMargin="-12.5000" BottomMargin="-12.5000" Scale9Width="48" Scale9Height="48" ctype="ImageViewObjectData">
+                  <AbstractNodeData Name="v_ImageMusicSlider" ActionTag="1204446643" Tag="119" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="113.5318" RightMargin="68.4682" TopMargin="-12.5000" BottomMargin="-12.5000" Scale9Width="48" Scale9Height="48" ctype="ImageViewObjectData">
                     <Size X="48.0000" Y="50.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="137.5318" Y="12.5000" />

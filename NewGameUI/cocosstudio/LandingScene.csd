@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="LandingScene" ID="17fd5bec-4503-4259-ad8c-9bfdc07a6120" Version="2.3.2.0" />
+  <PropertyGroup Type="Scene" Name="LandingScene" ID="17fd5bec-4503-4259-ad8c-9bfdc07a6120" Version="2.3.2.3" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />

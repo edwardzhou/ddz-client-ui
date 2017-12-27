@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="GamingScene" ID="b21b0e17-0ed6-4206-8637-d72816ff03b1" Version="2.3.2.0" />
+  <PropertyGroup Type="Scene" Name="GamingScene" ID="b21b0e17-0ed6-4206-8637-d72816ff03b1" Version="2.3.2.3" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -854,7 +854,7 @@
           <AbstractNodeData Name="bottomPanel" ActionTag="24194117" Tag="102" IconVisible="False" TopMargin="450.0000" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
             <Size X="800.0000" Y="30.0000" />
             <Children>
-              <AbstractNodeData Name="Text_11" ActionTag="-688416696" Tag="88" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="6.0000" RightMargin="758.0000" TopMargin="6.0000" BottomMargin="6.0000" FontSize="16" LabelText="金币:" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+              <AbstractNodeData Name="Text_11" ActionTag="-688416696" Tag="88" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="6.0000" RightMargin="758.0000" TopMargin="6.0000" BottomMargin="6.0000" FontSize="16" LabelText="金币:" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                 <Size X="36.0000" Y="18.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="24.0000" Y="15.0000" />
@@ -863,7 +863,7 @@
                 <PrePosition X="0.0300" Y="0.5000" />
                 <PreSize X="0.0450" Y="0.6000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="v_SelfCoins" ActionTag="-398833440" Tag="89" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="46.0000" RightMargin="710.0000" TopMargin="6.0000" BottomMargin="6.0000" FontSize="16" LabelText="30000" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+              <AbstractNodeData Name="v_SelfCoins" ActionTag="-398833440" Tag="89" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="46.0000" RightMargin="710.0000" TopMargin="6.0000" BottomMargin="6.0000" FontSize="16" LabelText="30000" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                 <Size X="44.0000" Y="18.0000" />
                 <AnchorPoint ScaleY="0.5000" />
                 <Position X="46.0000" Y="15.0000" />
@@ -872,7 +872,7 @@
                 <PrePosition X="0.0575" Y="0.5000" />
                 <PreSize X="0.0550" Y="0.6000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="v_TaskProgress" ActionTag="-173964482" Tag="103" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="754.0000" RightMargin="15.0000" TopMargin="6.0000" BottomMargin="6.0000" FontSize="16" LabelText="0/20" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+              <AbstractNodeData Name="v_TaskProgress" ActionTag="-173964482" Tag="103" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="754.0000" RightMargin="15.0000" TopMargin="6.0000" BottomMargin="6.0000" FontSize="16" LabelText="0/20" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                 <Size X="31.0000" Y="18.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="769.5000" Y="15.0000" />
@@ -881,7 +881,7 @@
                 <PrePosition X="0.9619" Y="0.5000" />
                 <PreSize X="0.0388" Y="0.6000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Text_14" ActionTag="1647723952" Tag="104" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="670.0000" RightMargin="50.0000" TopMargin="6.0000" BottomMargin="6.0000" FontSize="16" LabelText="对局任务：" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+              <AbstractNodeData Name="Text_14" ActionTag="1647723952" Tag="104" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="670.0000" RightMargin="50.0000" TopMargin="6.0000" BottomMargin="6.0000" FontSize="16" LabelText="对局任务：" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                 <Size X="80.0000" Y="18.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="710.0000" Y="15.0000" />

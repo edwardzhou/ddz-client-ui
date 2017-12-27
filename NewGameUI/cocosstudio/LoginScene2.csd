@@ -1,12 +1,12 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="LoginScene2" ID="83b28651-2930-4bee-af61-cd6dd80df747" Version="2.3.2.0" />
+  <PropertyGroup Type="Scene" Name="LoginScene2" ID="83b28651-2930-4bee-af61-cd6dd80df747" Version="2.3.2.3" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
       <ObjectData Name="Scene" Tag="41" ctype="GameNodeObjectData">
         <Size X="800.0000" Y="480.0000" />
         <Children>
-          <AbstractNodeData Name="Image_1" ActionTag="-1530935443" Tag="42" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" Scale9Width="800" Scale9Height="480" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_1" ActionTag="-1530935443" Tag="42" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" Scale9Width="800" Scale9Height="480" ctype="ImageViewObjectData">
             <Size X="800.0000" Y="480.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="400.0000" Y="240.0000" />
@@ -16,10 +16,10 @@
             <PreSize X="1.0000" Y="1.0000" />
             <FileData Type="Normal" Path="NewRes/login_bg.jpg" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="v_MainPanel" ActionTag="-440469787" Tag="43" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="207.0000" RightMargin="207.0000" TopMargin="88.0000" BottomMargin="88.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+          <AbstractNodeData Name="v_MainPanel" ActionTag="-440469787" Tag="43" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="207.0000" RightMargin="207.0000" TopMargin="88.0000" BottomMargin="88.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="386.0000" Y="304.0000" />
             <Children>
-              <AbstractNodeData Name="Image_2" ActionTag="-1266221697" Alpha="204" Tag="44" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="15" BottomEage="15" Scale9OriginX="15" Scale9OriginY="15" Scale9Width="6" Scale9Height="4" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="Image_2" ActionTag="-1266221697" Alpha="204" Tag="44" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="15" BottomEage="15" Scale9OriginX="15" Scale9OriginY="15" Scale9Width="6" Scale9Height="4" ctype="ImageViewObjectData">
                 <Size X="386.0000" Y="304.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="193.0000" Y="152.0000" />
@@ -29,10 +29,10 @@
                 <PreSize X="1.0000" Y="1.0000" />
                 <FileData Type="Normal" Path="NewRes/login/login_blank_bg.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="v_PanelUserId" ActionTag="-1712266370" Tag="53" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="31.0000" RightMargin="31.0000" TopMargin="40.0000" BottomMargin="214.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="320" Scale9Height="46" ctype="PanelObjectData">
+              <AbstractNodeData Name="v_PanelUserId" ActionTag="-1712266370" Tag="53" IconVisible="False" PositionPercentXEnabled="True" HorizontalEdge="BothEdge" LeftMargin="31.0000" RightMargin="31.0000" TopMargin="40.0000" BottomMargin="214.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="320" Scale9Height="46" ctype="PanelObjectData">
                 <Size X="324.0000" Y="50.0000" />
                 <Children>
-                  <AbstractNodeData Name="login_input_line_4" ActionTag="-1201518761" Tag="55" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="49.5000" RightMargin="273.5000" TopMargin="10.0000" BottomMargin="10.0000" ctype="SpriteObjectData">
+                  <AbstractNodeData Name="login_input_line_4" ActionTag="-1201518761" Tag="55" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="49.5000" RightMargin="273.5000" TopMargin="10.0000" BottomMargin="10.0000" ctype="SpriteObjectData">
                     <Size X="1.0000" Y="30.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="50.0000" Y="25.0000" />
@@ -43,7 +43,7 @@
                     <FileData Type="Normal" Path="NewRes/login/login_input_line.png" Plist="" />
                     <BlendFunc Src="1" Dst="771" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="login_icon_account_5" ActionTag="-1451255393" Tag="56" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="2.0000" RightMargin="276.0000" TopMargin="2.0000" BottomMargin="2.0000" ctype="SpriteObjectData">
+                  <AbstractNodeData Name="login_icon_account_5" ActionTag="-1451255393" Tag="56" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="2.0000" RightMargin="276.0000" TopMargin="2.0000" BottomMargin="2.0000" ctype="SpriteObjectData">
                     <Size X="46.0000" Y="46.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="25.0000" Y="25.0000" />
@@ -54,7 +54,7 @@
                     <FileData Type="Normal" Path="NewRes/login/login_icon_account.png" Plist="" />
                     <BlendFunc Src="1" Dst="771" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="v_InputUserId" ActionTag="403112617" Tag="57" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="58.0000" RightMargin="122.0000" TopMargin="11.0000" BottomMargin="11.0000" TouchEnable="True" FontSize="24" IsCustomSize="True" LabelText="" PlaceHolderText="请输入账号ID" MaxLengthEnable="True" MaxLengthText="8" ctype="TextFieldObjectData">
+                  <AbstractNodeData Name="v_InputUserId" ActionTag="403112617" Tag="57" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="58.0000" RightMargin="122.0000" TopMargin="11.0000" BottomMargin="11.0000" TouchEnable="True" FontSize="24" IsCustomSize="True" LabelText="" PlaceHolderText="请输入账号ID" MaxLengthEnable="True" MaxLengthText="8" ctype="TextFieldObjectData">
                     <Size X="144.0000" Y="28.0000" />
                     <AnchorPoint ScaleY="0.5000" />
                     <Position X="58.0000" Y="25.0000" />
@@ -87,10 +87,10 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="v_PanelPassword" ActionTag="-102342317" Tag="59" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="31.0000" RightMargin="31.0000" TopMargin="110.0000" BottomMargin="144.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="320" Scale9Height="46" ctype="PanelObjectData">
+              <AbstractNodeData Name="v_PanelPassword" ActionTag="-102342317" Tag="59" IconVisible="False" PositionPercentXEnabled="True" HorizontalEdge="BothEdge" LeftMargin="31.0000" RightMargin="31.0000" TopMargin="110.0000" BottomMargin="144.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="320" Scale9Height="46" ctype="PanelObjectData">
                 <Size X="324.0000" Y="50.0000" />
                 <Children>
-                  <AbstractNodeData Name="login_input_line_6" ActionTag="-1379472690" Tag="60" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="49.5000" RightMargin="273.5000" TopMargin="10.0000" BottomMargin="10.0000" ctype="SpriteObjectData">
+                  <AbstractNodeData Name="login_input_line_6" ActionTag="-1379472690" Tag="60" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="49.5000" RightMargin="273.5000" TopMargin="10.0000" BottomMargin="10.0000" ctype="SpriteObjectData">
                     <Size X="1.0000" Y="30.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="50.0000" Y="25.0000" />
@@ -101,7 +101,7 @@
                     <FileData Type="Normal" Path="NewRes/login/login_input_line.png" Plist="" />
                     <BlendFunc Src="1" Dst="771" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="login_icon_account_7" ActionTag="-990624480" Tag="61" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="2.0000" RightMargin="276.0000" TopMargin="2.0000" BottomMargin="2.0000" ctype="SpriteObjectData">
+                  <AbstractNodeData Name="login_icon_account_7" ActionTag="-990624480" Tag="61" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="2.0000" RightMargin="276.0000" TopMargin="2.0000" BottomMargin="2.0000" ctype="SpriteObjectData">
                     <Size X="46.0000" Y="46.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="25.0000" Y="25.0000" />
@@ -112,7 +112,7 @@
                     <FileData Type="Normal" Path="NewRes/login/login_icon_password.png" Plist="" />
                     <BlendFunc Src="1" Dst="771" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="v_InputPassword" ActionTag="373653616" Tag="62" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="57.9993" RightMargin="20.0007" TopMargin="11.0000" BottomMargin="11.0000" TouchEnable="True" FontSize="24" IsCustomSize="True" LabelText="" PlaceHolderText="请输入6~10的登录密码" MaxLengthEnable="True" MaxLengthText="10" PasswordEnable="True" ctype="TextFieldObjectData">
+                  <AbstractNodeData Name="v_InputPassword" ActionTag="373653616" Tag="62" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="57.9993" RightMargin="20.0007" TopMargin="11.0000" BottomMargin="11.0000" TouchEnable="True" FontSize="24" IsCustomSize="True" LabelText="" PlaceHolderText="请输入6~10的登录密码" MaxLengthEnable="True" MaxLengthText="10" PasswordEnable="True" ctype="TextFieldObjectData">
                     <Size X="246.0000" Y="28.0000" />
                     <AnchorPoint ScaleY="0.5000" />
                     <Position X="57.9993" Y="25.0000" />
@@ -134,7 +134,7 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="v_ButtonSignIn" ActionTag="-1936670513" Tag="64" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="205.0044" RightMargin="30.9956" TopMargin="232.8192" BottomMargin="23.1808" TouchEnable="True" FontSize="24" ButtonText="登 录" Scale9Enable="True" Scale9Width="150" Scale9Height="48" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="v_ButtonSignIn" ActionTag="-1936670513" Tag="64" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="205.0044" RightMargin="30.9956" TopMargin="232.8192" BottomMargin="23.1808" TouchEnable="True" FontSize="24" ButtonText="登 录" Scale9Enable="True" Scale9Width="150" Scale9Height="48" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="150.0000" Y="48.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="280.0044" Y="47.1808" />
@@ -240,10 +240,10 @@
                 <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
                 <NormalFileData Type="Normal" Path="Res/old_button.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="v_ListViewHolder" ActionTag="-1834715389" Tag="69" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="240.0000" RightMargin="240.0000" TopMargin="178.4200" BottomMargin="76.5800" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="280" Scale9Height="6" ctype="PanelObjectData">
+              <AbstractNodeData Name="v_ListViewHolder" ActionTag="-1834715389" Tag="69" IconVisible="False" PositionPercentXEnabled="True" HorizontalEdge="BothEdge" LeftMargin="240.0000" RightMargin="240.0000" TopMargin="178.4200" BottomMargin="76.5800" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="280" Scale9Height="6" ctype="PanelObjectData">
                 <Size X="320.0000" Y="225.0000" />
                 <Children>
-                  <AbstractNodeData Name="v_ListViewAccounts" ActionTag="1191796117" Tag="70" IconVisible="False" PositionPercentXEnabled="True" TopMargin="8.0000" BottomMargin="2.0000" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" IsBounceEnabled="True" ScrollDirectionType="0" DirectionType="Vertical" HorizontalType="Align_HorizontalCenter" ctype="ListViewObjectData">
+                  <AbstractNodeData Name="v_ListViewAccounts" ActionTag="1191796117" Tag="70" IconVisible="False" PositionPercentXEnabled="True" HorizontalEdge="BothEdge" TopMargin="8.0000" BottomMargin="2.0000" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" IsBounceEnabled="True" ScrollDirectionType="0" DirectionType="Vertical" HorizontalType="Align_HorizontalCenter" ctype="ListViewObjectData">
                     <Size X="320.0000" Y="215.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="1.0000" />
                     <Position X="160.0000" Y="217.0000" />
@@ -272,7 +272,7 @@
               <AbstractNodeData Name="v_PanelListViewModel" ActionTag="1140131107" VisibleForFrame="False" Tag="29" IconVisible="False" LeftMargin="242.0000" RightMargin="242.0000" TopMargin="186.0000" BottomMargin="254.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="320" Scale9Height="46" ctype="PanelObjectData">
                 <Size X="316.0000" Y="40.0000" />
                 <Children>
-                  <AbstractNodeData Name="Image_3" ActionTag="581103253" Tag="30" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="-0.5742" RightMargin="270.5742" TopMargin="-7.0000" BottomMargin="1.0000" Scale9Width="46" Scale9Height="46" ctype="ImageViewObjectData">
+                  <AbstractNodeData Name="Image_3" ActionTag="581103253" Tag="30" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="-0.5742" RightMargin="270.5742" TopMargin="-7.0000" BottomMargin="1.0000" Scale9Width="46" Scale9Height="46" ctype="ImageViewObjectData">
                     <Size X="46.0000" Y="46.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="22.4258" Y="24.0000" />
@@ -282,7 +282,7 @@
                     <PreSize X="0.1456" Y="1.1500" />
                     <FileData Type="Normal" Path="NewRes/login/login_icon_history.png" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="UserId" ActionTag="600555441" Tag="31" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="55.4896" RightMargin="194.5104" TopMargin="6.0000" BottomMargin="6.0000" FontSize="24" LabelText="50001" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                  <AbstractNodeData Name="UserId" ActionTag="600555441" Tag="31" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="55.4896" RightMargin="194.5104" TopMargin="6.0000" BottomMargin="6.0000" FontSize="24" LabelText="50001" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                     <Size X="66.0000" Y="28.0000" />
                     <AnchorPoint ScaleY="0.5000" />
                     <Position X="55.4896" Y="20.0000" />

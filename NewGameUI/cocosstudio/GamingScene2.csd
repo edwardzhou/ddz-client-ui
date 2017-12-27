@@ -1,15 +1,15 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="GamingScene2" ID="23dfd604-05b4-40da-ab8b-0133b9af1eae" Version="2.3.2.0" />
+  <PropertyGroup Type="Scene" Name="GamingScene2" ID="23dfd604-05b4-40da-ab8b-0133b9af1eae" Version="2.3.2.3" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
       <ObjectData Name="Scene" Tag="213" ctype="GameNodeObjectData">
         <Size X="800.0000" Y="480.0000" />
         <Children>
-          <AbstractNodeData Name="v_PanelRoot" ActionTag="-715628058" Tag="214" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+          <AbstractNodeData Name="v_PanelRoot" ActionTag="-715628058" Tag="214" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
             <Size X="800.0000" Y="480.0000" />
             <Children>
-              <AbstractNodeData Name="Image_4" ActionTag="-201112986" Tag="20" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" BottomMargin="280.0000" Scale9Width="800" Scale9Height="200" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="Image_4" ActionTag="-201112986" Tag="20" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" BottomMargin="280.0000" Scale9Width="800" Scale9Height="200" ctype="ImageViewObjectData">
                 <Size X="800.0000" Y="200.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="1.0000" />
                 <Position X="400.0000" Y="480.0000" />
@@ -19,7 +19,7 @@
                 <PreSize X="1.0000" Y="0.4167" />
                 <FileData Type="Normal" Path="NewRes/bg/bg_table_top.jpg" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="v_ImageTable" ActionTag="1659077354" Tag="22" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" Scale9Width="800" Scale9Height="480" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="v_ImageTable" ActionTag="1659077354" Tag="22" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" Scale9Width="800" Scale9Height="480" ctype="ImageViewObjectData">
                 <Size X="800.0000" Y="480.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="400.0000" Y="240.0000" />
@@ -45,7 +45,7 @@
                   <AbstractNodeData Name="v_SelfUserHead" ActionTag="-1972739502" Tag="101" IconVisible="False" LeftMargin="21.8400" RightMargin="724.1600" TopMargin="0.9400" BottomMargin="25.0600" TouchEnable="True" FontSize="14" Scale9Enable="True" Scale9Width="54" Scale9Height="54" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                     <Size X="54.0000" Y="54.0000" />
                     <Children>
-                      <AbstractNodeData Name="v_SelfUserHeadIcon" ActionTag="-1107965550" Tag="138" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="4.0000" RightMargin="4.0000" TopMargin="4.0000" BottomMargin="4.0000" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
+                      <AbstractNodeData Name="v_SelfUserHeadIcon" ActionTag="-1107965550" Tag="138" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="4.0000" RightMargin="4.0000" TopMargin="4.0000" BottomMargin="4.0000" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
                         <Size X="46.0000" Y="46.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="27.0000" Y="27.0000" />
@@ -81,7 +81,7 @@
                         <FileData Type="Normal" Path="NewRes/icon/icon_gold.png" Plist="" />
                         <BlendFunc Src="1" Dst="771" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="v_SelfCoins" ActionTag="1861228614" Tag="126" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="45.0000" RightMargin="68.0000" TopMargin="6.0000" BottomMargin="6.0000" FontSize="20" LabelText="1234567890" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                      <AbstractNodeData Name="v_SelfCoins" ActionTag="1861228614" Tag="126" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="45.0000" RightMargin="68.0000" TopMargin="6.0000" BottomMargin="6.0000" FontSize="20" LabelText="1234567890" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                         <Size X="111.0000" Y="23.0000" />
                         <AnchorPoint ScaleY="0.5000" />
                         <Position X="45.0000" Y="17.5000" />
@@ -134,7 +134,7 @@
                         <FileData Type="Normal" Path="NewRes/icon/icon_table_bottom_bei.png" Plist="" />
                         <BlendFunc Src="1" Dst="771" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="v_LabelLordValue" ActionTag="-418948958" Tag="130" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="52.0377" RightMargin="11.9623" TopMargin="6.0000" BottomMargin="6.0000" FontSize="20" LabelText="X216" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                      <AbstractNodeData Name="v_LabelLordValue" ActionTag="-418948958" Tag="130" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="52.0377" RightMargin="11.9623" TopMargin="6.0000" BottomMargin="6.0000" FontSize="20" LabelText="X216" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                         <Size X="46.0000" Y="23.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="75.0377" Y="17.5000" />
@@ -172,7 +172,7 @@
                         <FileData Type="Normal" Path="NewRes/icon/icon_table_bottom_di.png" Plist="" />
                         <BlendFunc Src="1" Dst="771" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="v_LabelBetBase" ActionTag="-1306567428" Tag="134" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="49.0377" RightMargin="14.9623" TopMargin="6.0000" BottomMargin="6.0000" FontSize="20" LabelText="X216" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                      <AbstractNodeData Name="v_LabelBetBase" ActionTag="-1306567428" Tag="134" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="49.0377" RightMargin="14.9623" TopMargin="6.0000" BottomMargin="6.0000" FontSize="20" LabelText="X216" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                         <Size X="46.0000" Y="23.0000" />
                         <AnchorPoint ScaleY="0.5000" />
                         <Position X="49.0377" Y="17.5000" />
@@ -210,7 +210,7 @@
                         <FileData Type="Normal" Path="NewRes/icon/icon_table_bottom_ju.png" Plist="" />
                         <BlendFunc Src="1" Dst="771" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="v_TaskProgress" ActionTag="1526259310" Tag="137" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="51.0377" RightMargin="12.9623" TopMargin="6.0000" BottomMargin="6.0000" FontSize="20" LabelText="X216" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                      <AbstractNodeData Name="v_TaskProgress" ActionTag="1526259310" Tag="137" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="51.0377" RightMargin="12.9623" TopMargin="6.0000" BottomMargin="6.0000" FontSize="20" LabelText="X216" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                         <Size X="46.0000" Y="23.0000" />
                         <AnchorPoint ScaleY="0.5000" />
                         <Position X="51.0377" Y="17.5000" />
@@ -785,10 +785,10 @@
                       <AbstractNodeData Name="v_PanelPrevHead" ActionTag="-1825657408" Tag="141" IconVisible="False" VerticalEdge="TopEdge" LeftMargin="15.0000" RightMargin="95.0000" TopMargin="35.0000" BottomMargin="75.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="33" Scale9Height="33" ctype="PanelObjectData">
                         <Size X="70.0000" Y="70.0000" />
                         <Children>
-                          <AbstractNodeData Name="v_PrevUserHead" ActionTag="-102890708" Tag="142" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="8.0000" RightMargin="8.0000" TopMargin="8.0000" BottomMargin="8.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="14" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                          <AbstractNodeData Name="v_PrevUserHead" ActionTag="-102890708" Tag="142" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="8.0000" RightMargin="8.0000" TopMargin="8.0000" BottomMargin="8.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="14" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                             <Size X="54.0000" Y="54.0000" />
                             <Children>
-                              <AbstractNodeData Name="v_PrevUserHeadIcon" ActionTag="-1580438835" Tag="73" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
+                              <AbstractNodeData Name="v_PrevUserHeadIcon" ActionTag="-1580438835" Tag="73" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
                                 <Size X="54.0000" Y="54.0000" />
                                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                                 <Position X="27.0000" Y="27.0000" />
@@ -848,7 +848,7 @@
                       <AbstractNodeData Name="Panel_9" ActionTag="1497766046" Tag="147" IconVisible="False" LeftMargin="119.0018" RightMargin="-69.0018" TopMargin="35.0000" BottomMargin="75.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                         <Size X="130.0000" Y="70.0000" />
                         <Children>
-                          <AbstractNodeData Name="v_PrevUserStatus" ActionTag="1071240772" Tag="62" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="5.0000" RightMargin="5.0000" TopMargin="16.0000" BottomMargin="16.0000" LabelText="叫地主" ctype="TextBMFontObjectData">
+                          <AbstractNodeData Name="v_PrevUserStatus" ActionTag="1071240772" Tag="62" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="5.0000" RightMargin="5.0000" TopMargin="16.0000" BottomMargin="16.0000" LabelText="叫地主" ctype="TextBMFontObjectData">
                             <Size X="120.0000" Y="38.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="65.0000" Y="35.0000" />
@@ -920,7 +920,7 @@
                       <AbstractNodeData Name="Panel_11" ActionTag="-114038139" Tag="156" IconVisible="False" LeftMargin="-50.9871" RightMargin="130.9871" TopMargin="35.0000" BottomMargin="75.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                         <Size X="100.0000" Y="70.0000" />
                         <Children>
-                          <AbstractNodeData Name="v_NextUserStatus" ActionTag="933700716" Tag="61" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="10.0000" RightMargin="10.0000" TopMargin="16.0000" BottomMargin="16.0000" LabelText="不抢" ctype="TextBMFontObjectData">
+                          <AbstractNodeData Name="v_NextUserStatus" ActionTag="933700716" Tag="61" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="10.0000" RightMargin="10.0000" TopMargin="16.0000" BottomMargin="16.0000" LabelText="不抢" ctype="TextBMFontObjectData">
                             <Size X="80.0000" Y="38.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="50.0000" Y="35.0000" />
@@ -945,10 +945,10 @@
                       <AbstractNodeData Name="v_PanelNextHead" ActionTag="1554012523" Tag="152" IconVisible="False" LeftMargin="95.0000" RightMargin="15.0000" TopMargin="35.0000" BottomMargin="75.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="10" RightEage="10" TopEage="10" BottomEage="10" Scale9OriginX="10" Scale9OriginY="10" Scale9Width="33" Scale9Height="33" ctype="PanelObjectData">
                         <Size X="70.0000" Y="70.0000" />
                         <Children>
-                          <AbstractNodeData Name="v_NextUserHead" ActionTag="-1269732394" Tag="153" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="8.0000" RightMargin="8.0000" TopMargin="8.0000" BottomMargin="8.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="14" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                          <AbstractNodeData Name="v_NextUserHead" ActionTag="-1269732394" Tag="153" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="8.0000" RightMargin="8.0000" TopMargin="8.0000" BottomMargin="8.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="14" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                             <Size X="54.0000" Y="54.0000" />
                             <Children>
-                              <AbstractNodeData Name="v_NextUserHeadIcon" ActionTag="-753716616" Tag="154" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
+                              <AbstractNodeData Name="v_NextUserHeadIcon" ActionTag="-753716616" Tag="154" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" Scale9Width="54" Scale9Height="54" ctype="ImageViewObjectData">
                                 <Size X="54.0000" Y="54.0000" />
                                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                                 <Position X="27.0000" Y="27.0000" />
@@ -995,13 +995,13 @@
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="v_GrabLordButtonsPanel" ActionTag="1060714341" Tag="241" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="250.0000" RightMargin="250.0000" TopMargin="160.0000" BottomMargin="160.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                  <AbstractNodeData Name="v_GrabLordButtonsPanel" ActionTag="1060714341" Tag="241" IconVisible="False" PositionPercentXEnabled="True" HorizontalEdge="BothEdge" LeftMargin="250.0000" RightMargin="250.0000" TopMargin="160.0000" BottomMargin="160.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                     <Size X="300.0000" Y="80.0000" />
                     <Children>
                       <AbstractNodeData Name="v_ButtonNoGrabLord" ActionTag="-1498615484" Tag="242" IconVisible="False" LeftMargin="22.0814" RightMargin="155.9186" TopMargin="11.3948" BottomMargin="14.6052" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="82" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="122.0000" Y="54.0000" />
                         <Children>
-                          <AbstractNodeData Name="v_LabelNoGrab" ActionTag="924239354" Tag="281" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="25.0000" RightMargin="25.0000" TopMargin="8.0000" BottomMargin="8.0000" LabelText="不叫" ctype="TextBMFontObjectData">
+                          <AbstractNodeData Name="v_LabelNoGrab" ActionTag="924239354" Tag="281" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="25.0000" RightMargin="25.0000" TopMargin="8.0000" BottomMargin="8.0000" LabelText="不叫" ctype="TextBMFontObjectData">
                             <Size X="72.0000" Y="38.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="61.0000" Y="27.0000" />
@@ -1028,7 +1028,7 @@
                       <AbstractNodeData Name="v_ButtonGrabLord" ActionTag="357568964" Tag="244" IconVisible="False" LeftMargin="156.8348" RightMargin="21.1652" TopMargin="11.3950" BottomMargin="14.6050" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="82" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="122.0000" Y="54.0000" />
                         <Children>
-                          <AbstractNodeData Name="v_LabelGrab" ActionTag="1958481872" Tag="63" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="7.0000" RightMargin="7.0000" TopMargin="8.0000" BottomMargin="8.0000" LabelText="叫地主" ctype="TextBMFontObjectData">
+                          <AbstractNodeData Name="v_LabelGrab" ActionTag="1958481872" Tag="63" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="7.0000" RightMargin="7.0000" TopMargin="8.0000" BottomMargin="8.0000" LabelText="叫地主" ctype="TextBMFontObjectData">
                             <Size X="108.0000" Y="38.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="61.0000" Y="27.0000" />
@@ -1064,13 +1064,13 @@
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="v_ButtonsPanel" Visible="False" ActionTag="803306839" Tag="142" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="125.0000" RightMargin="125.0000" TopMargin="149.5000" BottomMargin="150.5000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+                  <AbstractNodeData Name="v_ButtonsPanel" Visible="False" ActionTag="803306839" Tag="142" IconVisible="False" PositionPercentXEnabled="True" HorizontalEdge="BothEdge" LeftMargin="125.0000" RightMargin="125.0000" TopMargin="149.5000" BottomMargin="150.5000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                     <Size X="550.0000" Y="100.0000" />
                     <Children>
                       <AbstractNodeData Name="v_ButtonPass" ActionTag="804581483" Tag="143" IconVisible="False" LeftMargin="10.5811" RightMargin="417.4189" TopMargin="23.0000" BottomMargin="23.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="82" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="122.0000" Y="54.0000" />
                         <Children>
-                          <AbstractNodeData Name="LabelGrab_0" ActionTag="-1307094991" Tag="151" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="22.5600" RightMargin="27.4400" TopMargin="8.0000" BottomMargin="8.0000" LabelText="不出" ctype="TextBMFontObjectData">
+                          <AbstractNodeData Name="LabelGrab_0" ActionTag="-1307094991" Tag="151" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="22.5600" RightMargin="27.4400" TopMargin="8.0000" BottomMargin="8.0000" LabelText="不出" ctype="TextBMFontObjectData">
                             <Size X="72.0000" Y="38.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="58.5600" Y="27.0000" />
@@ -1097,7 +1097,7 @@
                       <AbstractNodeData Name="v_ButtonTip" ActionTag="-1546053842" Tag="145" IconVisible="False" LeftMargin="146.4427" RightMargin="281.5573" TopMargin="23.0000" BottomMargin="23.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="82" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="122.0000" Y="54.0000" />
                         <Children>
-                          <AbstractNodeData Name="LabelGrab_0_0" ActionTag="1657311411" Tag="152" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="22.5600" RightMargin="27.4400" TopMargin="8.0000" BottomMargin="8.0000" LabelText="提示" ctype="TextBMFontObjectData">
+                          <AbstractNodeData Name="LabelGrab_0_0" ActionTag="1657311411" Tag="152" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="22.5600" RightMargin="27.4400" TopMargin="8.0000" BottomMargin="8.0000" LabelText="提示" ctype="TextBMFontObjectData">
                             <Size X="72.0000" Y="38.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="58.5600" Y="27.0000" />
@@ -1124,7 +1124,7 @@
                       <AbstractNodeData Name="v_ButtonReset" ActionTag="311028971" Tag="147" IconVisible="False" LeftMargin="282.3043" RightMargin="145.6957" TopMargin="23.0000" BottomMargin="23.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="82" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="122.0000" Y="54.0000" />
                         <Children>
-                          <AbstractNodeData Name="LabelGrab_0_1" ActionTag="1555653320" Tag="153" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="22.5600" RightMargin="27.4400" TopMargin="8.0000" BottomMargin="8.0000" LabelText="重选" ctype="TextBMFontObjectData">
+                          <AbstractNodeData Name="LabelGrab_0_1" ActionTag="1555653320" Tag="153" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="22.5600" RightMargin="27.4400" TopMargin="8.0000" BottomMargin="8.0000" LabelText="重选" ctype="TextBMFontObjectData">
                             <Size X="72.0000" Y="38.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="58.5600" Y="27.0000" />
@@ -1151,7 +1151,7 @@
                       <AbstractNodeData Name="v_ButtonPlay" ActionTag="410264245" Tag="149" IconVisible="False" LeftMargin="418.1659" RightMargin="9.8341" TopMargin="24.2500" BottomMargin="21.7500" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="82" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="122.0000" Y="54.0000" />
                         <Children>
-                          <AbstractNodeData Name="LabelGrab_0_2" ActionTag="-756026103" Tag="154" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="22.7796" RightMargin="27.2204" TopMargin="8.0000" BottomMargin="8.0000" LabelText="出牌" ctype="TextBMFontObjectData">
+                          <AbstractNodeData Name="LabelGrab_0_2" ActionTag="-756026103" Tag="154" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="22.7796" RightMargin="27.2204" TopMargin="8.0000" BottomMargin="8.0000" LabelText="出牌" ctype="TextBMFontObjectData">
                             <Size X="72.0000" Y="38.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="58.7796" Y="27.0000" />
@@ -1190,7 +1190,7 @@
                   <AbstractNodeData Name="v_ButtonDelegate" ActionTag="1416360109" Tag="163" IconVisible="False" LeftMargin="308.5000" RightMargin="307.5000" TopMargin="332.5815" BottomMargin="13.4185" TouchEnable="True" FontSize="14" ButtonText="取消托管" Scale9Enable="True" Scale9Width="184" Scale9Height="54" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                     <Size X="184.0000" Y="54.0000" />
                     <Children>
-                      <AbstractNodeData Name="Image_7" ActionTag="674820581" Tag="166" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" TopMargin="-1.6200" BottomMargin="1.6200" Scale9Width="184" Scale9Height="54" ctype="ImageViewObjectData">
+                      <AbstractNodeData Name="Image_7" ActionTag="674820581" Tag="166" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" TopMargin="-1.6200" BottomMargin="1.6200" Scale9Width="184" Scale9Height="54" ctype="ImageViewObjectData">
                         <Size X="184.0000" Y="54.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="92.0000" Y="28.6200" />
@@ -1217,7 +1217,7 @@
                   <AbstractNodeData Name="Panel_2" ActionTag="-1029594682" Tag="165" IconVisible="False" LeftMargin="311.0000" RightMargin="289.0000" TopMargin="114.0000" BottomMargin="216.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
                     <Size X="200.0000" Y="70.0000" />
                     <Children>
-                      <AbstractNodeData Name="v_SelfUserStatus" ActionTag="-1967907942" Tag="154" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="39.5000" RightMargin="40.5000" TopMargin="8.5660" BottomMargin="23.4340" LabelText="叫地主" ctype="TextBMFontObjectData">
+                      <AbstractNodeData Name="v_SelfUserStatus" ActionTag="-1967907942" Tag="154" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="39.5000" RightMargin="40.5000" TopMargin="8.5660" BottomMargin="23.4340" LabelText="叫地主" ctype="TextBMFontObjectData">
                         <Size X="120.0000" Y="38.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="99.5000" Y="42.4340" />
@@ -1307,7 +1307,7 @@
               <AbstractNodeData Name="v_ButtonReady" ActionTag="-911367556" Tag="215" IconVisible="False" LeftMargin="311.0000" RightMargin="305.0000" TopMargin="289.0000" BottomMargin="137.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="20" RightEage="20" TopEage="20" BottomEage="20" Scale9OriginX="20" Scale9OriginY="20" Scale9Width="144" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="184.0000" Y="54.0000" />
                 <Children>
-                  <AbstractNodeData Name="BitmapFontLabel_1" ActionTag="1741701291" Tag="112" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="16.3200" RightMargin="23.6800" TopMargin="8.0000" BottomMargin="8.0000" LabelText="再来一局" ctype="TextBMFontObjectData">
+                  <AbstractNodeData Name="BitmapFontLabel_1" ActionTag="1741701291" Tag="112" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="16.3200" RightMargin="23.6800" TopMargin="8.0000" BottomMargin="8.0000" LabelText="再来一局" ctype="TextBMFontObjectData">
                     <Size X="144.0000" Y="38.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                     <Position X="88.3200" Y="27.0000" />
@@ -1331,7 +1331,7 @@
                 <OutlineColor A="255" R="0" G="0" B="0" />
                 <ShadowColor A="255" R="0" G="0" B="0" />
               </AbstractNodeData>
-              <AbstractNodeData Name="PanelTop" ActionTag="-1467806931" Tag="215" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentWidthEnabled="True" BottomMargin="397.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+              <AbstractNodeData Name="PanelTop" ActionTag="-1467806931" Tag="215" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentWidthEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" BottomMargin="397.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
                 <Size X="800.0000" Y="83.0000" />
                 <Children>
                   <AbstractNodeData Name="v_PanelLordCard" ActionTag="-1395835575" Tag="224" IconVisible="False" LeftMargin="3.0000" RightMargin="672.0000" TopMargin="3.0000" BottomMargin="22.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
@@ -1347,7 +1347,7 @@
                         <PreSize X="0.9500" Y="1.0000" />
                         <FileData Type="Normal" Path="NewRes/bg/bg_item_01.png" Plist="" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="v_LordCard1" ActionTag="-1650615886" Tag="70" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="-29.8235" RightMargin="44.8235" TopMargin="-42.0000" BottomMargin="-42.0000" Scale9Width="110" Scale9Height="142" ctype="ImageViewObjectData">
+                      <AbstractNodeData Name="v_LordCard1" ActionTag="-1650615886" Tag="70" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="-29.8235" RightMargin="44.8235" TopMargin="-42.0000" BottomMargin="-42.0000" Scale9Width="110" Scale9Height="142" ctype="ImageViewObjectData">
                         <Size X="110.0000" Y="142.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="25.1765" Y="29.0000" />
@@ -1357,7 +1357,7 @@
                         <PreSize X="0.6111" Y="1.9722" />
                         <FileData Type="Normal" Path="NewRes/poke/poke_l_cover.png" Plist="" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="v_LordCard2" ActionTag="-1803454885" Tag="71" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="6.9999" RightMargin="8.0001" TopMargin="-42.0000" BottomMargin="-42.0000" Scale9Width="110" Scale9Height="142" ctype="ImageViewObjectData">
+                      <AbstractNodeData Name="v_LordCard2" ActionTag="-1803454885" Tag="71" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="6.9999" RightMargin="8.0001" TopMargin="-42.0000" BottomMargin="-42.0000" Scale9Width="110" Scale9Height="142" ctype="ImageViewObjectData">
                         <Size X="110.0000" Y="142.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="61.9999" Y="29.0000" />
@@ -1367,7 +1367,7 @@
                         <PreSize X="0.6111" Y="1.9722" />
                         <FileData Type="Normal" Path="NewRes/poke/poke_l_cover.png" Plist="" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="v_LordCard3" ActionTag="-512845143" Tag="72" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="43.9998" RightMargin="-28.9998" TopMargin="-42.0000" BottomMargin="-42.0000" Scale9Width="110" Scale9Height="142" ctype="ImageViewObjectData">
+                      <AbstractNodeData Name="v_LordCard3" ActionTag="-512845143" Tag="72" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="43.9998" RightMargin="-28.9998" TopMargin="-42.0000" BottomMargin="-42.0000" Scale9Width="110" Scale9Height="142" ctype="ImageViewObjectData">
                         <Size X="110.0000" Y="142.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="98.9998" Y="29.0000" />
@@ -1389,10 +1389,10 @@
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="v_PanelTopControl" ActionTag="134272340" Tag="19" IconVisible="False" PositionPercentXEnabled="True" PercentHeightEnable="True" PercentHeightEnabled="True" VerticalEdge="TopEdge" LeftMargin="195.0000" RightMargin="195.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+                  <AbstractNodeData Name="v_PanelTopControl" ActionTag="134272340" Tag="19" IconVisible="False" PositionPercentXEnabled="True" PercentHeightEnable="True" PercentHeightEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="TopEdge" LeftMargin="195.0000" RightMargin="195.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
                     <Size X="410.0000" Y="83.0000" />
                     <Children>
-                      <AbstractNodeData Name="Image_1" ActionTag="-517641341" Tag="217" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="2.0000" RightMargin="2.0000" TopMargin="-2.0003" BottomMargin="7.0003" Scale9Width="406" Scale9Height="78" ctype="ImageViewObjectData">
+                      <AbstractNodeData Name="Image_1" ActionTag="-517641341" Tag="217" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="2.0000" RightMargin="2.0000" TopMargin="-2.0003" BottomMargin="7.0003" Scale9Width="406" Scale9Height="78" ctype="ImageViewObjectData">
                         <Size X="406.0000" Y="78.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="1.0000" />
                         <Position X="205.0000" Y="85.0003" />
@@ -1402,10 +1402,10 @@
                         <PreSize X="0.9902" Y="0.9398" />
                         <FileData Type="Normal" Path="NewRes/bg/bg_uiTop_03.png" Plist="" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="v_ButtonRoomList" ActionTag="1374425031" Tag="218" IconVisible="False" PositionPercentXEnabled="True" VerticalEdge="TopEdge" LeftMargin="152.2000" RightMargin="135.8000" TopMargin="5.6300" BottomMargin="19.3700" TouchEnable="True" FontSize="28" ButtonText="新手场" Scale9Enable="True" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="112" Scale9Height="48" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                      <AbstractNodeData Name="v_ButtonRoomList" ActionTag="1374425031" Tag="218" IconVisible="False" PositionPercentXEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="TopEdge" LeftMargin="152.2000" RightMargin="135.8000" TopMargin="5.6300" BottomMargin="19.3700" TouchEnable="True" FontSize="28" ButtonText="新手场" Scale9Enable="True" LeftEage="5" RightEage="5" TopEage="5" BottomEage="5" Scale9OriginX="5" Scale9OriginY="5" Scale9Width="112" Scale9Height="48" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                         <Size X="122.0000" Y="58.0000" />
                         <Children>
-                          <AbstractNodeData Name="Image_2" ActionTag="1842698468" VisibleForFrame="False" Tag="219" IconVisible="False" PositionPercentXEnabled="True" VerticalEdge="TopEdge" TopMargin="-1.0000" BottomMargin="1.0000" Scale9Width="122" Scale9Height="58" ctype="ImageViewObjectData">
+                          <AbstractNodeData Name="Image_2" ActionTag="1842698468" VisibleForFrame="False" Tag="219" IconVisible="False" PositionPercentXEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="TopEdge" TopMargin="-1.0000" BottomMargin="1.0000" Scale9Width="122" Scale9Height="58" ctype="ImageViewObjectData">
                             <Size X="122.0000" Y="58.0000" />
                             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                             <Position X="61.0000" Y="30.0000" />
@@ -1517,7 +1517,7 @@
               <AbstractNodeData Name="v_SelfChatPanel" ActionTag="895778173" Tag="201" IconVisible="False" LeftMargin="95.0000" RightMargin="505.0000" TopMargin="370.0000" BottomMargin="70.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="11" RightEage="11" TopEage="11" BottomEage="11" Scale9OriginX="11" Scale9OriginY="11" Scale9Width="14" Scale9Height="12" ctype="PanelObjectData">
                 <Size X="200.0000" Y="40.0000" />
                 <Children>
-                  <AbstractNodeData Name="v_SelfChatText" ActionTag="-1076956075" Tag="202" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="10.0000" RightMargin="99.0000" TopMargin="9.5000" BottomMargin="9.5000" FontSize="20" LabelText="Text Label" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                  <AbstractNodeData Name="v_SelfChatText" ActionTag="-1076956075" Tag="202" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="10.0000" RightMargin="99.0000" TopMargin="9.5000" BottomMargin="9.5000" FontSize="20" LabelText="Text Label" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                     <Size X="91.0000" Y="23.0000" />
                     <AnchorPoint ScaleY="0.5000" />
                     <Position X="10.0000" Y="20.0000" />
@@ -1544,7 +1544,7 @@
               <AbstractNodeData Name="v_NextChatPanel" ActionTag="1013354863" Tag="203" IconVisible="False" LeftMargin="510.0000" RightMargin="90.0000" TopMargin="79.0000" BottomMargin="361.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="11" RightEage="11" TopEage="11" BottomEage="11" Scale9OriginX="11" Scale9OriginY="11" Scale9Width="14" Scale9Height="12" ctype="PanelObjectData">
                 <Size X="200.0000" Y="40.0000" />
                 <Children>
-                  <AbstractNodeData Name="v_NextChatText" ActionTag="-608324014" Tag="204" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="99.0000" RightMargin="10.0000" TopMargin="8.5000" BottomMargin="8.5000" FontSize="20" LabelText="Text Label" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                  <AbstractNodeData Name="v_NextChatText" ActionTag="-608324014" Tag="204" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="99.0000" RightMargin="10.0000" TopMargin="8.5000" BottomMargin="8.5000" FontSize="20" LabelText="Text Label" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                     <Size X="91.0000" Y="23.0000" />
                     <AnchorPoint ScaleX="1.0000" ScaleY="0.5000" />
                     <Position X="190.0000" Y="20.0000" />
@@ -1571,7 +1571,7 @@
               <AbstractNodeData Name="v_PrevChatPanel" ActionTag="-406072082" Tag="205" IconVisible="False" LeftMargin="101.0000" RightMargin="499.0000" TopMargin="64.0000" BottomMargin="376.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="11" RightEage="11" TopEage="11" BottomEage="11" Scale9OriginX="11" Scale9OriginY="11" Scale9Width="14" Scale9Height="12" ctype="PanelObjectData">
                 <Size X="200.0000" Y="40.0000" />
                 <Children>
-                  <AbstractNodeData Name="v_PrevChatText" ActionTag="-291222212" Tag="206" IconVisible="False" PositionPercentYEnabled="True" LeftMargin="10.0000" RightMargin="99.0000" TopMargin="8.5000" BottomMargin="8.5000" FontSize="20" LabelText="Text Label" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                  <AbstractNodeData Name="v_PrevChatText" ActionTag="-291222212" Tag="206" IconVisible="False" PositionPercentYEnabled="True" VerticalEdge="BothEdge" LeftMargin="10.0000" RightMargin="99.0000" TopMargin="8.5000" BottomMargin="8.5000" FontSize="20" LabelText="Text Label" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                     <Size X="91.0000" Y="23.0000" />
                     <AnchorPoint ScaleY="0.5000" />
                     <Position X="10.0000" Y="20.0000" />
@@ -1610,7 +1610,7 @@
           <AbstractNodeData Name="v_CountDownClock" ActionTag="1553733806" Tag="212" IconVisible="False" LeftMargin="104.0000" RightMargin="624.0000" TopMargin="94.0000" BottomMargin="314.0000" Scale9Width="72" Scale9Height="72" ctype="ImageViewObjectData">
             <Size X="72.0000" Y="72.0000" />
             <Children>
-              <AbstractNodeData Name="v_CountDownLabel" ActionTag="-2145891262" Tag="213" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="25.0000" RightMargin="25.0000" TopMargin="24.5000" BottomMargin="24.5000" FontSize="20" LabelText="30" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+              <AbstractNodeData Name="v_CountDownLabel" ActionTag="-2145891262" Tag="213" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="25.0000" RightMargin="25.0000" TopMargin="24.5000" BottomMargin="24.5000" FontSize="20" LabelText="30" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                 <Size X="22.0000" Y="23.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="36.0000" Y="36.0000" />

@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="UP_HeadIconScene" ID="0cf9b2c3-012d-4285-a3fb-c732b2288e0f" Version="2.3.2.0" />
+  <PropertyGroup Type="Scene" Name="UP_HeadIconScene" ID="0cf9b2c3-012d-4285-a3fb-c732b2288e0f" Version="2.3.2.3" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />

@@ -1,12 +1,12 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="ChatLayer" ID="47f19971-6ef0-4e42-a1d4-245164ba8cb4" Version="2.3.2.0" />
+  <PropertyGroup Type="Layer" Name="ChatLayer" ID="47f19971-6ef0-4e42-a1d4-245164ba8cb4" Version="2.3.2.3" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
       <ObjectData Name="Layer" Tag="318" ctype="GameLayerObjectData">
         <Size X="800.0000" Y="480.0000" />
         <Children>
-          <AbstractNodeData Name="v_BgPanel" ActionTag="920122367" Alpha="235" Tag="52" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TouchEnable="True" BackColorAlpha="89" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+          <AbstractNodeData Name="v_BgPanel" ActionTag="920122367" Alpha="235" Tag="52" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" TouchEnable="True" BackColorAlpha="89" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
             <Size X="800.0000" Y="480.0000" />
             <AnchorPoint />
             <Position />

@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="UP_PasswordLayer" ID="01b99a7c-9306-412e-8fdb-f520a2d85248" Version="2.3.2.0" />
+  <PropertyGroup Type="Layer" Name="UP_PasswordLayer" ID="01b99a7c-9306-412e-8fdb-f520a2d85248" Version="2.3.2.3" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -19,10 +19,10 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="v_PanelPassword" ActionTag="1396671986" Tag="71" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="135.0000" RightMargin="135.0000" TopMargin="90.0000" BottomMargin="90.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="80" RightEage="80" TopEage="80" BottomEage="80" Scale9OriginX="80" Scale9OriginY="80" Scale9Width="2" Scale9Height="2" ctype="PanelObjectData">
+          <AbstractNodeData Name="v_PanelPassword" ActionTag="1396671986" Tag="71" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="135.0000" RightMargin="135.0000" TopMargin="90.0000" BottomMargin="90.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="80" RightEage="80" TopEage="80" BottomEage="80" Scale9OriginX="80" Scale9OriginY="80" Scale9Width="2" Scale9Height="2" ctype="PanelObjectData">
             <Size X="530.0000" Y="300.0000" />
             <Children>
-              <AbstractNodeData Name="v_ButtonClose_2" ActionTag="-377231534" VisibleForFrame="False" Tag="72" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="498.0000" RightMargin="-32.0000" TopMargin="-32.0000" BottomMargin="268.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" Scale9Width="64" Scale9Height="64" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="v_ButtonClose_2" ActionTag="-377231534" VisibleForFrame="False" Tag="72" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="498.0000" RightMargin="-32.0000" TopMargin="-32.0000" BottomMargin="268.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" Scale9Width="64" Scale9Height="64" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="64.0000" Y="64.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="530.0000" Y="300.0000" />
@@ -35,7 +35,7 @@
                 <PressedFileData Type="Normal" Path="NewRes/btn/btn_close_pr.png" Plist="" />
                 <NormalFileData Type="Normal" Path="NewRes/btn/btn_close_default.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Image_1_2" ActionTag="-1745405382" Tag="74" IconVisible="False" PositionPercentXEnabled="True" LeftMargin="66.0000" RightMargin="64.0000" TopMargin="44.0000" BottomMargin="36.0000" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="15" BottomEage="15" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="2" Scale9Height="4" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="Image_1_2" ActionTag="-1745405382" Tag="74" IconVisible="False" PositionPercentXEnabled="True" HorizontalEdge="BothEdge" LeftMargin="66.0000" RightMargin="64.0000" TopMargin="44.0000" BottomMargin="36.0000" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="15" BottomEage="15" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="2" Scale9Height="4" ctype="ImageViewObjectData">
                 <Size X="400.0000" Y="220.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="266.0000" Y="146.0000" />
